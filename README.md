@@ -1,2 +1,2 @@
-# dotapedia
-The Dotapedia Windows Phone App
+# Dotapedia
+This contains the data for the Dotapedia Windows Phone app.
