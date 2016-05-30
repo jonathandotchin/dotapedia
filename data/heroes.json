@@ -2,777 +2,777 @@
   "antimage": {
     "name": "Anti-Mage",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "axe": {
     "name": "Axe",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "bane": {
     "name": "Bane",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "bloodseeker": {
     "name": "Bloodseeker",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "crystal_maiden": {
     "name": "Crystal Maiden",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "drow_ranger": {
     "name": "Drow Ranger",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "earthshaker": {
     "name": "Earthshaker",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "juggernaut": {
     "name": "Juggernaut",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "mirana": {
     "name": "Mirana",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "nevermore": {
     "name": "Shadow Fiend",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "morphling": {
     "name": "Morphling",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "phantom_lancer": {
     "name": "Phantom Lancer",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "puck": {
     "name": "Puck",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "pudge": {
     "name": "Pudge",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "razor": {
     "name": "Razor",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "sand_king": {
     "name": "Sand King",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "storm_spirit": {
     "name": "Storm Spirit",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "sven": {
     "name": "Sven",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "tiny": {
     "name": "Tiny",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "vengefulspirit": {
     "name": "Vengeful Spirit",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "windrunner": {
     "name": "Windranger",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "zuus": {
     "name": "Zeus",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "kunkka": {
     "name": "Kunkka",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "lina": {
     "name": "Lina",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "lich": {
     "name": "Lich",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "lion": {
     "name": "Lion",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "shadow_shaman": {
     "name": "Shadow Shaman",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "slardar": {
     "name": "Slardar",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "tidehunter": {
     "name": "Tidehunter",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "witch_doctor": {
     "name": "Witch Doctor",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "riki": {
     "name": "Riki",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "enigma": {
     "name": "Enigma",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "tinker": {
     "name": "Tinker",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "sniper": {
     "name": "Sniper",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "necrolyte": {
     "name": "Necrophos",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "warlock": {
     "name": "Warlock",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "beastmaster": {
     "name": "Beastmaster",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "queenofpain": {
     "name": "Queen of Pain",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "venomancer": {
     "name": "Venomancer",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "faceless_void": {
     "name": "Faceless Void",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "skeleton_king": {
     "name": "Wraith King",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "death_prophet": {
     "name": "Death Prophet",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "phantom_assassin": {
     "name": "Phantom Assassin",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "pugna": {
     "name": "Pugna",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "templar_assassin": {
     "name": "Templar Assassin",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "viper": {
     "name": "Viper",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "luna": {
     "name": "Luna",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "dragon_knight": {
     "name": "Dragon Knight",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "dazzle": {
     "name": "Dazzle",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "rattletrap": {
     "name": "Clockwerk",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "leshrac": {
     "name": "Leshrac",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "furion": {
     "name": "Nature's Prophet",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "life_stealer": {
     "name": "Lifestealer",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "dark_seer": {
     "name": "Dark Seer",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "clinkz": {
     "name": "Clinkz",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "omniknight": {
     "name": "Omniknight",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "enchantress": {
     "name": "Enchantress",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "huskar": {
     "name": "Huskar",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "night_stalker": {
     "name": "Night Stalker",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "broodmother": {
     "name": "Broodmother",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "bounty_hunter": {
     "name": "Bounty Hunter",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "weaver": {
     "name": "Weaver",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "jakiro": {
     "name": "Jakiro",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "batrider": {
     "name": "Batrider",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "chen": {
     "name": "Chen",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "spectre": {
     "name": "Spectre",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "doom_bringer": {
     "name": "Doom",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "ancient_apparition": {
     "name": "Ancient Apparition",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "ursa": {
     "name": "Ursa",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "spirit_breaker": {
     "name": "Spirit Breaker",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "gyrocopter": {
     "name": "Gyrocopter",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "alchemist": {
     "name": "Alchemist",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "invoker": {
     "name": "Invoker",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "silencer": {
     "name": "Silencer",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "obsidian_destroyer": {
     "name": "Outworld Devourer",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "lycan": {
     "name": "Lycan",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "brewmaster": {
     "name": "Brewmaster",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "shadow_demon": {
     "name": "Shadow Demon",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "lone_druid": {
     "name": "Lone Druid",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "chaos_knight": {
     "name": "Chaos Knight",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "meepo": {
     "name": "Meepo",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "treant": {
     "name": "Treant Protector",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "ogre_magi": {
     "name": "Ogre Magi",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "undying": {
     "name": "Undying",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "rubick": {
     "name": "Rubick",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "disruptor": {
     "name": "Disruptor",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "nyx_assassin": {
     "name": "Nyx Assassin",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "naga_siren": {
     "name": "Naga Siren",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "keeper_of_the_light": {
     "name": "Keeper of the Light",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "wisp": {
     "name": "Io",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "visage": {
     "name": "Visage",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "slark": {
     "name": "Slark",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "medusa": {
     "name": "Medusa",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "troll_warlord": {
     "name": "Troll Warlord",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "centaur": {
     "name": "Centaur Warrunner",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "magnataur": {
     "name": "Magnus",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "shredder": {
     "name": "Timbersaw",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "bristleback": {
     "name": "Bristleback",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "tusk": {
     "name": "Tusk",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "skywrath_mage": {
     "name": "Skywrath Mage",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "abaddon": {
     "name": "Abaddon",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "elder_titan": {
     "name": "Elder Titan",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "legion_commander": {
     "name": "Legion Commander",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "ember_spirit": {
     "name": "Ember Spirit",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "earth_spirit": {
     "name": "Earth Spirit",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "terrorblade": {
     "name": "Terrorblade",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "phoenix": {
     "name": "Phoenix",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "oracle": {
     "name": "Oracle",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "techies": {
     "name": "Techies",
     "faction":{
-        "name": "Radiant",
+        "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
   },
   "winter_wyvern": {
     "name": "Winter Wyvern",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   },
   "arc_warden": {
     "name": "Arc Warden",
     "faction":{
-        "name": "Dire",
+        "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
   }
