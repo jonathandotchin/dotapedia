@@ -775,5 +775,12 @@
         "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
+  },
+  "abyssal_underlord": {
+    "name": "Underlord",
+    "faction":{
+        "name": "dire",
+        "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
+    }
   }
 }
