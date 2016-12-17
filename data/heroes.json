@@ -782,5 +782,12 @@
         "name": "dire",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
     }
+  },
+  "monkey_king": {
+    "name": "Monkey King",
+    "faction":{
+        "name": "radiant",
+        "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
+    }
   }
 }
