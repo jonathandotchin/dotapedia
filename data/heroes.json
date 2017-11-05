@@ -789,5 +789,19 @@
         "name": "radiant",
         "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
     }
+  },
+  "pangolier": {
+    "name": "Pangolier",
+    "faction": {
+      "name": "radiant",
+      "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/radiant_icon.png"
+    }
+  },
+  "dark_willow": {
+    "name": "Dark Willow",
+    "faction": {
+      "name": "dire",
+      "icon": "https://raw.githubusercontent.com/jonathandotchin/dotapedia/master/images/dire_icon.png"
+    }
   }
 }
