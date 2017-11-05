@@ -2,12 +2,12 @@
   "herodata": {
     "antimage": {
       "dname": "Anti-Mage",
-      "u": "Anti-Mage",
+      "u": "antimage",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "1.20"
+          "g": "1.50"
         },
         "int": {
           "b": 15,
@@ -17,7 +17,7 @@
           "b": 22,
           "g": "2.80"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
           "min": 27,
           "max": 31
@@ -29,12 +29,12 @@
     },
     "axe": {
       "dname": "Axe",
-      "u": "Axe",
+      "u": "axe",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 25,
-          "g": "2.50"
+          "g": "2.80"
         },
         "int": {
           "b": 18,
@@ -56,39 +56,39 @@
     },
     "bane": {
       "dname": "Bane",
-      "u": "Bane",
+      "u": "bane",
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 22,
-          "g": "2.10"
+          "b": 23,
+          "g": "2.40"
         },
         "int": {
-          "b": 22,
-          "g": "2.10"
+          "b": 23,
+          "g": "2.40"
         },
         "agi": {
-          "b": 22,
-          "g": "2.10"
+          "b": 23,
+          "g": "2.40"
         },
         "ms": 310,
         "dmg": {
-          "min": 33,
-          "max": 39
+          "min": 37,
+          "max": 43
         },
-        "armor": 4.08
+        "armor": 4.22
       },
       "dac": "Ranged",
       "droles": "Support - Disabler - Nuker - Durable"
     },
     "bloodseeker": {
       "dname": "Bloodseeker",
-      "u": "Bloodseeker",
+      "u": "bloodseeker",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.40"
+          "g": "2.70"
         },
         "int": {
           "b": 18,
@@ -98,10 +98,10 @@
           "b": 24,
           "g": "3.00"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
-          "min": 29,
-          "max": 35
+          "min": 33,
+          "max": 39
         },
         "armor": 3.36
       },
@@ -110,12 +110,12 @@
     },
     "crystal_maiden": {
       "dname": "Crystal Maiden",
-      "u": "Crystal_Maiden",
+      "u": "crystal_maiden",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.70"
+          "g": "2.00"
         },
         "int": {
           "b": 16,
@@ -125,7 +125,7 @@
           "b": 16,
           "g": "1.60"
         },
-        "ms": 280,
+        "ms": 275,
         "dmg": {
           "min": 19,
           "max": 25
@@ -137,12 +137,12 @@
     },
     "drow_ranger": {
       "dname": "Drow Ranger",
-      "u": "Drow_Ranger",
+      "u": "drow_ranger",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "1.60"
+          "g": "1.90"
         },
         "int": {
           "b": 15,
@@ -152,7 +152,7 @@
           "b": 26,
           "g": "1.90"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 14,
           "max": 25
@@ -164,12 +164,12 @@
     },
     "earthshaker": {
       "dname": "Earthshaker",
-      "u": "Earthshaker",
+      "u": "earthshaker",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.90"
+          "g": "3.20"
         },
         "int": {
           "b": 16,
@@ -191,12 +191,12 @@
     },
     "juggernaut": {
       "dname": "Juggernaut",
-      "u": "Juggernaut",
+      "u": "juggernaut",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 20,
-          "g": "1.90"
+          "g": "2.20"
         },
         "int": {
           "b": 14,
@@ -206,7 +206,7 @@
           "b": 26,
           "g": "2.40"
         },
-        "ms": 305,
+        "ms": 295,
         "dmg": {
           "min": 22,
           "max": 26
@@ -218,12 +218,12 @@
     },
     "mirana": {
       "dname": "Mirana",
-      "u": "Mirana",
+      "u": "mirana",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "1.85"
+          "g": "2.15"
         },
         "int": {
           "b": 17,
@@ -231,12 +231,12 @@
         },
         "agi": {
           "b": 20,
-          "g": "3.30"
+          "g": "3.60"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
-          "min": 18,
-          "max": 29
+          "min": 21,
+          "max": 32
         },
         "armor": 1.8
       },
@@ -245,12 +245,12 @@
     },
     "nevermore": {
       "dname": "Shadow Fiend",
-      "u": "Shadow_Fiend",
+      "u": "nevermore",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 15,
-          "g": "2.00"
+          "g": "2.30"
         },
         "int": {
           "b": 18,
@@ -260,7 +260,7 @@
           "b": 20,
           "g": "2.90"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
           "min": 15,
           "max": 21
@@ -272,22 +272,22 @@
     },
     "morphling": {
       "dname": "Morphling",
-      "u": "Morphling",
+      "u": "morphling",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "2.00"
+          "g": "2.30"
         },
         "int": {
-          "b": 17,
+          "b": 13,
           "g": "1.10"
         },
         "agi": {
           "b": 24,
           "g": "3.70"
         },
-        "ms": 285,
+        "ms": 280,
         "dmg": {
           "min": 9,
           "max": 18
@@ -299,12 +299,12 @@
     },
     "phantom_lancer": {
       "dname": "Phantom Lancer",
-      "u": "Phantom_Lancer",
+      "u": "phantom_lancer",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "1.70"
+          "g": "2.00"
         },
         "int": {
           "b": 21,
@@ -312,9 +312,9 @@
         },
         "agi": {
           "b": 29,
-          "g": "2.60"
+          "g": "2.80"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 22,
           "max": 44
@@ -326,12 +326,12 @@
     },
     "puck": {
       "dname": "Puck",
-      "u": "Puck",
+      "u": "puck",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 15,
-          "g": "1.70"
+          "g": "2.00"
         },
         "int": {
           "b": 25,
@@ -343,22 +343,22 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 22,
-          "max": 33
+          "min": 28,
+          "max": 39
         },
-        "armor": 2.08
+        "armor": 1.08
       },
       "dac": "Ranged",
       "droles": "Initiator - Disabler - Escape - Nuker"
     },
     "pudge": {
       "dname": "Pudge",
-      "u": "Pudge",
+      "u": "pudge",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 25,
-          "g": "3.20"
+          "g": "3.50"
         },
         "int": {
           "b": 14,
@@ -368,7 +368,7 @@
           "b": 14,
           "g": "1.50"
         },
-        "ms": 285,
+        "ms": 280,
         "dmg": {
           "min": 27,
           "max": 33
@@ -380,22 +380,22 @@
     },
     "razor": {
       "dname": "Razor",
-      "u": "Razor",
+      "u": "razor",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "2.30"
+          "g": "2.60"
         },
         "int": {
-          "b": 19,
+          "b": 21,
           "g": "1.80"
         },
         "agi": {
           "b": 22,
-          "g": "2.00"
+          "g": "1.80"
         },
-        "ms": 295,
+        "ms": 285,
         "dmg": {
           "min": 23,
           "max": 25
@@ -407,12 +407,12 @@
     },
     "sand_king": {
       "dname": "Sand King",
-      "u": "Sand_King",
+      "u": "sand_king",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.60"
+          "g": "2.90"
         },
         "int": {
           "b": 16,
@@ -434,12 +434,12 @@
     },
     "storm_spirit": {
       "dname": "Storm Spirit",
-      "u": "Storm_Spirit",
+      "u": "storm_spirit",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "1.50"
+          "g": "1.80"
         },
         "int": {
           "b": 24,
@@ -461,12 +461,12 @@
     },
     "sven": {
       "dname": "Sven",
-      "u": "Sven",
+      "u": "sven",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.70"
+          "g": "3.00"
         },
         "int": {
           "b": 16,
@@ -488,39 +488,39 @@
     },
     "tiny": {
       "dname": "Tiny",
-      "u": "Tiny",
+      "u": "tiny",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 26,
-          "g": "3.00"
+          "g": "3.30"
         },
         "int": {
           "b": 17,
           "g": "1.60"
         },
         "agi": {
-          "b": 9,
-          "g": "0.90"
+          "b": 0,
+          "g": "0.00"
         },
         "ms": 285,
         "dmg": {
-          "min": 37,
-          "max": 43
+          "min": 44,
+          "max": 50
         },
-        "armor": 0.26
+        "armor": 0
       },
       "dac": "Melee",
       "droles": "Carry - Nuker - Pusher - Initiator - Durable - Disabler"
     },
     "vengefulspirit": {
       "dname": "Vengeful Spirit",
-      "u": "Vengeful_Spirit",
+      "u": "vengefulspirit",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "2.60"
+          "g": "2.90"
         },
         "int": {
           "b": 13,
@@ -530,7 +530,7 @@
           "b": 27,
           "g": "3.30"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 12,
           "max": 26
@@ -542,12 +542,12 @@
     },
     "windrunner": {
       "dname": "Windranger",
-      "u": "Windranger",
+      "u": "windrunner",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 15,
-          "g": "2.50"
+          "g": "2.80"
         },
         "int": {
           "b": 22,
@@ -569,22 +569,22 @@
     },
     "zuus": {
       "dname": "Zeus",
-      "u": "Zeus",
+      "u": "zuus",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "2.30"
+          "g": "2.60"
         },
         "int": {
-          "b": 20,
+          "b": 22,
           "g": "2.70"
         },
         "agi": {
           "b": 11,
           "g": "1.20"
         },
-        "ms": 295,
+        "ms": 300,
         "dmg": {
           "min": 21,
           "max": 29
@@ -596,12 +596,12 @@
     },
     "kunkka": {
       "dname": "Kunkka",
-      "u": "Kunkka",
+      "u": "kunkka",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 24,
-          "g": "3.00"
+          "g": "3.30"
         },
         "int": {
           "b": 18,
@@ -623,12 +623,12 @@
     },
     "lina": {
       "dname": "Lina",
-      "u": "Lina",
+      "u": "lina",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "1.50"
+          "g": "1.80"
         },
         "int": {
           "b": 27,
@@ -650,12 +650,12 @@
     },
     "lich": {
       "dname": "Lich",
-      "u": "Lich",
+      "u": "lich",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "1.55"
+          "g": "1.85"
         },
         "int": {
           "b": 18,
@@ -677,12 +677,12 @@
     },
     "lion": {
       "dname": "Lion",
-      "u": "Lion",
+      "u": "lion",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.70"
+          "g": "2.00"
         },
         "int": {
           "b": 20,
@@ -704,12 +704,12 @@
     },
     "shadow_shaman": {
       "dname": "Shadow Shaman",
-      "u": "Shadow_Shaman",
+      "u": "shadow_shaman",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 21,
@@ -721,22 +721,22 @@
         },
         "ms": 285,
         "dmg": {
-          "min": 26,
-          "max": 33
+          "min": 50,
+          "max": 57
         },
-        "armor": 1.24
+        "armor": 2.24
       },
       "dac": "Ranged",
       "droles": "Support - Pusher - Disabler - Nuker - Initiator"
     },
     "slardar": {
       "dname": "Slardar",
-      "u": "Slardar",
+      "u": "slardar",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "2.80"
+          "g": "3.10"
         },
         "int": {
           "b": 15,
@@ -758,12 +758,12 @@
     },
     "tidehunter": {
       "dname": "Tidehunter",
-      "u": "Tidehunter",
+      "u": "tidehunter",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "3.00"
+          "g": "3.30"
         },
         "int": {
           "b": 16,
@@ -785,12 +785,12 @@
     },
     "witch_doctor": {
       "dname": "Witch Doctor",
-      "u": "Witch_Doctor",
+      "u": "witch_doctor",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 24,
@@ -812,12 +812,12 @@
     },
     "riki": {
       "dname": "Riki",
-      "u": "Riki",
+      "u": "riki",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "1.60"
+          "g": "1.90"
         },
         "int": {
           "b": 14,
@@ -827,7 +827,7 @@
           "b": 34,
           "g": "2.20"
         },
-        "ms": 290,
+        "ms": 275,
         "dmg": {
           "min": 4,
           "max": 8
@@ -839,12 +839,12 @@
     },
     "enigma": {
       "dname": "Enigma",
-      "u": "Enigma",
+      "u": "enigma",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "2.10"
+          "g": "2.40"
         },
         "int": {
           "b": 20,
@@ -866,12 +866,12 @@
     },
     "tinker": {
       "dname": "Tinker",
-      "u": "Tinker",
+      "u": "tinker",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "2.00"
+          "g": "2.30"
         },
         "int": {
           "b": 30,
@@ -893,12 +893,12 @@
     },
     "sniper": {
       "dname": "Sniper",
-      "u": "Sniper",
+      "u": "sniper",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.70"
+          "g": "2.00"
         },
         "int": {
           "b": 15,
@@ -906,9 +906,9 @@
         },
         "agi": {
           "b": 21,
-          "g": "2.50"
+          "g": "2.70"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 15,
           "max": 21
@@ -920,12 +920,12 @@
     },
     "necrolyte": {
       "dname": "Necrophos",
-      "u": "Necrophos",
+      "u": "necrolyte",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "2.00"
+          "g": "2.30"
         },
         "int": {
           "b": 22,
@@ -933,9 +933,9 @@
         },
         "agi": {
           "b": 15,
-          "g": "1.70"
+          "g": "1.20"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 22,
           "max": 26
@@ -947,12 +947,12 @@
     },
     "warlock": {
       "dname": "Warlock",
-      "u": "Warlock",
+      "u": "warlock",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.50"
+          "g": "2.80"
         },
         "int": {
           "b": 24,
@@ -962,7 +962,7 @@
           "b": 10,
           "g": "1.00"
         },
-        "ms": 295,
+        "ms": "295\t",
         "dmg": {
           "min": 22,
           "max": 32
@@ -974,12 +974,12 @@
     },
     "beastmaster": {
       "dname": "Beastmaster",
-      "u": "Beastmaster",
+      "u": "beastmaster",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.20"
+          "g": "2.50"
         },
         "int": {
           "b": 16,
@@ -1001,12 +1001,12 @@
     },
     "queenofpain": {
       "dname": "Queen of Pain",
-      "u": "Queen_of_Pain",
+      "u": "queenofpain",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.70"
+          "g": "2.00"
         },
         "int": {
           "b": 24,
@@ -1018,8 +1018,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 25,
-          "max": 33
+          "min": 21,
+          "max": 29
         },
         "armor": 1.52
       },
@@ -1028,12 +1028,12 @@
     },
     "venomancer": {
       "dname": "Venomancer",
-      "u": "Venomancer",
+      "u": "venomancer",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "1.85"
+          "g": "1.90"
         },
         "int": {
           "b": 17,
@@ -1041,12 +1041,12 @@
         },
         "agi": {
           "b": 22,
-          "g": "2.60"
+          "g": "2.80"
         },
-        "ms": 285,
+        "ms": 270,
         "dmg": {
-          "min": 19,
-          "max": 21
+          "min": 16,
+          "max": 18
         },
         "armor": 3.08
       },
@@ -1055,12 +1055,12 @@
     },
     "faceless_void": {
       "dname": "Faceless Void",
-      "u": "Faceless_Void",
+      "u": "faceless_void",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 15,
@@ -1068,9 +1068,9 @@
         },
         "agi": {
           "b": 23,
-          "g": "2.65"
+          "g": "2.80"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 33,
           "max": 39
@@ -1082,12 +1082,12 @@
     },
     "skeleton_king": {
       "dname": "Wraith King",
-      "u": "Wraith_King",
+      "u": "skeleton_king",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.90"
+          "g": "2.80"
         },
         "int": {
           "b": 18,
@@ -1109,12 +1109,12 @@
     },
     "death_prophet": {
       "dname": "Death Prophet",
-      "u": "Death_Prophet",
+      "u": "death_prophet",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "1.90"
+          "g": "2.60"
         },
         "int": {
           "b": 23,
@@ -1136,12 +1136,12 @@
     },
     "phantom_assassin": {
       "dname": "Phantom Assassin",
-      "u": "Phantom_Assassin",
+      "u": "phantom_assassin",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 20,
-          "g": "1.85"
+          "g": "2.15"
         },
         "int": {
           "b": 15,
@@ -1151,7 +1151,7 @@
           "b": 23,
           "g": "3.15"
         },
-        "ms": 310,
+        "ms": 305,
         "dmg": {
           "min": 23,
           "max": 25
@@ -1163,12 +1163,12 @@
     },
     "pugna": {
       "dname": "Pugna",
-      "u": "Pugna",
+      "u": "pugna",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "1.20"
+          "g": "1.50"
         },
         "int": {
           "b": 26,
@@ -1178,7 +1178,7 @@
           "b": 16,
           "g": "1.00"
         },
-        "ms": 330,
+        "ms": 335,
         "dmg": {
           "min": 19,
           "max": 27
@@ -1190,12 +1190,12 @@
     },
     "templar_assassin": {
       "dname": "Templar Assassin",
-      "u": "Templar_Assassin",
+      "u": "templar_assassin",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "2.10"
+          "g": "2.40"
         },
         "int": {
           "b": 20,
@@ -1203,9 +1203,9 @@
         },
         "agi": {
           "b": 23,
-          "g": "2.70"
+          "g": "2.30"
         },
-        "ms": 305,
+        "ms": 300,
         "dmg": {
           "min": 30,
           "max": 36
@@ -1217,12 +1217,12 @@
     },
     "viper": {
       "dname": "Viper",
-      "u": "Viper",
+      "u": "viper",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 20,
-          "g": "2.10"
+          "g": "2.40"
         },
         "int": {
           "b": 15,
@@ -1232,24 +1232,24 @@
           "b": 21,
           "g": "2.90"
         },
-        "ms": 285,
+        "ms": 275,
         "dmg": {
           "min": 23,
           "max": 25
         },
-        "armor": 1.94
+        "armor": 0.94
       },
       "dac": "Ranged",
       "droles": "Carry - Durable - Initiator - Disabler"
     },
     "luna": {
       "dname": "Luna",
-      "u": "Luna",
+      "u": "luna",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 15,
-          "g": "2.20"
+          "g": "2.50"
         },
         "int": {
           "b": 16,
@@ -1259,10 +1259,10 @@
           "b": 18,
           "g": "3.30"
         },
-        "ms": 335,
+        "ms": 330,
         "dmg": {
-          "min": 26,
-          "max": 32
+          "min": 20,
+          "max": 26
         },
         "armor": 2.52
       },
@@ -1271,12 +1271,12 @@
     },
     "dragon_knight": {
       "dname": "Dragon Knight",
-      "u": "Dragon_Knight",
+      "u": "dragon_knight",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "2.80"
+          "g": "3.10"
         },
         "int": {
           "b": 15,
@@ -1298,12 +1298,12 @@
     },
     "dazzle": {
       "dname": "Dazzle",
-      "u": "Dazzle",
+      "u": "dazzle",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.85"
+          "g": "2.15"
         },
         "int": {
           "b": 27,
@@ -1325,12 +1325,12 @@
     },
     "rattletrap": {
       "dname": "Clockwerk",
-      "u": "Clockwerk",
+      "u": "rattletrap",
       "pa": "str",
       "attribs": {
         "str": {
-          "b": 24,
-          "g": "2.90"
+          "b": 26,
+          "g": "3.20"
         },
         "int": {
           "b": 17,
@@ -1342,8 +1342,8 @@
         },
         "ms": 315,
         "dmg": {
-          "min": 31,
-          "max": 33
+          "min": 28,
+          "max": 30
         },
         "armor": 1.82
       },
@@ -1352,12 +1352,12 @@
     },
     "leshrac": {
       "dname": "Leshrac",
-      "u": "Leshrac",
+      "u": "leshrac",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.50"
+          "g": "1.80"
         },
         "int": {
           "b": 26,
@@ -1379,12 +1379,12 @@
     },
     "furion": {
       "dname": "Nature's Prophet",
-      "u": "Natures_Prophet",
+      "u": "furion",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 25,
@@ -1394,10 +1394,10 @@
           "b": 18,
           "g": "1.90"
         },
-        "ms": 295,
+        "ms": 290,
         "dmg": {
-          "min": 24,
-          "max": 38
+          "min": 30,
+          "max": 44
         },
         "armor": 3.52
       },
@@ -1406,12 +1406,12 @@
     },
     "life_stealer": {
       "dname": "Lifestealer",
-      "u": "Lifestealer",
+      "u": "life_stealer",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 25,
-          "g": "3.00"
+          "g": "3.10"
         },
         "int": {
           "b": 15,
@@ -1423,8 +1423,8 @@
         },
         "ms": 315,
         "dmg": {
-          "min": 32,
-          "max": 42
+          "min": 27,
+          "max": 37
         },
         "armor": 1.52
       },
@@ -1433,22 +1433,22 @@
     },
     "dark_seer": {
       "dname": "Dark Seer",
-      "u": "Dark_Seer",
+      "u": "dark_seer",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.30"
+          "g": "2.60"
         },
         "int": {
-          "b": 25,
+          "b": 23,
           "g": "2.70"
         },
         "agi": {
           "b": 12,
           "g": "1.20"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 31,
           "max": 37
@@ -1460,12 +1460,12 @@
     },
     "clinkz": {
       "dname": "Clinkz",
-      "u": "Clinkz",
+      "u": "clinkz",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 15,
-          "g": "1.60"
+          "g": "1.90"
         },
         "int": {
           "b": 16,
@@ -1473,9 +1473,9 @@
         },
         "agi": {
           "b": 22,
-          "g": "3.30"
+          "g": "2.60"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 15,
           "max": 21
@@ -1487,12 +1487,12 @@
     },
     "omniknight": {
       "dname": "Omniknight",
-      "u": "Omniknight",
+      "u": "omniknight",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.80"
+          "g": "3.10"
         },
         "int": {
           "b": 17,
@@ -1514,22 +1514,22 @@
     },
     "enchantress": {
       "dname": "Enchantress",
-      "u": "Enchantress",
+      "u": "enchantress",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 16,
-          "g": "1.00"
+          "g": "1.30"
         },
         "int": {
-          "b": 19,
-          "g": "2.80"
+          "b": 21,
+          "g": "3.10"
         },
         "agi": {
           "b": 19,
           "g": "1.80"
         },
-        "ms": 335,
+        "ms": 340,
         "dmg": {
           "min": 31,
           "max": 41
@@ -1541,12 +1541,12 @@
     },
     "huskar": {
       "dname": "Huskar",
-      "u": "Huskar",
+      "u": "huskar",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "2.40"
+          "g": "2.70"
         },
         "int": {
           "b": 18,
@@ -1568,15 +1568,15 @@
     },
     "night_stalker": {
       "dname": "Night Stalker",
-      "u": "Night_Stalker",
+      "u": "night_stalker",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.80"
+          "g": "3.10"
         },
         "int": {
-          "b": 16,
+          "b": 13,
           "g": "1.60"
         },
         "agi": {
@@ -1595,12 +1595,12 @@
     },
     "broodmother": {
       "dname": "Broodmother",
-      "u": "Broodmother",
+      "u": "broodmother",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "2.50"
+          "g": "2.80"
         },
         "int": {
           "b": 18,
@@ -1610,7 +1610,7 @@
           "b": 18,
           "g": "2.20"
         },
-        "ms": 295,
+        "ms": 270,
         "dmg": {
           "min": 26,
           "max": 32
@@ -1622,12 +1622,12 @@
     },
     "bounty_hunter": {
       "dname": "Bounty Hunter",
-      "u": "Bounty_Hunter",
+      "u": "bounty_hunter",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 19,
@@ -1649,12 +1649,12 @@
     },
     "weaver": {
       "dname": "Weaver",
-      "u": "Weaver",
+      "u": "weaver",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 15,
-          "g": "1.50"
+          "g": "1.80"
         },
         "int": {
           "b": 15,
@@ -1664,10 +1664,10 @@
           "b": 14,
           "g": "2.80"
         },
-        "ms": 290,
+        "ms": 280,
         "dmg": {
-          "min": 41,
-          "max": 51
+          "min": 36,
+          "max": 46
         },
         "armor": 0.96
       },
@@ -1676,12 +1676,12 @@
     },
     "jakiro": {
       "dname": "Jakiro",
-      "u": "Jakiro",
+      "u": "jakiro",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 25,
-          "g": "2.30"
+          "g": "2.60"
         },
         "int": {
           "b": 28,
@@ -1703,12 +1703,12 @@
     },
     "batrider": {
       "dname": "Batrider",
-      "u": "Batrider",
+      "u": "batrider",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.40"
+          "g": "2.70"
         },
         "int": {
           "b": 24,
@@ -1730,12 +1730,12 @@
     },
     "chen": {
       "dname": "Chen",
-      "u": "Chen",
+      "u": "chen",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "1.50"
+          "g": "1.80"
         },
         "int": {
           "b": 21,
@@ -1757,12 +1757,12 @@
     },
     "spectre": {
       "dname": "Spectre",
-      "u": "Spectre",
+      "u": "spectre",
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 19,
-          "g": "2.00"
+          "b": 20,
+          "g": "2.30"
         },
         "int": {
           "b": 16,
@@ -1772,7 +1772,7 @@
           "b": 23,
           "g": "1.80"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 23,
           "max": 27
@@ -1784,12 +1784,12 @@
     },
     "doom_bringer": {
       "dname": "Doom",
-      "u": "Doom",
+      "u": "doom_bringer",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 26,
-          "g": "3.20"
+          "g": "3.50"
         },
         "int": {
           "b": 13,
@@ -1811,12 +1811,12 @@
     },
     "ancient_apparition": {
       "dname": "Ancient Apparition",
-      "u": "Ancient_Apparition",
+      "u": "ancient_apparition",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "1.40"
+          "g": "1.70"
         },
         "int": {
           "b": 25,
@@ -1838,12 +1838,12 @@
     },
     "ursa": {
       "dname": "Ursa",
-      "u": "Ursa",
+      "u": "ursa",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.70"
+          "g": "3.00"
         },
         "int": {
           "b": 16,
@@ -1853,10 +1853,10 @@
           "b": 18,
           "g": "2.10"
         },
-        "ms": 310,
+        "ms": 305,
         "dmg": {
-          "min": 27,
-          "max": 31
+          "min": 24,
+          "max": 28
         },
         "armor": 5.52
       },
@@ -1865,12 +1865,12 @@
     },
     "spirit_breaker": {
       "dname": "Spirit Breaker",
-      "u": "Spirit_Breaker",
+      "u": "spirit_breaker",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 29,
-          "g": "2.40"
+          "g": "2.70"
         },
         "int": {
           "b": 14,
@@ -1880,7 +1880,7 @@
           "b": 17,
           "g": "1.70"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 31,
           "max": 41
@@ -1892,12 +1892,12 @@
     },
     "gyrocopter": {
       "dname": "Gyrocopter",
-      "u": "Gyrocopter",
+      "u": "gyrocopter",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 19,
@@ -1907,7 +1907,7 @@
           "b": 24,
           "g": "2.80"
         },
-        "ms": 315,
+        "ms": 320,
         "dmg": {
           "min": 13,
           "max": 23
@@ -1919,19 +1919,19 @@
     },
     "alchemist": {
       "dname": "Alchemist",
-      "u": "Alchemist",
+      "u": "alchemist",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 25,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 25,
           "g": "1.80"
         },
         "agi": {
-          "b": 11,
+          "b": 16,
           "g": "1.20"
         },
         "ms": 295,
@@ -1939,19 +1939,19 @@
           "min": 24,
           "max": 33
         },
-        "armor": 1.54
+        "armor": 2.24
       },
       "dac": "Melee",
       "droles": "Carry - Support - Durable - Disabler - Initiator - Nuker"
     },
     "invoker": {
       "dname": "Invoker",
-      "u": "Invoker",
+      "u": "invoker",
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 17,
-          "g": "1.90"
+          "b": 16,
+          "g": "2.20"
         },
         "int": {
           "b": 16,
@@ -1973,12 +1973,12 @@
     },
     "silencer": {
       "dname": "Silencer",
-      "u": "Silencer",
+      "u": "silencer",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "2.20"
+          "g": "2.50"
         },
         "int": {
           "b": 27,
@@ -2000,12 +2000,12 @@
     },
     "obsidian_destroyer": {
       "dname": "Outworld Devourer",
-      "u": "Outworld_Devourer",
+      "u": "obsidian_destroyer",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "2.30"
+          "g": "2.60"
         },
         "int": {
           "b": 26,
@@ -2027,12 +2027,12 @@
     },
     "lycan": {
       "dname": "Lycan",
-      "u": "Lycan",
+      "u": "lycan",
       "pa": "str",
       "attribs": {
         "str": {
-          "b": 22,
-          "g": "3.00"
+          "b": 25,
+          "g": "3.30"
         },
         "int": {
           "b": 17,
@@ -2040,7 +2040,7 @@
         },
         "agi": {
           "b": 16,
-          "g": "1.50"
+          "g": "1.00"
         },
         "ms": 305,
         "dmg": {
@@ -2054,12 +2054,12 @@
     },
     "brewmaster": {
       "dname": "Brewmaster",
-      "u": "Brewmaster",
+      "u": "brewmaster",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.90"
+          "g": "3.20"
         },
         "int": {
           "b": 14,
@@ -2081,12 +2081,12 @@
     },
     "shadow_demon": {
       "dname": "Shadow Demon",
-      "u": "Shadow_Demon",
+      "u": "shadow_demon",
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 17,
-          "g": "1.90"
+          "b": 21,
+          "g": "2.20"
         },
         "int": {
           "b": 23,
@@ -2108,12 +2108,12 @@
     },
     "lone_druid": {
       "dname": "Lone Druid",
-      "u": "Lone_Druid",
+      "u": "lone_druid",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "2.10"
+          "g": "2.40"
         },
         "int": {
           "b": 13,
@@ -2123,10 +2123,10 @@
           "b": 24,
           "g": "2.70"
         },
-        "ms": 325,
+        "ms": 320,
         "dmg": {
-          "min": 22,
-          "max": 26
+          "min": 18,
+          "max": 22
         },
         "armor": 3.36
       },
@@ -2135,12 +2135,12 @@
     },
     "chaos_knight": {
       "dname": "Chaos Knight",
-      "u": "Chaos_Knight",
+      "u": "chaos_knight",
       "pa": "str",
       "attribs": {
         "str": {
-          "b": 20,
-          "g": "2.90"
+          "b": 22,
+          "g": "3.20"
         },
         "int": {
           "b": 16,
@@ -2162,12 +2162,12 @@
     },
     "meepo": {
       "dname": "Meepo",
-      "u": "Meepo",
+      "u": "meepo",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "1.30"
+          "g": "1.60"
         },
         "int": {
           "b": 20,
@@ -2177,24 +2177,24 @@
           "b": 23,
           "g": "2.20"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
           "min": 20,
           "max": 26
         },
-        "armor": 4.22
+        "armor": 2.22
       },
       "dac": "Melee",
       "droles": "Carry - Escape - Nuker - Disabler - Initiator - Pusher"
     },
     "treant": {
       "dname": "Treant Protector",
-      "u": "Treant_Protector",
+      "u": "treant",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 25,
-          "g": "3.30"
+          "g": "3.60"
         },
         "int": {
           "b": 17,
@@ -2204,7 +2204,7 @@
           "b": 15,
           "g": "2.00"
         },
-        "ms": 295,
+        "ms": 270,
         "dmg": {
           "min": 62,
           "max": 70
@@ -2216,22 +2216,22 @@
     },
     "ogre_magi": {
       "dname": "Ogre Magi",
-      "u": "Ogre_Magi",
+      "u": "ogre_magi",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "3.20"
+          "g": "3.50"
         },
         "int": {
           "b": 17,
-          "g": "2.40"
+          "g": "2.00"
         },
         "agi": {
           "b": 14,
           "g": "1.55"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 41,
           "max": 47
@@ -2243,12 +2243,12 @@
     },
     "undying": {
       "dname": "Undying",
-      "u": "Undying",
+      "u": "undying",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.10"
+          "g": "2.40"
         },
         "int": {
           "b": 27,
@@ -2263,19 +2263,19 @@
           "min": 35,
           "max": 43
         },
-        "armor": 3.4
+        "armor": 4.4
       },
       "dac": "Melee",
       "droles": "Support - Durable - Disabler - Nuker"
     },
     "rubick": {
       "dname": "Rubick",
-      "u": "Rubick",
+      "u": "rubick",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "1.50"
+          "g": "1.80"
         },
         "int": {
           "b": 27,
@@ -2297,12 +2297,12 @@
     },
     "disruptor": {
       "dname": "Disruptor",
-      "u": "Disruptor",
+      "u": "disruptor",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "1.90"
+          "g": "2.20"
         },
         "int": {
           "b": 22,
@@ -2324,12 +2324,12 @@
     },
     "nyx_assassin": {
       "dname": "Nyx Assassin",
-      "u": "Nyx_Assassin",
+      "u": "nyx_assassin",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "2.00"
+          "g": "2.30"
         },
         "int": {
           "b": 18,
@@ -2339,10 +2339,10 @@
           "b": 19,
           "g": "2.20"
         },
-        "ms": 305,
+        "ms": 295,
         "dmg": {
-          "min": 30,
-          "max": 34
+          "min": 27,
+          "max": 31
         },
         "armor": 3.66
       },
@@ -2351,12 +2351,12 @@
     },
     "naga_siren": {
       "dname": "Naga Siren",
-      "u": "Naga_Siren",
+      "u": "naga_siren",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "2.50"
+          "g": "2.80"
         },
         "int": {
           "b": 21,
@@ -2366,7 +2366,7 @@
           "b": 21,
           "g": "2.75"
         },
-        "ms": 320,
+        "ms": 315,
         "dmg": {
           "min": 23,
           "max": 25
@@ -2378,12 +2378,12 @@
     },
     "keeper_of_the_light": {
       "dname": "Keeper of the Light",
-      "u": "Keeper_of_the_Light",
+      "u": "keeper_of_the_light",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 14,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 25,
@@ -2396,7 +2396,7 @@
         "ms": 335,
         "dmg": {
           "min": 18,
-          "max": 32
+          "max": 25
         },
         "armor": 1.1
       },
@@ -2405,12 +2405,12 @@
     },
     "wisp": {
       "dname": "Io",
-      "u": "Io",
+      "u": "wisp",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "1.90"
+          "g": "2.20"
         },
         "int": {
           "b": 23,
@@ -2432,12 +2432,12 @@
     },
     "visage": {
       "dname": "Visage",
-      "u": "Visage",
+      "u": "visage",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 22,
-          "g": "2.40"
+          "g": "2.70"
         },
         "int": {
           "b": 24,
@@ -2459,22 +2459,22 @@
     },
     "slark": {
       "dname": "Slark",
-      "u": "Slark",
+      "u": "slark",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 20,
-          "g": "1.60"
+          "g": "1.90"
         },
         "int": {
           "b": 16,
-          "g": "1.90"
+          "g": "1.70"
         },
         "agi": {
           "b": 21,
           "g": "1.50"
         },
-        "ms": 305,
+        "ms": 295,
         "dmg": {
           "min": 33,
           "max": 41
@@ -2486,12 +2486,12 @@
     },
     "medusa": {
       "dname": "Medusa",
-      "u": "Medusa",
+      "u": "medusa",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 14,
-          "g": "1.65"
+          "g": "1.95"
         },
         "int": {
           "b": 19,
@@ -2501,7 +2501,7 @@
           "b": 20,
           "g": "2.50"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 24,
           "max": 30
@@ -2513,12 +2513,12 @@
     },
     "troll_warlord": {
       "dname": "Troll Warlord",
-      "u": "Troll_Warlord",
+      "u": "troll_warlord",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 20,
-          "g": "2.20"
+          "g": "2.50"
         },
         "int": {
           "b": 13,
@@ -2526,9 +2526,9 @@
         },
         "agi": {
           "b": 21,
-          "g": "2.75"
+          "g": "2.50"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 17,
           "max": 35
@@ -2540,12 +2540,12 @@
     },
     "centaur": {
       "dname": "Centaur Warrunner",
-      "u": "Centaur_Warrunner",
+      "u": "centaur",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "4.00"
+          "g": "4.30"
         },
         "int": {
           "b": 15,
@@ -2560,19 +2560,19 @@
           "min": 32,
           "max": 34
         },
-        "armor": 3.1
+        "armor": 2.1
       },
       "dac": "Melee",
       "droles": "Durable - Initiator - Disabler - Nuker - Escape"
     },
     "magnataur": {
       "dname": "Magnus",
-      "u": "Magnus",
+      "u": "magnataur",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "2.90"
+          "g": "3.20"
         },
         "int": {
           "b": 19,
@@ -2582,7 +2582,7 @@
           "b": 15,
           "g": "2.50"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
           "min": 32,
           "max": 44
@@ -2594,12 +2594,12 @@
     },
     "shredder": {
       "dname": "Timbersaw",
-      "u": "Timbersaw",
+      "u": "shredder",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "1.80"
+          "g": "2.10"
         },
         "int": {
           "b": 21,
@@ -2621,7 +2621,7 @@
     },
     "bristleback": {
       "dname": "Bristleback",
-      "u": "Bristleback",
+      "u": "bristleback",
       "pa": "str",
       "attribs": {
         "str": {
@@ -2638,8 +2638,8 @@
         },
         "ms": 290,
         "dmg": {
-          "min": 26,
-          "max": 36
+          "min": 22,
+          "max": 32
         },
         "armor": 3.38
       },
@@ -2648,12 +2648,12 @@
     },
     "tusk": {
       "dname": "Tusk",
-      "u": "Tusk",
+      "u": "tusk",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.30"
+          "g": "2.60"
         },
         "int": {
           "b": 18,
@@ -2680,7 +2680,7 @@
       "attribs": {
         "str": {
           "b": 19,
-          "g": "1.50"
+          "g": "1.80"
         },
         "int": {
           "b": 27,
@@ -2690,7 +2690,7 @@
           "b": 13,
           "g": "0.80"
         },
-        "ms": 325,
+        "ms": 330,
         "dmg": {
           "min": 12,
           "max": 22
@@ -2702,12 +2702,12 @@
     },
     "abaddon": {
       "dname": "Abaddon",
-      "u": "Abaddon",
+      "u": "abaddon",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.70"
+          "g": "2.60"
         },
         "int": {
           "b": 21,
@@ -2729,12 +2729,12 @@
     },
     "elder_titan": {
       "dname": "Elder Titan",
-      "u": "Elder_Titan",
+      "u": "elder_titan",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 24,
-          "g": "2.30"
+          "g": "2.60"
         },
         "int": {
           "b": 23,
@@ -2742,7 +2742,7 @@
         },
         "agi": {
           "b": 14,
-          "g": "1.50"
+          "g": "1.80"
         },
         "ms": 315,
         "dmg": {
@@ -2756,12 +2756,12 @@
     },
     "legion_commander": {
       "dname": "Legion Commander",
-      "u": "Legion_Commander",
+      "u": "legion_commander",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 26,
-          "g": "2.60"
+          "g": "2.90"
         },
         "int": {
           "b": 20,
@@ -2783,12 +2783,12 @@
     },
     "ember_spirit": {
       "dname": "Ember Spirit",
-      "u": "Ember_Spirit",
+      "u": "ember_spirit",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 19,
-          "g": "2.00"
+          "g": "2.10"
         },
         "int": {
           "b": 20,
@@ -2798,7 +2798,7 @@
           "b": 22,
           "g": "1.80"
         },
-        "ms": 310,
+        "ms": 305,
         "dmg": {
           "min": 30,
           "max": 34
@@ -2810,12 +2810,12 @@
     },
     "earth_spirit": {
       "dname": "Earth Spirit",
-      "u": "Earth_Spirit",
+      "u": "earth_spirit",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 21,
-          "g": "2.90"
+          "g": "3.20"
         },
         "int": {
           "b": 18,
@@ -2825,7 +2825,7 @@
           "b": 17,
           "g": "1.50"
         },
-        "ms": 295,
+        "ms": 290,
         "dmg": {
           "min": 25,
           "max": 35
@@ -2837,12 +2837,12 @@
     },
     "terrorblade": {
       "dname": "Terrorblade",
-      "u": "Terrorblade",
+      "u": "terrorblade",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 15,
-          "g": "1.40"
+          "g": "1.70"
         },
         "int": {
           "b": 19,
@@ -2852,7 +2852,7 @@
           "b": 22,
           "g": "3.20"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
           "min": 26,
           "max": 32
@@ -2864,12 +2864,12 @@
     },
     "phoenix": {
       "dname": "Phoenix",
-      "u": "Phoenix",
+      "u": "phoenix",
       "pa": "str",
       "attribs": {
         "str": {
-          "b": 17,
-          "g": "2.90"
+          "b": 19,
+          "g": "3.20"
         },
         "int": {
           "b": 18,
@@ -2891,12 +2891,12 @@
     },
     "oracle": {
       "dname": "Oracle",
-      "u": "Oracle",
+      "u": "oracle",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "1.90"
+          "g": "2.20"
         },
         "int": {
           "b": 23,
@@ -2918,12 +2918,12 @@
     },
     "techies": {
       "dname": "Techies",
-      "u": "Techies",
+      "u": "techies",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 17,
-          "g": "2.00"
+          "g": "2.30"
         },
         "int": {
           "b": 22,
@@ -2945,12 +2945,12 @@
     },
     "winter_wyvern": {
       "dname": "Winter Wyvern",
-      "u": "Winter_Wyvern",
+      "u": "winter_wyvern",
       "pa": "int",
       "attribs": {
         "str": {
           "b": 24,
-          "g": "2.10"
+          "g": "2.40"
         },
         "int": {
           "b": 25,
@@ -2972,12 +2972,12 @@
     },
     "arc_warden": {
       "dname": "Arc Warden",
-      "u": "Arc_Warden",
+      "u": "arc_warden",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 24,
-          "g": "2.30"
+          "g": "3.00"
         },
         "int": {
           "b": 24,
@@ -2987,7 +2987,7 @@
           "b": 15,
           "g": "1.80"
         },
-        "ms": 285,
+        "ms": 280,
         "dmg": {
           "min": 29,
           "max": 39
@@ -2999,12 +2999,12 @@
     },
     "abyssal_underlord": {
       "dname": "Underlord",
-      "u": "Underlord",
+      "u": "abyssal_underlord",
       "pa": "str",
       "attribs": {
         "str": {
           "b": 25,
-          "g": "2.60"
+          "g": "2.90"
         },
         "int": {
           "b": 17,
@@ -3014,7 +3014,7 @@
           "b": 12,
           "g": "1.30"
         },
-        "ms": 305,
+        "ms": 290,
         "dmg": {
           "min": 37,
           "max": 43
@@ -3026,12 +3026,12 @@
     },
     "monkey_king": {
       "dname": "Monkey King",
-      "u": "MonkeyKing",
+      "u": "monkey_king",
       "pa": "agi",
       "attribs": {
         "str": {
           "b": 18,
-          "g": "2.20"
+          "g": "2.80"
         },
         "int": {
           "b": 20,
@@ -3041,15 +3041,69 @@
           "b": 22,
           "g": "3.20"
         },
-        "ms": 305,
+        "ms": 300,
         "dmg": {
-          "min": 30,
-          "max": 36
+          "min": 27,
+          "max": 33
         },
-        "armor": 3.08
+        "armor": 0.08
       },
       "dac": "Melee",
       "droles": "Carry - Escape - Disabler - Initiator"
+    },
+    "pangolier": {
+      "dname": "Pangolier",
+      "u": "pangolier",
+      "pa": "agi",
+      "attribs": {
+        "str": {
+          "b": 16,
+          "g": "2.50"
+        },
+        "int": {
+          "b": 16,
+          "g": "1.90"
+        },
+        "agi": {
+          "b": 18,
+          "g": "2.80"
+        },
+        "ms": 305,
+        "dmg": {
+          "min": 29,
+          "max": 35
+        },
+        "armor": 3.52
+      },
+      "dac": "Melee",
+      "droles": "Carry - Nuker - Disabler - Durable - Escape - Initiator"
+    },
+    "dark_willow": {
+      "dname": "Dark Willow",
+      "u": "dark_willow",
+      "pa": "int",
+      "attribs": {
+        "str": {
+          "b": 18,
+          "g": "1.80"
+        },
+        "int": {
+          "b": 20,
+          "g": "3.00"
+        },
+        "agi": {
+          "b": 18,
+          "g": "1.60"
+        },
+        "ms": 295,
+        "dmg": {
+          "min": 25,
+          "max": 33
+        },
+        "armor": 1.52
+      },
+      "dac": "Ranged",
+      "droles": "Support - Nuker - Disabler - Escape"
     }
   }
 }
