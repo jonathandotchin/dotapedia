@@ -1,0 +1,33 @@
+﻿<ons-page id="itemdetailspage">
+    <ons-toolbar>
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div id="itemtitle" class="center">Items</div>
+    </ons-toolbar>
+    <div id="itemdetailscontent" class="wrapper">
+        <div class="box">
+            <div class="box-portrait">
+                <img id="itemimage" class="item-box-portrait-image" />
+            </div>
+            <div class="box-title">
+                <div id="itemname" class="item-name"></div>
+                <div>
+                    <img id="itemgoldimage" class="item-gold-icon" />
+                    <span id="itemcost" class="item-caption item-gold-text"></span>
+                </div>
+                <div>
+                    <span id="itemquality" class="item-caption"></span>
+                </div>
+            </div>
+        </div>
+        <p id="itemdescription"></p>
+        <p id="itemnotes" class="item-notes-text"></p>
+        <p id="itemattributes"></p>
+        <div>
+            <span id="itemcooldown"><img class="cooldown-icon" src="/dotapedia/images/icons/cooldown.png" /><span id="itemcooldownvalue"></span></span>
+            <span id="itemmanacost"><img class="manacost-icon" src="/dotapedia/images/icons/manacost.png" /><span id="itemmanacostvalue"></span></span>
+        </div>
+        <p id="itemlore" class="lore-text"></p>
+    </div>
+</ons-page>

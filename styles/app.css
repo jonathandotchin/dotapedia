@@ -1,0 +1,270 @@
+/* theme */
+a {
+    color: #c33d2b;
+}
+
+/* fix news img controls */
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* content */
+.wrapper {
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+}
+
+.list-wrapper {
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+}
+
+.app-logo {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.app-info {
+    text-align: center;
+}
+
+.app-title {
+    font-size: 46px;
+    font-weight: 200;
+    line-height: 1.216;
+    letter-spacing: 0;
+}
+
+.app-stats {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.167;
+}
+
+.app-stats-caption {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.app-good-stats {
+    color: #006400;
+}
+
+.app-bad-stats {
+    color: #990012;
+}
+
+.news-title {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 1.176;
+
+}
+
+.updates-title {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 1.176;
+}
+
+.news-caption {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.167;
+}
+
+.hero-thumbnail-portrait {
+    height: 56px;
+    width: 100px;
+}
+
+.hero-thumbnail-name {
+    font-size: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+
+.hero-filter-icon {
+    height: 33px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 33px;
+}
+
+.hero-overview {
+    text-align: center;
+}
+
+.hero-portrait {
+    height: 172px;
+    width: 307px;
+    padding: 8px;
+    -ms-border-radius: 35px;
+    border-radius: 35px;
+}
+
+.hero-name {
+    font-size: 46px;
+    font-weight: 200;
+    line-height: 1.216;
+    letter-spacing: 0;
+}
+
+.hero-meta {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.167;
+}
+
+.hero-stats {
+    padding: 8px;
+}
+
+.hero-ability-name {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.hero-ability-box-portrait-image {
+    height: 105px;
+    width: 105px;
+    -ms-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.item-portrait {
+    height: 64px;
+    width: 85px;
+}
+
+.item-name {
+    font-size: 24px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+
+.item-gold-icon {
+    height: 17px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 25px;
+}
+
+.item-caption {
+    color: #808080;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.item-gold-text {
+    color: #CDA500;
+}
+
+.item-component-text {
+    color: #808080;
+}
+
+.item-secret-shop-text {
+    color: #808080;
+}
+
+.item-epic-text {
+    color: #b812f9;
+}
+
+.item-artifact-text {
+    color: #CDA500;
+}
+
+.item-rare-text {
+    color: #1a87f9;
+}
+
+.item-consumable-text {
+    color: #1d80e7;
+}
+
+.item-common-text {
+    color: #006400;
+}
+
+.item-notes-text {
+    color: #006400;
+}
+
+.item-box-portrait-image {
+    height: 96px;
+    -ms-border-radius: 25px;
+    border-radius: 25px;
+    width: 127px;
+}
+
+.box {
+    display: table;
+}
+
+.box-portrait {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 12px;
+}
+
+.box-title {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.lore-text {
+    font-style: oblique;
+}
+
+.cooldown-icon {
+    height: 22px;
+    width: 22px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.manacost-icon {
+    height: 22px;
+    width: 22px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.attribVal {
+    color: #CDA500;
+    font-weight: bold;
+}
+
+.attribValText {
+    color: #808080;
+    font-weight: bold;
+}
+
+.scepterVal {
+    color: #006400;
+    font-weight: bold;
+}
+
+.manaImg, .cooldownImg {
+    height: 22px;
+    width: 22px;
+}
+
