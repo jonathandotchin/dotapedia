@@ -4063,8 +4063,8 @@ ons-range[disabled] .range {
 .list__item__thumbnail {
   width: 40px;
   height: 40px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
+  /*-webkit-border-radius: 6px;
+  border-radius: 6px;*/
   display: block;
   margin: 0;
 }
