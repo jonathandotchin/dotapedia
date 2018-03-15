@@ -11,11 +11,7 @@
     // define the application variable to store global app logic
     window.dotapedia = {};
 
-    document.addEventListener('deviceready', onDeviceReady.bind(this), false);
     document.addEventListener('init', onInit.bind(this), false);
-
-    function onDeviceReady() {
-    };
 
     function onInit() {
         // more like an candidate 'page' because it could be the element is not a onsen page
