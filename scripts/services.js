@@ -101,7 +101,7 @@
                     var content = "";
                     self.newsItems.forEach(function (news) {
                         var item = sprintf(
-                            "<ons-list-item><p><a class='news-title' href='%s'>%s</a></p><p class='news-caption'>%s</p><p>%s</p></ons-list-item>", news.link, news.title, news.publicationDate, news.contentHtml);
+                            "<ons-list-item><span class='list__item__title'><a class='news-title' href='%s'>%s</a></span><span class='list__item__subtitle news-caption'>%s</span><br/><span class='list__item__center'>%s</span></ons-list-item>", news.link, news.title, news.publicationDate, news.contentHtml);
                         content = content + item;
                     });
 
@@ -147,7 +147,7 @@
                     var content = "";
                     self.updatesItems.forEach(function (update) {
                         var item = sprintf(
-                            "<ons-list-item><p><a class='updates-title' href='%s'>%s</a></p><p>%s</p></ons-list-item>", update.
+                            "<ons-list-item><span class='list__item__title'><a class='updates-title' href='%s'>%s</a></span><span class='list__item__center'>%s</span></ons-list-item>", update.
                             url, update.title, update.contentsHtml);
                         content = content + item;
                     });
@@ -432,7 +432,7 @@
         },
         items: {
             intialized: false,
-            ignoredItemIds: [0, 218, 241, 264],
+            ignoredItemIds: [0, 218, 241, 264, 275, 276],
             recipeKey: "recipe",
             recipeName: "Recipe",
             recipeImage: "recipe_lg.png",

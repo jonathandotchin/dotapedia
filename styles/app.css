@@ -110,8 +110,8 @@ img {
     height: 172px;
     width: 307px;
     padding: 8px;
-    /*-ms-border-radius: 35px;
-    border-radius: 35px;*/
+    -ms-border-radius: 35px;
+    border-radius: 35px;
 }
 
 .hero-name {
@@ -140,8 +140,8 @@ img {
 .hero-ability-box-portrait-image {
     height: 105px;
     width: 105px;
-    /*-ms-border-radius: 25px;
-    border-radius: 25px;*/
+    -ms-border-radius: 25px;
+    border-radius: 25px;
 }
 
 .item-portrait {
@@ -210,8 +210,8 @@ img {
 
 .item-box-portrait-image {
     height: 96px;
-    /*-ms-border-radius: 25px;
-    border-radius: 25px;*/
+    -ms-border-radius: 25px;
+    border-radius: 25px;
     width: 127px;
 }
 
