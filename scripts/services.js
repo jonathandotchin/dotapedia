@@ -88,7 +88,7 @@
                                     link: $(this).find("link").text(),
                                     publicationDate: new Date($(this).find("pubDate").text()).toLocaleString(),
                                     descriptionHtml: $(this).find("description").text(),
-                                    contentHtml: $(this).find("content\\:encoded").text()
+                                    contentHtml: $(this).find("content\\:encoded, encoded").text()
                                 };
                                 self.newsItems.push(item);
                             });
