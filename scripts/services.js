@@ -424,7 +424,7 @@
         },
         items: {
             intialized: false,
-            ignoredItemIds: [0, 218, 241, 260, 264, 275, 276],
+            ignoredItemIds: [0, 71, 218, 238, 239, 241, 260, 264, 275, 276],
             recipeKey: "recipe",
             recipeName: "Recipe",
             recipeImage: "recipe_lg.png",
