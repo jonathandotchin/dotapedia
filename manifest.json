@@ -1,0 +1,107 @@
+{
+    "dir": "ltr",
+    "lang": "id",
+    "name": "Dotapedia",
+    "scope": "/dotapedia/",
+    "display": "browser",
+    "start_url": "https://jonathandotchin.github.io/dotapedia/",
+    "short_name": "Dotapedia",
+    "theme_color": "transparent",
+    "description": "Dotapedia is a fan made application aimed at bringing the most up-to-date information regarding Dota 2 to you.",
+    "orientation": "portrait",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/logo/9a2cdbb6-3415-47b1-bcf6-59b42c209954.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/f2bee234-de2b-c6c1-55cb-7c5e157027cc.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/d8337b42-2fcd-11e4-192a-24074bd7bdc6.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/1fbbc5ce-da98-17a0-12b6-6c2a35c0461e.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/2ef47bac-6389-fca8-d20a-96e0d964e39a.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/280bcd20-e61d-5010-b47e-b9348dcd4eb0.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/30d612f5-777d-3a8a-4e76-33a8dd10f2e2.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/5e9cb24a-1409-74d9-5600-a6668912a9be.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/08dd0c45-8292-152b-e820-da64c3d74c02.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/9fb7a871-8493-38dc-3d55-00d491f8d0fe.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/e4ad5a6d-a1e9-3143-b733-87385ca13997.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/1c4f73d9-2571-9c81-62a8-1ea79ce80004.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/29b2a0da-e72f-c9a8-ce63-cdc116696262.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/f67766bf-c1e6-2eea-f798-2c1dccf14548.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/71f26ada-fac1-7504-e24a-8657c351f143.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/8c4b5875-83a2-4d94-830d-66acc0de55a2.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/8f3092f2-2d62-355a-a984-df36b8f9a2f1.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/logo/2f685cd4-0a6e-d0f1-ea31-1cf4e2b044e7.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
