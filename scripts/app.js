@@ -13,7 +13,7 @@
 
     document.addEventListener('init', onInit.bind(this), false);
 
-    function onInit() {
+    function onInit(event) {
         // more like an candidate 'page' because it could be the element is not a onsen page
         var page = event.target;
 
