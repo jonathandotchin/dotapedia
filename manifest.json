@@ -3,7 +3,7 @@
     "lang": "id",
     "name": "Dotapedia",
     "scope": "/dotapedia/",
-    "display": "browser",
+    "display": "standalone",
     "start_url": "https://jonathandotchin.github.io/dotapedia/",
     "short_name": "Dotapedia",
     "theme_color": "transparent",
