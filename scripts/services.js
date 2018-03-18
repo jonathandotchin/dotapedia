@@ -424,7 +424,7 @@
         },
         items: {
             intialized: false,
-            ignoredItemIds: [0, 218, 241, 264, 275, 276],
+            ignoredItemIds: [0, 218, 241, 260, 264, 275, 276],
             recipeKey: "recipe",
             recipeName: "Recipe",
             recipeImage: "recipe_lg.png",
@@ -432,7 +432,7 @@
             items: {},
             seasonalItemsStartingId: 1000,
             itemImageUrl: "http://cdn.dota2.com/apps/dota2/images/items/%s",
-            itemImageMap: {"259":"trident_lg.png?3", "260":"combo_breaker_lg.png?3"},
+            itemImageMap: {"259":"trident_lg.png?3"},
             getItemKey: function (rawKey) {
                 return rawKey.replace(/[^A-Za-z0-9]+/g, "").toLowerCase();
             },
