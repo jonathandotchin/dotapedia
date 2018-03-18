@@ -951,7 +951,7 @@ ons-range[disabled] .range {
   user-select: none;
   z-index: 2;
   display: block;
-  height: 44px;
+  /*height: 44px;*/
   padding-left: 0;
   padding-right: 0;
   background: #fff;

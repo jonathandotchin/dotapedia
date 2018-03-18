@@ -32,7 +32,7 @@ ons-tabbar {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: 45px;
   right: 0;
   overflow: hidden;
 }
