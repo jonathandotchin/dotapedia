@@ -168,13 +168,11 @@
             rawAbilitiesContent: null,
             heroes: {},
             heroSmallImageUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_sb.png",
-            heroMediumLocalImageUrl: "/dotapedia/images/heroes/%s_lg.png",
             heroMediumImageUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_lg.png",
             heroLargeImageUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_full.png",
             heroPortraitUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_vert.jpg",
             abilitySmallerImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_md.png",
             abilitySmallImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_hp1.png",
-            abilityMediumLocalImage: "/dotapedia/images/abilities/%s_hp2.png",
             abilityMediumImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_hp2.png",
             abilityLargeImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_lg.png",
             getHeroAbilityMatchKey: function (rawKey) {
@@ -239,12 +237,9 @@
                             self.heroes[key].biography = hero.bio;
                             self.heroes[key].attack = hero.atk_l;
 
-                            // handle the hero medium image with localized
+                            // handle the hero medium image
                             var image = new Image();
-                            image.src = sprintf(self.heroMediumLocalImageUrl, key);
-                            if (!image.complete) {
-                                image.src = sprintf(self.heroMediumImageUrl, key);
-                            }
+                            image.src = sprintf(self.heroMediumImageUrl, key);
                             self.heroes[key].mediumImage = image.src;
 
                             if (self.heroes[key].attack === "Melee") {
@@ -329,15 +324,15 @@
                             switch (hero.pa) {
                                 case "str":
                                     self.heroes[key].attribute.strength.primary = true;
-                                    self.heroes[key].attribute.primaryIcon = "/dotapedia/images/icons/strength.png";
+                                    self.heroes[key].attribute.primaryIcon = "http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_str.png";
                                     break;
                                 case "int":
                                     self.heroes[key].attribute.intelligence.primary = true;
-                                    self.heroes[key].attribute.primaryIcon = "/dotapedia/images/icons/intelligence.png";
+                                    self.heroes[key].attribute.primaryIcon = "http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_int.png";
                                     break;
                                 case "agi":
                                     self.heroes[key].attribute.agility.primary = true;
-                                    self.heroes[key].attribute.primaryIcon = "/dotapedia/images/icons/agility.png";
+                                    self.heroes[key].attribute.primaryIcon = "http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_agi.png";
                                     break;
                             }
                         }
@@ -374,12 +369,9 @@
                                             lore: hero.lore
                                         };
 
-                                        // handle the hero medium image with localized
+                                        // handle the hero medium image
                                         var image = new Image();
-                                        image.src = sprintf(self.abilityMediumLocalImage, ability.key);
-                                        if (!image.complete) {
-                                            image.src = sprintf(self.abilityMediumImage, ability.key);
-                                        }
+                                        image.src = sprintf(self.abilityMediumImage, ability.key);
                                         ability.image = image.src;
 
                                         self.heroes[key].abilities.push(ability);
@@ -436,11 +428,11 @@
             recipeKey: "recipe",
             recipeName: "Recipe",
             recipeImage: "recipe_lg.png",
-            goldLocalImage: "/dotapedia/images/icons/gold.png",
+            goldLocalImage: "http://cdn.dota2.com/apps/dota2/images/tooltips/gold.png",
             items: {},
             seasonalItemsStartingId: 1000,
             itemImageUrl: "http://cdn.dota2.com/apps/dota2/images/items/%s",
-            itemLocalImageUrl: "/dotapedia/images/items/%s",
+            itemImageMap: {"259":"trident_lg.png?3", "260":"combo_breaker_lg.png?3"},
             getItemKey: function (rawKey) {
                 return rawKey.replace(/[^A-Za-z0-9]+/g, "").toLowerCase();
             },
@@ -467,8 +459,7 @@
                                     }
 
                                     self.items[key].key = key;
-                                    self.items[key].id = value.id;
-                                    self.items[key].image = sprintf(self.itemImageUrl, value.img);
+                                    self.items[key].id = value.id;                                   
                                     self.items[key].name = value.dname;
                                     self.items[key].quality = value.qual;
                                     self.items[key].qualitycss = value.qual;
@@ -507,12 +498,15 @@
                                         });
                                     }
 
-                                    // localized images
+                                    // images
                                     var image = new Image();
-                                    image.src = sprintf(self.itemLocalImageUrl, value.img);
-                                    if (!image.complete) {
+                                    if (self.itemImageMap[value.id] !== undefined) {
+                                        image.src = sprintf(self.itemImageUrl, self.itemImageMap[value.id]);    
+                                    }
+                                    else {
                                         image.src = sprintf(self.itemImageUrl, value.img);
                                     }
+                                    
                                     self.items[key].image = image.src;
                                 }
                             });
