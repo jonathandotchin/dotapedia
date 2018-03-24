@@ -167,14 +167,8 @@
             rawStatsContent: null,
             rawAbilitiesContent: null,
             heroes: {},
-            heroSmallImageUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_sb.png",
-            heroMediumImageUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_lg.png",
-            heroLargeImageUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_full.png",
-            heroPortraitUrl: "http://cdn.dota2.com/apps/dota2/images/heroes/%s_vert.jpg",
-            abilitySmallerImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_md.png",
-            abilitySmallImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_hp1.png",
-            abilityMediumImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_hp2.png",
-            abilityLargeImage: "http://cdn.dota2.com/apps/dota2/images/abilities/%s_lg.png",
+            heroMediumImageUrl: "/dotapedia/images/heroes/%s_lg.png",
+            abilityMediumImage: "/dotapedia/images/abilities/%s_hp2.png",
             getHeroAbilityMatchKey: function (rawKey) {
                 return rawKey.replace(/[^A-Za-z]+/g, "").toLowerCase();
             },
@@ -231,9 +225,6 @@
                             var hero = self.rawBiosContent[property];
                             self.heroes[key].abilityMatchKey = self.getHeroAbilityMatchKey(key);
                             self.heroes[key].name = hero.name;
-                            self.heroes[key].smallImage = sprintf(self.heroSmallImageUrl, key);
-                            self.heroes[key].largeImage = sprintf(self.heroLargeImageUrl, key);
-                            self.heroes[key].portrait = sprintf(self.heroPortraitUrl, key);
                             self.heroes[key].biography = hero.bio;
                             self.heroes[key].attack = hero.atk_l;
 
@@ -324,15 +315,15 @@
                             switch (hero.pa) {
                                 case "str":
                                     self.heroes[key].attribute.strength.primary = true;
-                                    self.heroes[key].attribute.primaryIcon = "http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_str.png";
+                                    self.heroes[key].attribute.primaryIcon = "/dotapedia/images/icons/primary_strength.png";
                                     break;
                                 case "int":
                                     self.heroes[key].attribute.intelligence.primary = true;
-                                    self.heroes[key].attribute.primaryIcon = "http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_int.png";
+                                    self.heroes[key].attribute.primaryIcon = "/dotapedia/images/icons/primary_intelligence.png";
                                     break;
                                 case "agi":
                                     self.heroes[key].attribute.agility.primary = true;
-                                    self.heroes[key].attribute.primaryIcon = "http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_agi.png";
+                                    self.heroes[key].attribute.primaryIcon = "/dotapedia/images/icons/primary_agility.png";
                                     break;
                             }
                         }
@@ -428,11 +419,11 @@
             recipeKey: "recipe",
             recipeName: "Recipe",
             recipeImage: "recipe_lg.png",
-            goldLocalImage: "http://cdn.dota2.com/apps/dota2/images/tooltips/gold.png",
+            goldLocalImage: "/dotapedia/images/icons/gold.png",
             items: {},
             seasonalItemsStartingId: 1000,
-            itemImageUrl: "http://cdn.dota2.com/apps/dota2/images/items/%s",
-            itemImageMap: {"259":"trident_lg.png?3"},
+            itemImageUrl: "/dotapedia/images/items/%s",
+            itemImageMap: {"256":"combo_breaker_lg.png?3", "259":"trident_lg.png?3"},
             getItemKey: function (rawKey) {
                 return rawKey.replace(/[^A-Za-z0-9]+/g, "").toLowerCase();
             },
@@ -450,7 +441,8 @@
                         success: function (content) {
                             $.each(content.itemdata, function (index, value) {
                                 // skip seasonal items
-                                if (value.id < self.seasonalItemsStartingId) {
+                                if (value.id < self.seasonalItemsStartingId 
+                                    && self.ignoredItemIds.indexOf(value.id) === -1) {
 
                                     // handle items general information
                                     var key = self.getItemKey(index);
@@ -552,9 +544,8 @@
                     // we want the keys in alpha order
                     var displayItems = [];
                     for (var key in self.items) {
-                        if (self.items.hasOwnProperty(key)) {
-                            if (self.ignoredItemIds.indexOf(self.items[key].id) === -1)
-                                displayItems.push(self.items[key]);
+                        if (self.items.hasOwnProperty(key) && self.ignoredItemIds.indexOf(self.items[key].id) === -1) {
+                            displayItems.push(self.items[key]);
                         }
                     }
 

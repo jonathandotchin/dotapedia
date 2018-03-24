@@ -68,7 +68,7 @@
         herooverviewpage: function (page) {
             var hero = page.ownerDocument.querySelector('#herodetailspage').data.element;
             page.querySelector('#hero-name').innerHTML = hero.name;
-            page.querySelector('#hero-image').src = hero.largeImage;
+            page.querySelector('#hero-image').src = hero.mediumImage;
             page.querySelector('#hero-attack').innerHTML = hero.attack;
             var roles = "";
             for (var i = 0; i < hero.roles.length; i++) {
