@@ -4,7 +4,7 @@
     "name": "Dotapedia",
     "scope": "/dotapedia/",
     "display": "standalone",
-    "start_url": "https://jonathandotchin.github.io/dotapedia/",
+    "start_url": "https://jonathandotchin.github.io/dotapedia/index.html",
     "short_name": "Dotapedia",
     "theme_color": "transparent",
     "description": "Dotapedia is a fan made application aimed at bringing the most up-to-date information regarding Dota 2 to you.",
