@@ -6,10 +6,10 @@
     "display": "standalone",
     "start_url": "https://jonathandotchin.github.io/dotapedia/index.html",
     "short_name": "Dotapedia",
-    "theme_color": "transparent",
+    "theme_color": "white",
     "description": "Dotapedia is a fan made application aimed at bringing the most up-to-date information regarding Dota 2 to you.",
     "orientation": "portrait",
-    "background_color": "transparent",
+    "background_color": "white",
     "related_applications": [],
     "prefer_related_applications": false,
     "icons": [
