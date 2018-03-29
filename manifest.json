@@ -34,6 +34,11 @@
             "type": "image/png"
         },
         {
+            "src": "images/logos/6384bc4f-603a-4f0f-a927-dd17f4199565.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
             "src": "images/logos/2ef47bac-6389-fca8-d20a-96e0d964e39a.webPlatform.png",
             "sizes": "88x88",
             "type": "image/png"
