@@ -6,11 +6,11 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 22,
-          "g": "1.50"
+          "b": 23,
+          "g": "1.30"
         },
         "int": {
-          "b": 15,
+          "b": 12,
           "g": "1.80"
         },
         "agi": {
@@ -19,8 +19,8 @@
         },
         "ms": 310,
         "dmg": {
-          "min": 27,
-          "max": 31
+          "min": 29,
+          "max": 33
         },
         "armor": 2.08
       },
@@ -49,7 +49,7 @@
           "min": 24,
           "max": 28
         },
-        "armor": 1.8
+        "armor": 0.8
       },
       "dac": "Melee",
       "droles": "Initiator - Durable - Disabler - Jungler"
@@ -73,8 +73,8 @@
         },
         "ms": 310,
         "dmg": {
-          "min": 37,
-          "max": 43
+          "min": 35,
+          "max": 41
         },
         "armor": 4.22
       },
@@ -87,7 +87,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 23,
+          "b": 24,
           "g": "2.70"
         },
         "int": {
@@ -114,11 +114,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
+          "b": 18,
           "g": "2.00"
         },
         "int": {
-          "b": 16,
+          "b": 14,
           "g": "2.90"
         },
         "agi": {
@@ -127,10 +127,10 @@
         },
         "ms": 275,
         "dmg": {
-          "min": 19,
-          "max": 25
+          "min": 26,
+          "max": 32
         },
-        "armor": 1.24
+        "armor": 2.24
       },
       "dac": "Ranged",
       "droles": "Support - Disabler - Nuker - Jungler"
@@ -154,8 +154,8 @@
         },
         "ms": 285,
         "dmg": {
-          "min": 14,
-          "max": 25
+          "min": 18,
+          "max": 29
         },
         "armor": 0.64
       },
@@ -181,8 +181,8 @@
         },
         "ms": 310,
         "dmg": {
-          "min": 24,
-          "max": 34
+          "min": 27,
+          "max": 37
         },
         "armor": 2.68
       },
@@ -195,7 +195,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 20,
+          "b": 21,
           "g": "2.20"
         },
         "int": {
@@ -211,7 +211,7 @@
           "min": 22,
           "max": 26
         },
-        "armor": 3.64
+        "armor": 4.64
       },
       "dac": "Melee",
       "droles": "Carry - Pusher - Escape"
@@ -222,7 +222,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 17,
+          "b": 18,
           "g": "2.15"
         },
         "int": {
@@ -230,15 +230,15 @@
           "g": "1.65"
         },
         "agi": {
-          "b": 20,
-          "g": "3.60"
+          "b": 18,
+          "g": "3.20"
         },
         "ms": 295,
         "dmg": {
-          "min": 21,
-          "max": 32
+          "min": 25,
+          "max": 30
         },
-        "armor": 1.8
+        "armor": 1.52
       },
       "dac": "Ranged",
       "droles": "Carry - Support - Escape - Nuker - Disabler"
@@ -249,7 +249,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 15,
+          "b": 16,
           "g": "2.30"
         },
         "int": {
@@ -276,7 +276,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 19,
+          "b": 20,
           "g": "2.30"
         },
         "int": {
@@ -303,11 +303,11 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 21,
+          "b": 19,
           "g": "2.00"
         },
         "int": {
-          "b": 21,
+          "b": 19,
           "g": "2.00"
         },
         "agi": {
@@ -330,11 +330,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 15,
+          "b": 17,
           "g": "2.00"
         },
         "int": {
-          "b": 25,
+          "b": 23,
           "g": "2.40"
         },
         "agi": {
@@ -343,8 +343,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 28,
-          "max": 39
+          "min": 30,
+          "max": 41
         },
         "armor": 1.08
       },
@@ -368,12 +368,12 @@
           "b": 14,
           "g": "1.50"
         },
-        "ms": 280,
+        "ms": 275,
         "dmg": {
-          "min": 27,
-          "max": 33
+          "min": 34,
+          "max": 40
         },
-        "armor": 0.96
+        "armor": -0.04
       },
       "dac": "Melee",
       "droles": "Disabler - Initiator - Durable - Nuker"
@@ -384,7 +384,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 21,
+          "b": 22,
           "g": "2.60"
         },
         "int": {
@@ -422,15 +422,15 @@
           "b": 19,
           "g": "2.10"
         },
-        "ms": 295,
+        "ms": 285,
         "dmg": {
           "min": 25,
-          "max": 41
+          "max": 35
         },
-        "armor": 2.66
+        "armor": 1.66
       },
       "dac": "Melee",
-      "droles": "Initiator - Disabler - Nuker - Escape - Jungler"
+      "droles": "Initiator - Disabler - Support - Nuker - Escape - Jungler"
     },
     "storm_spirit": {
       "dname": "Storm Spirit",
@@ -438,21 +438,21 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 19,
+          "b": 21,
           "g": "1.80"
         },
         "int": {
-          "b": 24,
+          "b": 22,
           "g": "3.00"
         },
         "agi": {
           "b": 22,
-          "g": "1.80"
+          "g": "1.50"
         },
         "ms": 285,
         "dmg": {
-          "min": 22,
-          "max": 32
+          "min": 24,
+          "max": 34
         },
         "armor": 5.08
       },
@@ -476,12 +476,12 @@
           "b": 21,
           "g": "2.00"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
-          "min": 41,
-          "max": 43
+          "min": 43,
+          "max": 45
         },
-        "armor": 4.94
+        "armor": 3.94
       },
       "dac": "Melee",
       "droles": "Carry - Disabler - Initiator - Durable - Nuker"
@@ -492,8 +492,8 @@
       "pa": "str",
       "attribs": {
         "str": {
-          "b": 26,
-          "g": "3.30"
+          "b": 30,
+          "g": "3.60"
         },
         "int": {
           "b": 17,
@@ -519,7 +519,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 19,
           "g": "2.90"
         },
         "int": {
@@ -533,7 +533,7 @@
         "ms": 295,
         "dmg": {
           "min": 12,
-          "max": 26
+          "max": 20
         },
         "armor": 3.78
       },
@@ -546,11 +546,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 15,
+          "b": 17,
           "g": "2.80"
         },
         "int": {
-          "b": 22,
+          "b": 18,
           "g": "2.60"
         },
         "agi": {
@@ -559,8 +559,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 22,
-          "max": 34
+          "min": 24,
+          "max": 36
         },
         "armor": 1.38
       },
@@ -573,11 +573,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 19,
-          "g": "2.60"
+          "b": 21,
+          "g": "2.30"
         },
         "int": {
-          "b": 22,
+          "b": 20,
           "g": "2.70"
         },
         "agi": {
@@ -586,8 +586,8 @@
         },
         "ms": 300,
         "dmg": {
-          "min": 21,
-          "max": 29
+          "min": 33,
+          "max": 41
         },
         "armor": 1.54
       },
@@ -611,15 +611,15 @@
           "b": 14,
           "g": "1.30"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 26,
           "max": 36
         },
-        "armor": 3.96
+        "armor": 2.96
       },
       "dac": "Melee",
-      "droles": "Carry - Disabler - Initiator - Durable - Nuker"
+      "droles": "Carry - Support - Disabler - Initiator - Durable - Nuker"
     },
     "lina": {
       "dname": "Lina",
@@ -627,11 +627,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 20,
           "g": "1.80"
         },
         "int": {
-          "b": 27,
+          "b": 28,
           "g": "3.20"
         },
         "agi": {
@@ -640,8 +640,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 13,
-          "max": 31
+          "min": 18,
+          "max": 30
         },
         "armor": 1.24
       },
@@ -654,11 +654,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 20,
           "g": "1.85"
         },
         "int": {
-          "b": 18,
+          "b": 16,
           "g": "3.25"
         },
         "agi": {
@@ -667,8 +667,8 @@
         },
         "ms": 315,
         "dmg": {
-          "min": 24,
-          "max": 33
+          "min": 26,
+          "max": 35
         },
         "armor": 1.1
       },
@@ -681,11 +681,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
+          "b": 18,
           "g": "2.00"
         },
         "int": {
-          "b": 20,
+          "b": 18,
           "g": "3.00"
         },
         "agi": {
@@ -694,8 +694,8 @@
         },
         "ms": 290,
         "dmg": {
-          "min": 27,
-          "max": 33
+          "min": 29,
+          "max": 35
         },
         "armor": 1.1
       },
@@ -708,7 +708,7 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 21,
+          "b": 23,
           "g": "2.10"
         },
         "int": {
@@ -721,10 +721,10 @@
         },
         "ms": 285,
         "dmg": {
-          "min": 50,
-          "max": 57
+          "min": 52,
+          "max": 59
         },
-        "armor": 2.24
+        "armor": 3.24
       },
       "dac": "Ranged",
       "droles": "Support - Pusher - Disabler - Nuker - Initiator"
@@ -746,12 +746,12 @@
           "b": 17,
           "g": "2.40"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 30,
           "max": 38
         },
-        "armor": 5.38
+        "armor": 4.38
       },
       "dac": "Melee",
       "droles": "Carry - Durable - Initiator - Disabler - Escape"
@@ -773,12 +773,12 @@
           "b": 15,
           "g": "1.50"
         },
-        "ms": 305,
+        "ms": 300,
         "dmg": {
           "min": 25,
           "max": 31
         },
-        "armor": 3.1
+        "armor": 2.1
       },
       "dac": "Melee",
       "droles": "Initiator - Durable - Disabler - Nuker"
@@ -789,11 +789,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
+          "b": 18,
           "g": "2.10"
         },
         "int": {
-          "b": 24,
+          "b": 22,
           "g": "2.90"
         },
         "agi": {
@@ -802,8 +802,8 @@
         },
         "ms": 305,
         "dmg": {
-          "min": 27,
-          "max": 37
+          "min": 29,
+          "max": 39
         },
         "armor": 0.82
       },
@@ -816,7 +816,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 17,
+          "b": 18,
           "g": "1.90"
         },
         "int": {
@@ -824,15 +824,15 @@
           "g": "1.30"
         },
         "agi": {
-          "b": 34,
+          "b": 30,
           "g": "2.20"
         },
         "ms": 275,
         "dmg": {
-          "min": 4,
-          "max": 8
+          "min": 11,
+          "max": 15
         },
-        "armor": 4.76
+        "armor": 5.2
       },
       "dac": "Melee",
       "droles": "Carry - Escape - Disabler"
@@ -843,11 +843,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 17,
-          "g": "2.40"
+          "b": 21,
+          "g": "2.30"
         },
         "int": {
-          "b": 20,
+          "b": 18,
           "g": "3.40"
         },
         "agi": {
@@ -856,8 +856,8 @@
         },
         "ms": 300,
         "dmg": {
-          "min": 22,
-          "max": 28
+          "min": 24,
+          "max": 30
         },
         "armor": 3.96
       },
@@ -874,17 +874,17 @@
           "g": "2.30"
         },
         "int": {
-          "b": 30,
+          "b": 28,
           "g": "2.20"
         },
         "agi": {
           "b": 13,
           "g": "1.20"
         },
-        "ms": 305,
+        "ms": 290,
         "dmg": {
-          "min": 22,
-          "max": 28
+          "min": 24,
+          "max": 30
         },
         "armor": 3.82
       },
@@ -897,8 +897,8 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 16,
-          "g": "2.00"
+          "b": 17,
+          "g": "1.70"
         },
         "int": {
           "b": 15,
@@ -924,11 +924,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
-          "g": "2.30"
+          "b": 18,
+          "g": "2.60"
         },
         "int": {
-          "b": 22,
+          "b": 20,
           "g": "2.50"
         },
         "agi": {
@@ -937,8 +937,8 @@
         },
         "ms": 285,
         "dmg": {
-          "min": 22,
-          "max": 26
+          "min": 26,
+          "max": 30
         },
         "armor": 3.1
       },
@@ -951,11 +951,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 22,
+          "b": 24,
           "g": "2.80"
         },
         "int": {
-          "b": 24,
+          "b": 22,
           "g": "2.70"
         },
         "agi": {
@@ -964,8 +964,8 @@
         },
         "ms": "295\t",
         "dmg": {
-          "min": 22,
-          "max": 32
+          "min": 24,
+          "max": 34
         },
         "armor": 2.4
       },
@@ -989,12 +989,12 @@
           "b": 18,
           "g": "1.60"
         },
-        "ms": 310,
+        "ms": 305,
         "dmg": {
           "min": 41,
           "max": 45
         },
-        "armor": 4.52
+        "armor": 1.52
       },
       "dac": "Melee",
       "droles": "Initiator - Disabler - Durable - Nuker"
@@ -1005,11 +1005,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
-          "g": "2.00"
+          "b": 18,
+          "g": "2.30"
         },
         "int": {
-          "b": 24,
+          "b": 22,
           "g": "2.50"
         },
         "agi": {
@@ -1018,8 +1018,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 21,
-          "max": 29
+          "min": 23,
+          "max": 31
         },
         "armor": 1.52
       },
@@ -1032,7 +1032,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 19,
           "g": "1.90"
         },
         "int": {
@@ -1043,7 +1043,7 @@
           "b": 22,
           "g": "2.80"
         },
-        "ms": 270,
+        "ms": 275,
         "dmg": {
           "min": 16,
           "max": 18
@@ -1059,7 +1059,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 23,
+          "b": 24,
           "g": "2.10"
         },
         "int": {
@@ -1097,12 +1097,12 @@
           "b": 18,
           "g": "1.70"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 39,
           "max": 41
         },
-        "armor": 2.52
+        "armor": 1.52
       },
       "dac": "Melee",
       "droles": "Carry - Support - Durable - Disabler - Initiator"
@@ -1113,23 +1113,23 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 17,
-          "g": "2.60"
+          "b": 19,
+          "g": "2.90"
         },
         "int": {
-          "b": 23,
+          "b": 21,
           "g": "3.00"
         },
         "agi": {
           "b": 14,
           "g": "1.40"
         },
-        "ms": 310,
+        "ms": 305,
         "dmg": {
-          "min": 24,
-          "max": 36
+          "min": 26,
+          "max": 38
         },
-        "armor": 2.96
+        "armor": 1.96
       },
       "dac": "Ranged",
       "droles": "Carry - Pusher - Nuker - Disabler"
@@ -1140,7 +1140,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 20,
+          "b": 21,
           "g": "2.15"
         },
         "int": {
@@ -1167,11 +1167,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 17,
-          "g": "1.50"
+          "b": 19,
+          "g": "1.80"
         },
         "int": {
-          "b": 26,
+          "b": 24,
           "g": "4.50"
         },
         "agi": {
@@ -1183,7 +1183,7 @@
           "min": 19,
           "max": 27
         },
-        "armor": 1.24
+        "armor": 2.24
       },
       "dac": "Ranged",
       "droles": "Nuker - Pusher"
@@ -1194,7 +1194,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 19,
           "g": "2.40"
         },
         "int": {
@@ -1205,7 +1205,7 @@
           "b": 23,
           "g": "2.30"
         },
-        "ms": 300,
+        "ms": 310,
         "dmg": {
           "min": 30,
           "max": 36
@@ -1221,7 +1221,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 20,
+          "b": 21,
           "g": "2.40"
         },
         "int": {
@@ -1248,8 +1248,8 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 15,
-          "g": "2.50"
+          "b": 16,
+          "g": "2.20"
         },
         "int": {
           "b": 16,
@@ -1284,14 +1284,14 @@
         },
         "agi": {
           "b": 19,
-          "g": "2.20"
+          "g": "2.00"
         },
-        "ms": 290,
+        "ms": 280,
         "dmg": {
           "min": 31,
           "max": 37
         },
-        "armor": 3.66
+        "armor": 2.66
       },
       "dac": "Melee",
       "droles": "Carry - Pusher - Durable - Disabler - Initiator - Nuker"
@@ -1302,21 +1302,21 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
-          "g": "2.15"
+          "b": 18,
+          "g": "2.30"
         },
         "int": {
-          "b": 27,
+          "b": 25,
           "g": "3.40"
         },
         "agi": {
           "b": 21,
           "g": "1.70"
         },
-        "ms": 305,
+        "ms": 310,
         "dmg": {
-          "min": 14,
-          "max": 32
+          "min": 22,
+          "max": 28
         },
         "armor": 1.94
       },
@@ -1340,12 +1340,12 @@
           "b": 13,
           "g": "2.30"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
-          "min": 28,
-          "max": 30
+          "min": 24,
+          "max": 26
         },
-        "armor": 1.82
+        "armor": 0.82
       },
       "dac": "Melee",
       "droles": "Initiator - Disabler - Durable - Nuker"
@@ -1356,21 +1356,21 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
-          "g": "1.80"
+          "b": 18,
+          "g": "2.10"
         },
         "int": {
-          "b": 26,
+          "b": 22,
           "g": "3.00"
         },
         "agi": {
           "b": 23,
           "g": "1.70"
         },
-        "ms": 325,
+        "ms": 330,
         "dmg": {
-          "min": 15,
-          "max": 19
+          "min": 19,
+          "max": 23
         },
         "armor": 3.22
       },
@@ -1383,21 +1383,21 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 19,
-          "g": "2.10"
+          "b": 21,
+          "g": "2.40"
         },
         "int": {
-          "b": 25,
+          "b": 23,
           "g": "2.90"
         },
         "agi": {
           "b": 18,
-          "g": "1.90"
+          "g": "2.40"
         },
         "ms": 290,
         "dmg": {
-          "min": 30,
-          "max": 44
+          "min": 32,
+          "max": 46
         },
         "armor": 3.52
       },
@@ -1421,12 +1421,12 @@
           "b": 18,
           "g": "1.90"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
           "min": 27,
           "max": 37
         },
-        "armor": 1.52
+        "armor": 0.52
       },
       "dac": "Melee",
       "droles": "Carry - Durable - Jungler - Escape - Disabler"
@@ -1437,11 +1437,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 22,
-          "g": "2.60"
+          "b": 24,
+          "g": "2.90"
         },
         "int": {
-          "b": 23,
+          "b": 21,
           "g": "2.70"
         },
         "agi": {
@@ -1450,8 +1450,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 31,
-          "max": 37
+          "min": 33,
+          "max": 39
         },
         "armor": 6.68
       },
@@ -1464,12 +1464,12 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 15,
+          "b": 16,
           "g": "1.90"
         },
         "int": {
-          "b": 16,
-          "g": "1.55"
+          "b": 18,
+          "g": "1.70"
         },
         "agi": {
           "b": 22,
@@ -1480,7 +1480,7 @@
           "min": 15,
           "max": 21
         },
-        "armor": 2.08
+        "armor": 3.08
       },
       "dac": "Ranged",
       "droles": "Carry - Escape - Pusher"
@@ -1495,19 +1495,19 @@
           "g": "3.10"
         },
         "int": {
-          "b": 17,
+          "b": 15,
           "g": "1.80"
         },
         "agi": {
           "b": 15,
           "g": "1.75"
         },
-        "ms": 305,
+        "ms": 300,
         "dmg": {
           "min": 31,
           "max": 41
         },
-        "armor": 5.1
+        "armor": 3.1
       },
       "dac": "Melee",
       "droles": "Support - Durable - Nuker"
@@ -1518,11 +1518,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
+          "b": 19,
           "g": "1.30"
         },
         "int": {
-          "b": 21,
+          "b": 19,
           "g": "3.10"
         },
         "agi": {
@@ -1531,8 +1531,8 @@
         },
         "ms": 340,
         "dmg": {
-          "min": 31,
-          "max": 41
+          "min": 30,
+          "max": 40
         },
         "armor": 0.66
       },
@@ -1556,12 +1556,12 @@
           "b": 15,
           "g": "1.40"
         },
-        "ms": 300,
+        "ms": 290,
         "dmg": {
           "min": 21,
           "max": 30
         },
-        "armor": 1.1
+        "armor": 0.1
       },
       "dac": "Ranged",
       "droles": "Carry - Durable - Initiator"
@@ -1583,12 +1583,12 @@
           "b": 18,
           "g": "2.25"
         },
-        "ms": 295,
+        "ms": 285,
         "dmg": {
           "min": 38,
           "max": 42
         },
-        "armor": 5.52
+        "armor": 4.52
       },
       "dac": "Melee",
       "droles": "Carry - Initiator - Durable - Disabler - Nuker"
@@ -1599,7 +1599,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 17,
+          "b": 18,
           "g": "2.80"
         },
         "int": {
@@ -1626,7 +1626,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 17,
+          "b": 18,
           "g": "2.10"
         },
         "int": {
@@ -1653,7 +1653,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 15,
+          "b": 16,
           "g": "1.80"
         },
         "int": {
@@ -1662,9 +1662,9 @@
         },
         "agi": {
           "b": 14,
-          "g": "2.80"
+          "g": "3.10"
         },
-        "ms": 280,
+        "ms": 275,
         "dmg": {
           "min": 36,
           "max": 46
@@ -1680,11 +1680,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 25,
+          "b": 27,
           "g": "2.60"
         },
         "int": {
-          "b": 28,
+          "b": 26,
           "g": "2.80"
         },
         "agi": {
@@ -1693,8 +1693,8 @@
         },
         "ms": 290,
         "dmg": {
-          "min": 25,
-          "max": 33
+          "min": 27,
+          "max": 35
         },
         "armor": 2.4
       },
@@ -1707,11 +1707,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 23,
+          "b": 28,
           "g": "2.70"
         },
         "int": {
-          "b": 24,
+          "b": 22,
           "g": "2.50"
         },
         "agi": {
@@ -1720,8 +1720,8 @@
         },
         "ms": 290,
         "dmg": {
-          "min": 14,
-          "max": 18
+          "min": 16,
+          "max": 20
         },
         "armor": 2.1
       },
@@ -1734,21 +1734,21 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 23,
+          "b": 25,
           "g": "1.80"
         },
         "int": {
-          "b": 21,
+          "b": 19,
           "g": "2.80"
         },
         "agi": {
           "b": 15,
           "g": "2.10"
         },
-        "ms": 300,
+        "ms": 310,
         "dmg": {
-          "min": 22,
-          "max": 32
+          "min": 29,
+          "max": 39
         },
         "armor": 1.1
       },
@@ -1761,7 +1761,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 20,
+          "b": 21,
           "g": "2.30"
         },
         "int": {
@@ -1792,14 +1792,14 @@
           "g": "3.50"
         },
         "int": {
-          "b": 13,
+          "b": 15,
           "g": "2.10"
         },
         "agi": {
           "b": 11,
           "g": "0.90"
         },
-        "ms": 290,
+        "ms": 280,
         "dmg": {
           "min": 27,
           "max": 43
@@ -1815,11 +1815,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 20,
           "g": "1.70"
         },
         "int": {
-          "b": 25,
+          "b": 23,
           "g": "2.60"
         },
         "agi": {
@@ -1828,8 +1828,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 19,
-          "max": 29
+          "min": 21,
+          "max": 31
         },
         "armor": 1.8
       },
@@ -1842,8 +1842,8 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 23,
-          "g": "3.00"
+          "b": 24,
+          "g": "3.30"
         },
         "int": {
           "b": 16,
@@ -1858,7 +1858,7 @@
           "min": 24,
           "max": 28
         },
-        "armor": 5.52
+        "armor": 7.52
       },
       "dac": "Melee",
       "droles": "Carry - Jungler - Durable - Disabler"
@@ -1880,12 +1880,12 @@
           "b": 17,
           "g": "1.70"
         },
-        "ms": 285,
+        "ms": 280,
         "dmg": {
           "min": 31,
           "max": 41
         },
-        "armor": 5.38
+        "armor": 4.38
       },
       "dac": "Melee",
       "droles": "Carry - Initiator - Disabler - Durable - Escape"
@@ -1896,7 +1896,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 19,
           "g": "2.10"
         },
         "int": {
@@ -1934,12 +1934,12 @@
           "b": 16,
           "g": "1.20"
         },
-        "ms": 295,
+        "ms": 290,
         "dmg": {
           "min": 24,
           "max": 33
         },
-        "armor": 2.24
+        "armor": 1.24
       },
       "dac": "Melee",
       "droles": "Carry - Support - Durable - Disabler - Initiator - Nuker"
@@ -1950,11 +1950,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 16,
+          "b": 18,
           "g": "2.20"
         },
         "int": {
-          "b": 16,
+          "b": 14,
           "g": "4.00"
         },
         "agi": {
@@ -1963,8 +1963,8 @@
         },
         "ms": 280,
         "dmg": {
-          "min": 19,
-          "max": 25
+          "min": 21,
+          "max": 27
         },
         "armor": 0.96
       },
@@ -1977,11 +1977,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 17,
+          "b": 19,
           "g": "2.50"
         },
         "int": {
-          "b": 27,
+          "b": 25,
           "g": "2.50"
         },
         "agi": {
@@ -1990,8 +1990,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 16,
-          "max": 30
+          "min": 18,
+          "max": 32
         },
         "armor": 2.08
       },
@@ -2008,7 +2008,7 @@
           "g": "2.60"
         },
         "int": {
-          "b": 26,
+          "b": 24,
           "g": "2.70"
         },
         "agi": {
@@ -2017,8 +2017,8 @@
         },
         "ms": 315,
         "dmg": {
-          "min": 14,
-          "max": 29
+          "min": 16,
+          "max": 31
         },
         "armor": 3.86
       },
@@ -2036,18 +2036,18 @@
         },
         "int": {
           "b": 17,
-          "g": "1.55"
+          "g": "1.40"
         },
         "agi": {
           "b": 16,
           "g": "1.00"
         },
-        "ms": 305,
+        "ms": 300,
         "dmg": {
-          "min": 36,
-          "max": 41
+          "min": 30,
+          "max": 35
         },
-        "armor": 3.24
+        "armor": 0.24
       },
       "dac": "Melee",
       "droles": "Carry - Pusher - Jungler - Durable - Escape"
@@ -2069,12 +2069,12 @@
           "b": 22,
           "g": "1.95"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 29,
           "max": 36
         },
-        "armor": 2.08
+        "armor": 1.08
       },
       "dac": "Melee",
       "droles": "Carry - Initiator - Durable - Disabler - Nuker"
@@ -2085,11 +2085,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 21,
-          "g": "2.20"
+          "b": 23,
+          "g": "2.40"
         },
         "int": {
-          "b": 23,
+          "b": 21,
           "g": "2.70"
         },
         "agi": {
@@ -2098,8 +2098,8 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 27,
-          "max": 31
+          "min": 29,
+          "max": 33
         },
         "armor": 2.52
       },
@@ -2112,7 +2112,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 17,
+          "b": 18,
           "g": "2.40"
         },
         "int": {
@@ -2143,19 +2143,19 @@
           "g": "3.20"
         },
         "int": {
-          "b": 16,
+          "b": 18,
           "g": "1.20"
         },
         "agi": {
           "b": 14,
           "g": "2.10"
         },
-        "ms": 325,
+        "ms": 320,
         "dmg": {
           "min": 29,
           "max": 59
         },
-        "armor": 3.96
+        "armor": 2.96
       },
       "dac": "Melee",
       "droles": "Carry - Disabler - Durable - Pusher - Initiator"
@@ -2166,7 +2166,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 23,
+          "b": 24,
           "g": "1.60"
         },
         "int": {
@@ -2182,7 +2182,7 @@
           "min": 20,
           "max": 26
         },
-        "armor": 2.22
+        "armor": 6.22
       },
       "dac": "Melee",
       "droles": "Carry - Escape - Nuker - Disabler - Initiator - Pusher"
@@ -2197,19 +2197,19 @@
           "g": "3.60"
         },
         "int": {
-          "b": 17,
+          "b": 20,
           "g": "1.80"
         },
         "agi": {
           "b": 15,
           "g": "2.00"
         },
-        "ms": 270,
+        "ms": 265,
         "dmg": {
           "min": 62,
           "max": 70
         },
-        "armor": 1.1
+        "armor": 0.1
       },
       "dac": "Melee",
       "droles": "Support - Initiator - Durable - Disabler - Escape"
@@ -2220,11 +2220,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 23,
+          "b": 25,
           "g": "3.50"
         },
         "int": {
-          "b": 17,
+          "b": 15,
           "g": "2.00"
         },
         "agi": {
@@ -2233,8 +2233,8 @@
         },
         "ms": 285,
         "dmg": {
-          "min": 41,
-          "max": 47
+          "min": 43,
+          "max": 49
         },
         "armor": 7.96
       },
@@ -2258,12 +2258,12 @@
           "b": 10,
           "g": "0.80"
         },
-        "ms": 310,
+        "ms": 305,
         "dmg": {
           "min": 35,
           "max": 43
         },
-        "armor": 4.4
+        "armor": 3.4
       },
       "dac": "Melee",
       "droles": "Support - Durable - Disabler - Nuker"
@@ -2274,11 +2274,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 19,
+          "b": 21,
           "g": "1.80"
         },
         "int": {
-          "b": 27,
+          "b": 25,
           "g": "2.40"
         },
         "agi": {
@@ -2287,8 +2287,8 @@
         },
         "ms": 290,
         "dmg": {
-          "min": 17,
-          "max": 27
+          "min": 19,
+          "max": 29
         },
         "armor": 0.96
       },
@@ -2301,11 +2301,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 19,
+          "b": 21,
           "g": "2.20"
         },
         "int": {
-          "b": 22,
+          "b": 20,
           "g": "2.50"
         },
         "agi": {
@@ -2314,8 +2314,8 @@
         },
         "ms": 300,
         "dmg": {
-          "min": 27,
-          "max": 31
+          "min": 29,
+          "max": 33
         },
         "armor": 1.1
       },
@@ -2328,7 +2328,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 19,
           "g": "2.30"
         },
         "int": {
@@ -2355,7 +2355,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 21,
+          "b": 22,
           "g": "2.80"
         },
         "int": {
@@ -2364,7 +2364,7 @@
         },
         "agi": {
           "b": 21,
-          "g": "2.75"
+          "g": "3.20"
         },
         "ms": 315,
         "dmg": {
@@ -2382,11 +2382,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 14,
+          "b": 16,
           "g": "2.10"
         },
         "int": {
-          "b": 25,
+          "b": 23,
           "g": "2.80"
         },
         "agi": {
@@ -2395,8 +2395,8 @@
         },
         "ms": 335,
         "dmg": {
-          "min": 18,
-          "max": 25
+          "min": 20,
+          "max": 27
         },
         "armor": 1.1
       },
@@ -2420,10 +2420,10 @@
           "b": 14,
           "g": "1.60"
         },
-        "ms": 295,
+        "ms": 280,
         "dmg": {
-          "min": 26,
-          "max": 35
+          "min": 22,
+          "max": 31
         },
         "armor": -0.04
       },
@@ -2436,11 +2436,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 22,
-          "g": "2.70"
+          "b": 24,
+          "g": "3.00"
         },
         "int": {
-          "b": 24,
+          "b": 22,
           "g": "2.50"
         },
         "agi": {
@@ -2449,8 +2449,8 @@
         },
         "ms": 285,
         "dmg": {
-          "min": 21,
-          "max": 31
+          "min": 23,
+          "max": 33
         },
         "armor": -0.46
       },
@@ -2463,7 +2463,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 20,
+          "b": 21,
           "g": "1.90"
         },
         "int": {
@@ -2490,8 +2490,8 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 14,
-          "g": "1.95"
+          "b": 15,
+          "g": "1.30"
         },
         "int": {
           "b": 19,
@@ -2501,7 +2501,7 @@
           "b": 20,
           "g": "2.50"
         },
-        "ms": 285,
+        "ms": 275,
         "dmg": {
           "min": 24,
           "max": 30
@@ -2517,7 +2517,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 20,
+          "b": 21,
           "g": "2.50"
         },
         "int": {
@@ -2544,7 +2544,7 @@
       "pa": "str",
       "attribs": {
         "str": {
-          "b": 23,
+          "b": 27,
           "g": "4.30"
         },
         "int": {
@@ -2553,14 +2553,14 @@
         },
         "agi": {
           "b": 15,
-          "g": "1.60"
+          "g": "1.00"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
-          "min": 32,
-          "max": 34
+          "min": 36,
+          "max": 38
         },
-        "armor": 2.1
+        "armor": 1.1
       },
       "dac": "Melee",
       "droles": "Durable - Initiator - Disabler - Nuker - Escape"
@@ -2571,7 +2571,7 @@
       "pa": "str",
       "attribs": {
         "str": {
-          "b": 21,
+          "b": 23,
           "g": "3.20"
         },
         "int": {
@@ -2582,12 +2582,12 @@
           "b": 15,
           "g": "2.50"
         },
-        "ms": 310,
+        "ms": 305,
         "dmg": {
           "min": 32,
           "max": 44
         },
-        "armor": 4.1
+        "armor": 3.1
       },
       "dac": "Melee",
       "droles": "Initiator - Disabler - Nuker - Escape"
@@ -2609,7 +2609,7 @@
           "b": 16,
           "g": "1.30"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 26,
           "max": 30
@@ -2636,12 +2636,12 @@
           "b": 17,
           "g": "1.80"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 22,
           "max": 32
         },
-        "armor": 3.38
+        "armor": 2.38
       },
       "dac": "Melee",
       "droles": "Carry - Durable - Initiator - Nuker"
@@ -2653,7 +2653,7 @@
       "attribs": {
         "str": {
           "b": 23,
-          "g": "2.60"
+          "g": "3.00"
         },
         "int": {
           "b": 18,
@@ -2663,12 +2663,12 @@
           "b": 23,
           "g": "2.10"
         },
-        "ms": 300,
+        "ms": 295,
         "dmg": {
           "min": 27,
           "max": 31
         },
-        "armor": 3.22
+        "armor": 2.22
       },
       "dac": "Melee",
       "droles": "Initiator - Disabler - Nuker"
@@ -2679,11 +2679,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 19,
+          "b": 21,
           "g": "1.80"
         },
         "int": {
-          "b": 27,
+          "b": 25,
           "g": "3.60"
         },
         "agi": {
@@ -2692,8 +2692,8 @@
         },
         "ms": 330,
         "dmg": {
-          "min": 12,
-          "max": 22
+          "min": 14,
+          "max": 24
         },
         "armor": -0.18
       },
@@ -2722,7 +2722,7 @@
           "min": 32,
           "max": 42
         },
-        "armor": 1.38
+        "armor": 0.38
       },
       "dac": "Melee",
       "droles": "Support - Carry - Durable"
@@ -2744,12 +2744,12 @@
           "b": 14,
           "g": "1.80"
         },
-        "ms": 315,
+        "ms": 310,
         "dmg": {
           "min": 23,
           "max": 33
         },
-        "armor": 2.96
+        "armor": 1.96
       },
       "dac": "Melee",
       "droles": "Initiator - Disabler - Nuker - Durable"
@@ -2771,12 +2771,12 @@
           "b": 18,
           "g": "1.70"
         },
-        "ms": 320,
+        "ms": 315,
         "dmg": {
           "min": 35,
           "max": 39
         },
-        "armor": 2.52
+        "armor": 1.52
       },
       "dac": "Melee",
       "droles": "Carry - Disabler - Initiator - Durable - Nuker"
@@ -2787,8 +2787,8 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 19,
-          "g": "2.10"
+          "b": 20,
+          "g": "2.40"
         },
         "int": {
           "b": 20,
@@ -2803,7 +2803,7 @@
           "min": 30,
           "max": 34
         },
-        "armor": 1.08
+        "armor": 2.08
       },
       "dac": "Melee",
       "droles": "Carry - Escape - Nuker - Disabler - Initiator"
@@ -2815,7 +2815,7 @@
       "attribs": {
         "str": {
           "b": 21,
-          "g": "3.20"
+          "g": "3.50"
         },
         "int": {
           "b": 18,
@@ -2825,12 +2825,12 @@
           "b": 17,
           "g": "1.50"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 25,
           "max": 35
         },
-        "armor": 3.38
+        "armor": 2.38
       },
       "dac": "Melee",
       "droles": "Nuker - Escape - Disabler - Initiator - Durable"
@@ -2841,16 +2841,16 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 15,
+          "b": 16,
           "g": "1.70"
         },
         "int": {
           "b": 19,
-          "g": "1.75"
+          "g": "1.60"
         },
         "agi": {
           "b": 22,
-          "g": "3.20"
+          "g": "4.20"
         },
         "ms": 310,
         "dmg": {
@@ -2879,7 +2879,7 @@
           "b": 12,
           "g": "1.30"
         },
-        "ms": 285,
+        "ms": 280,
         "dmg": {
           "min": 26,
           "max": 36
@@ -2895,12 +2895,12 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 20,
           "g": "2.20"
         },
         "int": {
-          "b": 23,
-          "g": "2.90"
+          "b": 21,
+          "g": "3.50"
         },
         "agi": {
           "b": 15,
@@ -2908,8 +2908,8 @@
         },
         "ms": 305,
         "dmg": {
-          "min": 16,
-          "max": 22
+          "min": 18,
+          "max": 24
         },
         "armor": 2.1
       },
@@ -2922,11 +2922,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 17,
+          "b": 19,
           "g": "2.30"
         },
         "int": {
-          "b": 22,
+          "b": 20,
           "g": "2.90"
         },
         "agi": {
@@ -2935,8 +2935,8 @@
         },
         "ms": 270,
         "dmg": {
-          "min": 7,
-          "max": 9
+          "min": 9,
+          "max": 11
         },
         "armor": 6.96
       },
@@ -2949,11 +2949,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 24,
+          "b": 26,
           "g": "2.40"
         },
         "int": {
-          "b": 25,
+          "b": 26,
           "g": "3.10"
         },
         "agi": {
@@ -2962,8 +2962,8 @@
         },
         "ms": 285,
         "dmg": {
-          "min": 13,
-          "max": 20
+          "min": 12,
+          "max": 19
         },
         "armor": 1.24
       },
@@ -2976,7 +2976,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 24,
+          "b": 25,
           "g": "3.00"
         },
         "int": {
@@ -2989,8 +2989,8 @@
         },
         "ms": 280,
         "dmg": {
-          "min": 29,
-          "max": 39
+          "min": 31,
+          "max": 41
         },
         "armor": 0.1
       },
@@ -3014,12 +3014,12 @@
           "b": 12,
           "g": "1.30"
         },
-        "ms": 290,
+        "ms": 285,
         "dmg": {
           "min": 37,
           "max": 43
         },
-        "armor": 3.68
+        "armor": 2.68
       },
       "dac": "Melee",
       "droles": "Support - Nuker - Disabler - Durable - Escape"
@@ -3030,7 +3030,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 19,
           "g": "2.80"
         },
         "int": {
@@ -3043,8 +3043,8 @@
         },
         "ms": 300,
         "dmg": {
-          "min": 27,
-          "max": 33
+          "min": 29,
+          "max": 35
         },
         "armor": 0.08
       },
@@ -3057,7 +3057,7 @@
       "pa": "agi",
       "attribs": {
         "str": {
-          "b": 16,
+          "b": 17,
           "g": "2.50"
         },
         "int": {
@@ -3084,11 +3084,11 @@
       "pa": "int",
       "attribs": {
         "str": {
-          "b": 18,
+          "b": 20,
           "g": "1.80"
         },
         "int": {
-          "b": 20,
+          "b": 18,
           "g": "3.00"
         },
         "agi": {
@@ -3097,10 +3097,37 @@
         },
         "ms": 295,
         "dmg": {
-          "min": 25,
-          "max": 33
+          "min": 27,
+          "max": 35
         },
         "armor": 1.52
+      },
+      "dac": "Ranged",
+      "droles": "Support - Nuker - Disabler - Escape"
+    },
+    "grimstroke": {
+      "dname": "Grimstroke",
+      "u": "grimstroke",
+      "pa": "int",
+      "attribs": {
+        "str": {
+          "b": 21,
+          "g": "2.20"
+        },
+        "int": {
+          "b": 23,
+          "g": "3.30"
+        },
+        "agi": {
+          "b": 18,
+          "g": "1.90"
+        },
+        "ms": 295,
+        "dmg": {
+          "min": 27,
+          "max": 31
+        },
+        "armor": 2.52
       },
       "dac": "Ranged",
       "droles": "Support - Nuker - Disabler - Escape"
