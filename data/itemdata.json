@@ -83,7 +83,7 @@
       "cost": 900,
       "desc": "",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">3.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "The helmet of a legendary warrior who fell in battle.",
@@ -188,7 +188,7 @@
       "cost": 225,
       "desc": "<h1>Passive: Magical Damage Block<\/h1> Consumes a charge to block 120 magic damage from damage instances over 50 damage. <br><br>Comes with 5 charges. When the charges are gone, the item disappears.",
       "notes": "Uses at most one charge per damage instance.",
-      "attrib": "+ <span class=\"attribVal\">0.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">0.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": 7,
       "lore": "Elemental protection from magical assaults.",
@@ -231,7 +231,7 @@
       "dname": "Stout Shield",
       "qual": "component",
       "cost": 200,
-      "desc": "<h1>Passive: Damage Block<\/h1>Grants a 50% chance to block 18 damage from incoming attacks on melee heroes, and 9 damage on ranged.",
+      "desc": "<h1>Passive: Damage Block<\/h1>Grants a 50% chance to block 20 damage from incoming attacks on melee heroes, and 9 damage on ranged.",
       "notes": "Multiple sources of damage block do not stack.",
       "attrib": "",
       "mc": false,
@@ -252,10 +252,7 @@
       "mc": false,
       "cd": false,
       "lore": "Said to be a tear from the lunar goddess Selemene.",
-      "components": [
-        "hyperstone",
-        "hyperstone"
-      ],
+      "components": ["hyperstone", "hyperstone"],
       "created": true
     },
     "gauntlets": {
@@ -378,6 +375,21 @@
       "components": null,
       "created": false
     },
+    "crown": {
+      "id": 261,
+      "img": "crown_lg.png?3",
+      "dname": "Crown",
+      "qual": "component",
+      "cost": 450,
+      "desc": "",
+      "notes": "",
+      "attrib": "+ <span class=\"attribVal\">4<\/span> <span class=\"attribValText\">All Attributes<\/span>",
+      "mc": false,
+      "cd": false,
+      "lore": "",
+      "components": null,
+      "created": false
+    },
     "ogre_axe": {
       "id": 21,
       "img": "ogre_axe_lg.png?3",
@@ -458,10 +470,10 @@
       "img": "lifesteal_lg.png?3",
       "dname": "Morbid Mask",
       "qual": "component",
-      "cost": 1100,
+      "cost": 900,
       "desc": "<h1>Passive: Lifesteal<\/h1>Heals the attacker for 15% of attack damage dealt.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Damage<\/span>",
+      "attrib": "",
       "mc": false,
       "cd": false,
       "lore": "A mask that drains the energy of those caught in its gaze.",
@@ -476,10 +488,25 @@
       "cost": 300,
       "desc": "",
       "notes": "Ring of Regen is shareable.",
-      "attrib": "+ <span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "This ring is considered a good luck charm among the Gnomes.",
+      "components": null,
+      "created": false
+    },
+    "ring_of_tarrasque": {
+      "id": 279,
+      "img": "ring_of_tarrasque_lg.png?3",
+      "dname": "Ring of Tarrasque",
+      "qual": "component",
+      "cost": 700,
+      "desc": "",
+      "notes": "",
+      "attrib": "+ <span class=\"attribVal\">150<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">3.75<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "mc": false,
+      "cd": false,
+      "lore": "",
       "components": null,
       "created": false
     },
@@ -491,7 +518,7 @@
       "cost": 325,
       "desc": "",
       "notes": "Sage's Mask is shareable.",
-      "attrib": "+ <span class=\"attribVal\">0.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">0.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A mask commonly used by mages and warlocks for various rituals.",
@@ -504,9 +531,9 @@
       "dname": "Boots of Speed",
       "qual": "component",
       "cost": 500,
-      "desc": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+      "desc": "Movement speed bonuses from multiple pairs of boots do not stack.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">50<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">15%<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Fleet footwear, increasing movement.",
@@ -600,11 +627,7 @@
       "mc": false,
       "cd": 13,
       "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
-      "components": [
-        "magic_stick",
-        "branches",
-        "branches"
-      ],
+      "components": ["magic_stick", "branches", "branches"],
       "created": true
     },
     "ghost": {
@@ -628,7 +651,7 @@
       "dname": "Clarity",
       "qual": "consumable",
       "cost": 50,
-      "desc": "<h1>Use: Replenish<\/h1> Grants 3 mana regeneration to the target for 50 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: 250",
+      "desc": "<h1>Use: Replenish<\/h1> Grants 4.5 mana regeneration to the target for 50 seconds.<br><br>If the unit is attacked by an enemy hero or Roshan, the effect is lost.<br><br>Range: 250",
       "notes": "",
       "attrib": "",
       "mc": false,
@@ -645,7 +668,7 @@
       "cost": 70,
       "desc": "<h1>Use: Eat Mango<\/h1> Instantly restores 125 mana.<br><br>Range: 400",
       "notes": "Hold Control to use on a nearby allied hero.",
-      "attrib": "+ <span class=\"attribVal\">0.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">0.6<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
@@ -688,7 +711,7 @@
       "dname": "Bottle",
       "qual": "common",
       "cost": 650,
-      "desc": "<h1>Active: Regenerate<\/h1>Consumes a charge to restore 100 health and 50 mana over 2.5 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.<br><br>Range: 350<br \/>\r\n<h1>Passive:  Store Rune<\/h1>Runes can be stored in the bottle for later use by right-clicking them. Unused runes will automatically activate after 2 minutes.<br><br>Using a stored rune fully refills the Bottle. Stored Bounty Runes replenish 2\/3 charges.",
+      "desc": "<h1>Active: Regenerate<\/h1>Consumes a charge to restore 125 health and 75 mana over 2.5 seconds. If the hero is attacked by an enemy hero or Roshan, the effect is lost.<br><br>The Bottle automatically refills at the fountain.<br><br>Hold Control to use on an allied hero.<br><br>Range: 350<br \/>\r\n<h1>Passive:  Store Rune<\/h1>Runes can be stored in the bottle for later use by right-clicking them. Unused runes will automatically activate after 2 minutes.<br><br>Using a stored rune fully refills the Bottle.",
       "notes": "Bottle is shareable. Stored runes cannot be shared.<br \/>If Bottle does not have full charges and is placed on a courier, the courier's movespeed will be slowed by 30%.",
       "attrib": "",
       "mc": false,
@@ -718,7 +741,7 @@
       "dname": "Sentry Ward",
       "qual": "consumable",
       "cost": 100,
-      "desc": "<h1>Use: Plant<\/h1> Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a 850 radius.<br>Lasts 6 minutes.<br><br>Does not grant ground vision.<br>Hold Control to give one Sentry Ward to an allied hero.<br><br>Range: 500",
+      "desc": "<h1>Use: Plant<\/h1> Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within a 1000 radius.<br>Lasts 6 minutes.<br><br>Does not grant ground vision.<br>Hold Control to give one Sentry Ward to an allied hero.<br><br>Range: 500",
       "notes": "",
       "attrib": "",
       "mc": false,
@@ -735,14 +758,11 @@
       "cost": 175,
       "desc": "<h1>Use: Plant<\/h1> Plant the currently active ward.  Double-Click to switch the currently active ward.<br><br>Range: 500",
       "notes": "Hold Control to give one ward to an allied hero.",
-      "attrib": "OBSERVER VISION RANGE: <span class=\"attribVal\">1600<\/span><br \/>\nOBSERVER DURATION (MINUTES): <span class=\"attribVal\">6<\/span><br \/>\nSENTRY TRUE SIGHT RANGE: <span class=\"attribVal\">850<\/span><br \/>\nSENTRY DURATION (MINUTES): <span class=\"attribVal\">6<\/span>",
+      "attrib": "OBSERVER VISION RANGE: <span class=\"attribVal\">1600<\/span><br \/>\nOBSERVER DURATION (MINUTES): <span class=\"attribVal\">6<\/span><br \/>\nSENTRY TRUE SIGHT RANGE: <span class=\"attribVal\">1000<\/span><br \/>\nSENTRY DURATION (MINUTES): <span class=\"attribVal\">6<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Advancements in stacking efficiency have made wards easier to carry than ever.",
-      "components": [
-        "ward_sentry",
-        "ward_observer"
-      ],
+      "components": ["ward_sentry", "ward_observer"],
       "created": true
     },
     "tango": {
@@ -797,7 +817,7 @@
       "qual": "consumable",
       "cost": 50,
       "desc": "<h1>Use: Teleport<\/h1>After channeling for 3 seconds, teleports you to a target friendly building. <br><br>Double-click to teleport to your team's base fountain.",
-      "notes": "If multiple heroes teleport to the same location in succession, the channeling time will be increased for each successive hero.",
+      "notes": "If multiple heroes teleport to the same location in succession, the channeling time will be increased for each successive hero.<br \/>Teleport can be prevented or canceled by Root abilities.",
       "attrib": "",
       "mc": 75,
       "cd": 80,
@@ -811,15 +831,13 @@
       "dname": "Boots of Travel",
       "qual": "common",
       "cost": 2500,
-      "desc": "<h1>Active: Teleport<\/h1>Teleports you to an allied non-hero unit or structure. Teleporting to a unit is interrupted if the target unit dies.<br><br>Shares a cooldown with Town Portal Scroll.<br \/>\r\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+      "desc": "<h1>Active: Teleport<\/h1>Teleports you to an allied non-hero unit or structure. Teleporting to a unit is interrupted if the target unit dies.<br><br>Adds 10 seconds to the cooldown of Town Portal Scroll.<br \/>\r\nMovement speed bonuses from multiple pairs of boots do not stack.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">100<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">32%<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
       "mc": 75,
       "cd": 45,
       "lore": "Winged boots that grant omnipresence.",
-      "components": [
-        "boots"
-      ],
+      "components": ["boots"],
       "created": true
     },
     "travel_boots_2": {
@@ -828,16 +846,13 @@
       "dname": "Boots of Travel",
       "qual": "common",
       "cost": 4500,
-      "desc": "<h1>Active: Teleport<\/h1> Teleports you to any allied structure or unit, including heroes. Teleporting to a unit is interrupted if the target unit dies.<br><br>Shares a cooldown with Town Portal Scroll.<br \/>\r\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+      "desc": "<h1>Active: Teleport<\/h1> Teleports you to any allied structure or unit, including heroes. Teleporting to a unit is interrupted if the target unit dies.<br><br>Adds 10 seconds to the cooldown of Town Portal Scroll.<br \/>\r\nMovement speed bonuses from multiple pairs of boots do not stack.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">100<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">35%<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
       "mc": 75,
       "cd": 45,
       "lore": "Winged boots that grant omnipresence.",
-      "components": [
-        "travel_boots",
-        "recipe_travel_boots"
-      ],
+      "components": ["travel_boots", "recipe_travel_boots"],
       "created": true
     },
     "phase_boots": {
@@ -845,18 +860,14 @@
       "img": "phase_boots_lg.png?3",
       "dname": "Phase Boots",
       "qual": "common",
-      "cost": 1360,
-      "desc": "<h1>Active: Phase<\/h1> Gives 20% increased movement speed on melee heroes, and 16% on ranged heroes, and lets you move through units and turn more quickly for 3 seconds.<br \/>\r\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+      "cost": 1480,
+      "desc": "<h1>Active: Phase<\/h1> Gives 22% increased movement speed on melee heroes, and 10% on ranged heroes, and lets you move through units and turn more quickly for 3 seconds.<br \/>\r\nMovement speed bonuses from multiple pairs of boots do not stack.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">50<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">24<\/span> <span class=\"attribValText\">Damage<\/span>",
+      "attrib": "+ <span class=\"attribVal\">15%<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+Damage (MELEE) <span class=\"attribVal\">18<\/span><br \/>\n+Damage (RANGED) <span class=\"attribVal\">12<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": false,
       "cd": 8,
       "lore": "Boots that allow the wearer to travel between the ether.",
-      "components": [
-        "boots",
-        "blades_of_attack",
-        "blades_of_attack"
-      ],
+      "components": ["boots", "chainmail", "blades_of_attack"],
       "created": true
     },
     "demon_edge": {
@@ -942,7 +953,7 @@
       "cost": 850,
       "desc": "",
       "notes": "Ring of Health is shareable.",
-      "attrib": "+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A shiny ring found beneath a fat halfling's corpse.",
@@ -957,7 +968,7 @@
       "cost": 850,
       "desc": "",
       "notes": "Void Stone is shareable.",
-      "attrib": "+ <span class=\"attribVal\">1<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">1.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
@@ -1030,17 +1041,13 @@
       "dname": "Power Treads",
       "qual": "common",
       "cost": 1450,
-      "desc": "<h1>Active: Switch Attribute<\/h1>Switches between +10 Strength, +10 Agility, or +10 Intelligence.<br \/>\r\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
-      "notes": "Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.<br \/>The attack speed bonus from multiple Power Treads does not stack.",
-      "attrib": "+ <span class=\"attribVal\">50<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Selected Attribute<\/span><br \/>\n+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
+      "desc": "<h1>Active: Switch Attribute<\/h1>Switches between +10 Strength, +10 Agility, or +10 Intelligence.<br \/>\r\nMovement speed bonuses from multiple pairs of boots do not stack.",
+      "notes": "Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.",
+      "attrib": "+ <span class=\"attribVal\">15%<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Selected Attribute<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
-      "components": [
-        "boots",
-        "gloves",
-        "belt_of_strength"
-      ],
+      "components": ["boots", "gloves", "belt_of_strength"],
       "created": true
     },
     "hand_of_midas": {
@@ -1049,15 +1056,13 @@
       "dname": "Hand of Midas",
       "qual": "common",
       "cost": 2150,
-      "desc": "<h1>Active: Transmute<\/h1> Kills a non-hero target for 200 gold and 1.85x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: 600",
+      "desc": "<h1>Active: Transmute<\/h1> Kills a non-hero target for 160 gold and 1.85x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: 600",
       "notes": "The gold given is reliable gold (you do not get the normal creep bounty).<br \/>Experience gained by using Transmute is not shared.",
-      "attrib": "+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">40<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
       "mc": false,
       "cd": 90,
       "lore": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets.",
-      "components": [
-        "gloves"
-      ],
+      "components": ["gloves"],
       "created": true
     },
     "oblivion_staff": {
@@ -1068,15 +1073,11 @@
       "cost": 1650,
       "desc": "",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">0.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">1.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Deceptively hidden as an ordinary quarterstaff, it is actually very powerful, much like the Eldritch who originally possessed it.",
-      "components": [
-        "quarterstaff",
-        "sobi_mask",
-        "robe"
-      ],
+      "components": ["quarterstaff", "sobi_mask", "robe"],
       "created": true
     },
     "pers": {
@@ -1087,14 +1088,11 @@
       "cost": 1700,
       "desc": "",
       "notes": "Perseverance is shareable.",
-      "attrib": "+ <span class=\"attribVal\">5.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A gem that grants heart to the bearer.",
-      "components": [
-        "ring_of_health",
-        "void_stone"
-      ],
+      "components": ["ring_of_health", "void_stone"],
       "created": true
     },
     "poor_mans_shield": {
@@ -1117,17 +1115,14 @@
       "img": "bracer_lg.png?3",
       "dname": "Bracer",
       "qual": "common",
-      "cost": 465,
+      "cost": 515,
       "desc": "",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Intelligence<\/span>",
+      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">6%<\/span> <span class=\"attribValText\">Magic Resistance<\/span>",
       "mc": false,
       "cd": false,
       "lore": "The bracer is a common choice to toughen up defenses and increase longevity.",
-      "components": [
-        "circlet",
-        "gauntlets"
-      ],
+      "components": ["circlet", "gauntlets"],
       "created": true
     },
     "wraith_band": {
@@ -1135,17 +1130,14 @@
       "img": "wraith_band_lg.png?3",
       "dname": "Wraith Band",
       "qual": "common",
-      "cost": 465,
+      "cost": 515,
       "desc": "",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Intelligence<\/span>",
+      "attrib": "+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A circlet with faint whispers echoing about it.",
-      "components": [
-        "circlet",
-        "slippers"
-      ],
+      "components": ["circlet", "slippers"],
       "created": true
     },
     "null_talisman": {
@@ -1153,17 +1145,14 @@
       "img": "null_talisman_lg.png?3",
       "dname": "Null Talisman",
       "qual": "common",
-      "cost": 465,
+      "cost": 515,
       "desc": "",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Intelligence<\/span>",
+      "attrib": "+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+Spell Amplification <span class=\"attribVal\">3%<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A small gemstone attached to several chains.",
-      "components": [
-        "circlet",
-        "mantle"
-      ],
+      "components": ["circlet", "mantle"],
       "created": true
     },
     "mekansm": {
@@ -1171,17 +1160,14 @@
       "img": "mekansm_lg.png?3",
       "dname": "Mekansm",
       "qual": "rare",
-      "cost": 2350,
-      "desc": "<h1>Active: Restore<\/h1>Heals 250 health and gives +2 armor to allied units in a 900 radius.<br \/>\r\n<h1>Passive: Mekansm Aura<\/h1>Grants 3.5 health regeneration to allied units in a 900 radius.",
+      "cost": 2275,
+      "desc": "<h1>Active: Restore<\/h1>Heals 275 health and gives +2 armor to allied units in a 1200 radius.<br \/>\r\n<h1>Passive: Mekansm Aura<\/h1>Grants 4.5 health regeneration to allied units in a 1200 radius.",
       "notes": "Restore does not affect units that have been affected by Restore in the last 25 seconds.<br \/>Multiple instances of Mekansm Aura do not stack.",
       "attrib": "+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": 225,
       "cd": 65,
       "lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly.",
-      "components": [
-        "headdress",
-        "buckler"
-      ],
+      "components": ["headdress", "buckler"],
       "created": true
     },
     "vladmir": {
@@ -1189,18 +1175,14 @@
       "img": "vladmir_lg.png?3",
       "dname": "Vladmir's Offering",
       "qual": "rare",
-      "cost": 2250,
-      "desc": "<h1>Passive: Vladmir's Aura<\/h1>Grants lifesteal (15% for melee heroes, 10% for ranged), 2.5 health regeneration, 1 mana regeneration, 15% bonus attack damage, and 4 armor to nearby allies. <br><br>Radius: 900",
+      "cost": 1925,
+      "desc": "<h1>Passive: Vladmir's Aura<\/h1>Grants lifesteal (15% for melee heroes, 10% for ranged), 1.75 mana regeneration, 15% bonus attack damage, and 4 armor to nearby allies. <br><br>Radius: 1200",
       "notes": "Multiple instances of Vladmir's Aura do not stack.",
-      "attrib": "+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span>",
+      "attrib": "",
       "mc": false,
       "cd": false,
       "lore": "An eerie mask that is haunted with the malice of a fallen vampire.",
-      "components": [
-        "headdress",
-        "ring_of_basilius",
-        "lifesteal"
-      ],
+      "components": ["ring_of_basilius", "lifesteal"],
       "created": true
     },
     "buckler": {
@@ -1209,16 +1191,13 @@
       "dname": "Buckler",
       "qual": "rare",
       "cost": 800,
-      "desc": "<h1>Active: Armor Bonus<\/h1> Gives +2 armor to all allied units.  Lasts 25 seconds on heroes, 30 seconds on units.<br><br>Radius: 900",
+      "desc": "<h1>Active: Armor Bonus<\/h1> Gives +2 armor to all allied units.  Lasts 15 seconds on heroes, 30 seconds on units.<br><br>Radius: 1200",
       "notes": "",
       "attrib": "+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": 10,
       "cd": 25,
       "lore": "A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle.",
-      "components": [
-        "chainmail",
-        "branches"
-      ],
+      "components": ["chainmail", "branches"],
       "created": true
     },
     "ring_of_basilius": {
@@ -1227,16 +1206,28 @@
       "dname": "Ring of Basilius",
       "qual": "rare",
       "cost": 500,
-      "desc": "<h1>Passive: Basilius Aura<\/h1>Grants 0.5 mana regeneration and 2 armor in a 900 radius.<br \/>\r\n<h1>Toggle: Aura<\/h1>Deactivate aura to stop affecting non-hero units.",
-      "notes": "Does not stack with armor auras from Ring of Basilius or Ring of Aquila.<br \/>Multiple instances of Basilius Aura do not stack.",
+      "desc": "<h1>Passive: Basilius Aura<\/h1>Grants 0.75 mana regeneration and 2 armor in a 1200 radius.<br \/>\r\n<h1>Toggle: Aura<\/h1>Deactivate aura to stop affecting non-hero units.",
+      "notes": "Multiple instances of Basilius Aura do not stack.",
       "attrib": "+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Damage<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Ring given as a reward to the greatest mages.",
-      "components": [
-        "sobi_mask",
-        "ring_of_protection"
-      ],
+      "components": ["sobi_mask", "ring_of_protection"],
+      "created": true
+    },
+    "holy_locket": {
+      "id": 269,
+      "img": "holy_locket_lg.png?3",
+      "dname": "Holy Locket",
+      "qual": "rare",
+      "cost": 2700,
+      "desc": "<h1>Passive: Holy Blessing<\/h1>Amplifies heals and regeneration you provide by 25%.",
+      "notes": "",
+      "attrib": "+ <span class=\"attribVal\">200<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">325<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+ <span class=\"attribVal\">4<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">15%<\/span> <span class=\"attribValText\">Magic Resistance<\/span>",
+      "mc": false,
+      "cd": false,
+      "lore": "",
+      "components": ["ring_of_tarrasque", "energy_booster", "cloak"],
       "created": true
     },
     "pipe": {
@@ -1244,17 +1235,14 @@
       "img": "pipe_lg.png?3",
       "dname": "Pipe of Insight",
       "qual": "rare",
-      "cost": 3150,
-      "desc": "<h1>Active: Barrier<\/h1>Gives a shield that blocks 400 magic damage to all nearby allies. Lasts 12 seconds.<br><br>Radius: 900<br \/>\r\n<h1>Passive: Insight Aura<\/h1> Gives allied units 2 health regeneration and 10% magic resistance.<br><br>Radius: 900",
+      "cost": 3025,
+      "desc": "<h1>Active: Barrier<\/h1>Gives a shield that blocks 400 magic damage to all nearby allies. Lasts 12 seconds.<br><br>Radius: 1200<br \/>\r\n<h1>Passive: Insight Aura<\/h1> Gives allied units 3 health regeneration and 10% magic resistance.<br><br>Radius: 1200",
       "notes": "Multiple instances of Barrier do not stack.<br \/>Stacks multiplicatively with other sources of magic resistance.",
-      "attrib": "+ <span class=\"attribVal\">6.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">30%<\/span> <span class=\"attribValText\">Magic Resistance<\/span>",
+      "attrib": "+ <span class=\"attribVal\">8<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">30%<\/span> <span class=\"attribValText\">Magic Resistance<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": 100,
       "cd": 60,
       "lore": "A powerful artifact of mysterious origin, it creates barriers against magical forces.",
-      "components": [
-        "hood_of_defiance",
-        "headdress"
-      ],
+      "components": ["hood_of_defiance", "headdress"],
       "created": true
     },
     "urn_of_shadows": {
@@ -1263,17 +1251,13 @@
       "dname": "Urn of Shadows",
       "qual": "rare",
       "cost": 875,
-      "desc": "<h1>Active: Soul Release<\/h1> Provides 35 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.<br><br>Cast Range: 950",
+      "desc": "<h1>Active: Soul Release<\/h1> Provides 30 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.<br><br>Cast Range: 950",
       "notes": "Empty urns gain 2 charges.<br \/>If used on a hero with Soul Release already active on them, it will refresh its duration.",
-      "attrib": "+ <span class=\"attribVal\">1<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">Armor<\/span>",
+      "attrib": "+ <span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": false,
       "cd": 7,
       "lore": "Contains the ashes of powerful demons.",
-      "components": [
-        "infused_raindrop",
-        "circlet",
-        "ring_of_protection"
-      ],
+      "components": ["infused_raindrop", "circlet", "ring_of_protection"],
       "created": true
     },
     "headdress": {
@@ -1281,17 +1265,14 @@
       "img": "headdress_lg.png?3",
       "dname": "Headdress",
       "qual": "rare",
-      "cost": 650,
-      "desc": "<h1>Passive: Regeneration Aura<\/h1>Grants 2 health regeneration to allies.<br><br>Radius: 900",
+      "cost": 525,
+      "desc": "<h1>Passive: Regeneration Aura<\/h1>Grants 2 health regeneration to allies.<br><br>Radius: 1200",
       "notes": "Multiple instances of Regeneration Aura do not stack.",
       "attrib": "+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Creates a soothing aura that restores allies in battle.",
-      "components": [
-        "ring_of_regen",
-        "branches"
-      ],
+      "components": ["ring_of_regen", "branches"],
       "created": true
     },
     "sheepstick": {
@@ -1302,15 +1283,11 @@
       "cost": 5700,
       "desc": "<h1>Active: Hex<\/h1>Turns a target unit into a harmless critter for 3.5 seconds. The target has a base movement speed of 140 and will be silenced, muted, and disarmed.<br>Instantly destroys illusions.<br><br>Range: 800",
       "notes": "The target will have a base movement speed of 140, but buffs granting maximum movement speed won't be disabled.",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">35<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">2.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
-      "mc": 100,
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">35<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">9<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "mc": 250,
       "cd": 22,
       "lore": "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.",
-      "components": [
-        "mystic_staff",
-        "ultimate_orb",
-        "void_stone"
-      ],
+      "components": ["mystic_staff", "ultimate_orb", "void_stone"],
       "created": true
     },
     "orchid": {
@@ -1321,14 +1298,11 @@
       "cost": 4075,
       "desc": "<h1>Active: Soul Burn<\/h1>Silences the target unit for 5 seconds. At the end of the silence, 30% of the damage received while silenced is inflicted as bonus magical damage.<br><br>Range: 900",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">2.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">5.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": 100,
       "cd": 18,
       "lore": "A garnet rod constructed from the essence of a fire demon.",
-      "components": [
-        "oblivion_staff",
-        "oblivion_staff"
-      ],
+      "components": ["oblivion_staff", "oblivion_staff"],
       "created": true
     },
     "bloodthorn": {
@@ -1339,14 +1313,11 @@
       "cost": 7205,
       "desc": "<h1>Active: Soul Rend<\/h1> Silences a target for 5 seconds. At the end of the silence, an additional 30% of all damage taken during the silence will be dealt to the target as magical damage.<br><br>All attacks on the silenced target will have True Strike and 100% chance to crit for 140% damage.<br><br>Range: 900<br \/>\r\n<h1>Passive: Critical Strike<\/h1> Grants a 20% chance for attacks to inflict 175% damage.",
       "notes": "Critical Strike does not work against buildings.",
-      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">60<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">2.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">68<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">5.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": 100,
-      "cd": 18,
+      "cd": 15,
       "lore": "A reviled blade that bites deeper with each wriggle of its victim's final throes.",
-      "components": [
-        "orchid",
-        "lesser_crit"
-      ],
+      "components": ["orchid", "lesser_crit"],
       "created": true
     },
     "echo_sabre": {
@@ -1357,14 +1328,11 @@
       "cost": 2650,
       "desc": "<h1>Passive: Echo Strike<\/h1> Causes melee attacks to attack twice in quick succession. The double attacks apply a 100% movement slow for 0.8 seconds on each strike.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">0.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">1.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": 5,
       "lore": "A deceptively swift blade imbued with resonant magic.",
-      "components": [
-        "ogre_axe",
-        "oblivion_staff"
-      ],
+      "components": ["ogre_axe", "oblivion_staff"],
       "created": true
     },
     "cyclone": {
@@ -1375,15 +1343,11 @@
       "cost": 2750,
       "desc": "<h1>Active: Cyclone<\/h1> Sweeps a target unit up into a cyclone, making them invulnerable for 2.5 seconds. Cyclone can only be cast on enemy units or yourself.<br><br>Enemy units take 50 magical damage upon landing.<br><br>Range: 575<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span>",
       "notes": "You cannot cyclone allies.<br \/>Cyclones cast on yourself go through spell immunity.<br \/>Cyclone can purge some buffs and debuffs.",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">2.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
       "mc": 175,
       "cd": 23,
       "lore": "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.",
-      "components": [
-        "staff_of_wizardry",
-        "void_stone",
-        "wind_lace"
-      ],
+      "components": ["staff_of_wizardry", "void_stone", "wind_lace"],
       "created": true
     },
     "aether_lens": {
@@ -1394,14 +1358,11 @@
       "cost": 2350,
       "desc": "<h1>Passive: Aethereal Focus<\/h1> Increases targeted spell and item cast range by 250.",
       "notes": "Passive does not stack.",
-      "attrib": "+ <span class=\"attribVal\">450<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+ <span class=\"attribVal\">1.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">450<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Polished with the incantation of his final breath, the gift of a dying mage to his sickly son.",
-      "components": [
-        "energy_booster",
-        "void_stone"
-      ],
+      "components": ["energy_booster", "void_stone"],
       "created": true
     },
     "force_staff": {
@@ -1412,14 +1373,11 @@
       "cost": 2250,
       "desc": "<h1>Active: Force<\/h1>Pushes any target unit 600 units in the direction it is facing.<br><br>Range: 750",
       "notes": "Self-cast will cause you to use Force on yourself.<br \/>Force Staff doesn't interrupt the target's actions.<br \/>Will not work on a unit inside Chronosphere, Duel, or Black Hole.",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">2.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": 100,
       "cd": 23,
       "lore": "Allows you to manipulate others, for good or evil.",
-      "components": [
-        "staff_of_wizardry",
-        "ring_of_regen"
-      ],
+      "components": ["staff_of_wizardry", "ring_of_regen"],
       "created": true
     },
     "hurricane_pike": {
@@ -1427,18 +1385,14 @@
       "img": "hurricane_pike_lg.png?3",
       "dname": "Hurricane Pike",
       "qual": "epic",
-      "cost": 4615,
+      "cost": 4600,
       "desc": "<h1>Active: Hurricane Thrust<\/h1> Pushes you and target enemy 450 units away from each other, and for 5 seconds, allows you to make 4 attacks against the target without range restrictions and with +100 attack speed.<br><br>Works like Force Staff when used on self or allies.<br><br>Allied Range: 800<br>Enemy Range: 400<br \/>\r\n<h1>Passive:  Dragon's Reach<\/h1> Increases attack range of ranged heroes by 140.",
       "notes": "Self-cast will use Hurricane Pike on yourself.<br \/>Hurricane Pike doesn't interrupt the target's actions.<br \/>Will not work on a unit inside Chronosphere, Duel, or Black Hole.",
-      "attrib": "+ <span class=\"attribVal\">13<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">15<\/span> <span class=\"attribValText\">Strength<\/span>",
+      "attrib": "+ <span class=\"attribVal\">13<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">2.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">15<\/span> <span class=\"attribValText\">Strength<\/span>",
       "mc": 100,
       "cd": 23,
       "lore": "A legendary pike once held as royal sigil of the ancient wyvern riders.",
-      "components": [
-        "wraith_band",
-        "force_staff",
-        "dragon_lance"
-      ],
+      "components": ["force_staff", "dragon_lance"],
       "created": true
     },
     "dagon": {
@@ -1446,17 +1400,14 @@
       "img": "dagon_lg.png?3",
       "dname": "Dagon",
       "qual": "rare",
-      "cost": 2715,
+      "cost": 2700,
       "desc": "<h1>Active: Energy Burst<\/h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.<br><br>Damage: 400<br>Range: 600<br>Mana Cost: 120",
       "notes": "Instantly kills illusions.",
-      "attrib": "+ <span class=\"attribVal\">15<\/span>\/18\/21\/24\/27 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\"><span class=\"attribVal\">3<\/span><\/span> <span class=\"attribValText\">All Attributes<\/span>",
+      "attrib": "+ <span class=\"attribVal\">13<\/span>\/16\/19\/22\/25 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\"><span class=\"attribVal\">5<\/span><\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": "120 140 160 180 200",
       "cd": 35,
       "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
-      "components": [
-        "staff_of_wizardry",
-        "null_talisman"
-      ],
+      "components": ["staff_of_wizardry", "crown"],
       "created": true
     },
     "dagon_2": {
@@ -1464,17 +1415,14 @@
       "img": "dagon_2_lg.png?3",
       "dname": "Dagon",
       "qual": "rare",
-      "cost": 3965,
+      "cost": 3950,
       "desc": "<h1>Active: Energy Burst<\/h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.<br><br>Damage: 400<br>Range: 600<br>Mana Cost: 140",
       "notes": "Instantly kills illusions.",
-      "attrib": "+ 15\/<span class=\"attribVal\">18<\/span>\/21\/24\/27 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">All Attributes<\/span>",
+      "attrib": "+ 13\/<span class=\"attribVal\">16<\/span>\/19\/22\/25 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": "120 140 160 180 200",
       "cd": 35,
       "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
-      "components": [
-        "dagon",
-        "recipe_dagon"
-      ],
+      "components": ["dagon", "recipe_dagon"],
       "created": true
     },
     "dagon_3": {
@@ -1482,17 +1430,14 @@
       "img": "dagon_3_lg.png?3",
       "dname": "Dagon",
       "qual": "rare",
-      "cost": 5215,
+      "cost": 5200,
       "desc": "<h1>Active: Energy Burst<\/h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.<br><br>Damage: 400<br>Range: 600<br>Mana Cost: 160",
       "notes": "Instantly kills illusions.",
-      "attrib": "+ 15\/18\/<span class=\"attribVal\">21<\/span>\/24\/27 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">All Attributes<\/span>",
+      "attrib": "+ 13\/16\/<span class=\"attribVal\">19<\/span>\/22\/25 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": "120 140 160 180 200",
       "cd": 35,
       "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
-      "components": [
-        "dagon_2",
-        "recipe_dagon"
-      ],
+      "components": ["dagon_2", "recipe_dagon"],
       "created": true
     },
     "dagon_4": {
@@ -1500,17 +1445,14 @@
       "img": "dagon_4_lg.png?3",
       "dname": "Dagon",
       "qual": "rare",
-      "cost": 6465,
+      "cost": 6450,
       "desc": "<h1>Active: Energy Burst<\/h1> Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.<br><br>Damage: 400<br>Range: 600<br>Mana Cost: 180",
       "notes": "Instantly kills illusions.",
-      "attrib": "+ 15\/18\/21\/<span class=\"attribVal\">24<\/span>\/27 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">All Attributes<\/span>",
+      "attrib": "+ 13\/16\/19\/<span class=\"attribVal\">22<\/span>\/25 <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": "120 140 160 180 200",
       "cd": 35,
       "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
-      "components": [
-        "dagon_3",
-        "recipe_dagon"
-      ],
+      "components": ["dagon_3", "recipe_dagon"],
       "created": true
     },
     "dagon_5": {
@@ -1518,17 +1460,14 @@
       "img": "dagon_5_lg.png?3",
       "dname": "Dagon",
       "qual": "rare",
-      "cost": 7715,
+      "cost": 7700,
       "desc": "<h1>Active: Energy Burst<\/h1> Emits a powerful burst of magical damage upon a targeted enemy unit.<br><br>Damage: 400<br>Range: 600<br>Mana Cost: 200",
       "notes": "Instantly kills illusions.",
-      "attrib": "+ 15\/18\/21\/24\/<span class=\"attribVal\">27<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">All Attributes<\/span>",
+      "attrib": "+ 13\/16\/19\/22\/<span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": "120 140 160 180 200",
       "cd": 35,
       "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
-      "components": [
-        "dagon_4",
-        "recipe_dagon"
-      ],
+      "components": ["dagon_4", "recipe_dagon"],
       "created": true
     },
     "necronomicon": {
@@ -1537,17 +1476,13 @@
       "dname": "Necronomicon",
       "qual": "rare",
       "cost": 2400,
-      "desc": "<h1>Active: Demonic Summoning<\/h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:<\/h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700<br>Damage: 75<br>Mana Break Damage: 30<br>Last Will Damage: 550<br><br><h1>Archer:<\/h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700<br>Damage: 60<br>Aura Move Speed: 5<br>Aura Attack Speed: 5<br>Aura Radius: 900",
+      "desc": "<h1>Active: Demonic Summoning<\/h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:<\/h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700<br>Damage: 75<br>Mana Break Damage: 30<br>Last Will Damage: 600<br><br><h1>Archer:<\/h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700<br>Damage: 60<br>Aura Move Speed: 5<br>Aura Attack Speed: 5<br>Aura Radius: 1200",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">10<\/span>\/15\/20 <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">1<\/span>\/1.25\/1.5 <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span>\/15\/20 <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span>\/2.5\/3 <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": 50,
       "cd": 90,
       "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
-      "components": [
-        "sobi_mask",
-        "sobi_mask",
-        "belt_of_strength"
-      ],
+      "components": ["sobi_mask", "sobi_mask", "belt_of_strength"],
       "created": true
     },
     "necronomicon_2": {
@@ -1556,16 +1491,13 @@
       "dname": "Necronomicon",
       "qual": "rare",
       "cost": 3700,
-      "desc": "<h1>Active: Demonic Summoning<\/h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:<\/h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700<br>Damage: 75<br>Mana Break Damage: 30<br>Last Will Damage: 550<br><br><h1>Archer:<\/h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700<br>Damage: 60<br>Aura Move Speed: 5<br>Aura Attack Speed: 5<br>Aura Radius: 900",
+      "desc": "<h1>Active: Demonic Summoning<\/h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:<\/h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700<br>Damage: 75<br>Mana Break Damage: 30<br>Last Will Damage: 600<br><br><h1>Archer:<\/h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700<br>Damage: 60<br>Aura Move Speed: 5<br>Aura Attack Speed: 5<br>Aura Radius: 1200",
       "notes": "",
-      "attrib": "+ 10\/<span class=\"attribVal\">15<\/span>\/20 <span class=\"attribValText\">Strength<\/span><br \/>\n+ 1\/<span class=\"attribVal\">1.25<\/span>\/1.5 <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ 10\/<span class=\"attribVal\">15<\/span>\/20 <span class=\"attribValText\">Strength<\/span><br \/>\n+ 2\/<span class=\"attribVal\">2.5<\/span>\/3 <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": 50,
       "cd": 90,
       "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
-      "components": [
-        "necronomicon",
-        "recipe_necronomicon"
-      ],
+      "components": ["necronomicon", "recipe_necronomicon"],
       "created": true
     },
     "necronomicon_3": {
@@ -1574,16 +1506,13 @@
       "dname": "Necronomicon",
       "qual": "rare",
       "cost": 5000,
-      "desc": "<h1>Active: Demonic Summoning<\/h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:<\/h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700<br>Damage: 75<br>Mana Break Damage: 30<br>Last Will Damage: 550<br><br><h1>Archer:<\/h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700<br>Damage: 60<br>Aura Move Speed: 5<br>Aura Attack Speed: 5<br>Aura Radius: 900",
+      "desc": "<h1>Active: Demonic Summoning<\/h1>Summons a Warrior and an Archer to fight for you for 60 seconds.<br><br><h1>Warrior:<\/h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: 700<br>Damage: 75<br>Mana Break Damage: 30<br>Last Will Damage: 600<br><br><h1>Archer:<\/h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: 700<br>Damage: 60<br>Aura Move Speed: 5<br>Aura Attack Speed: 5<br>Aura Radius: 1200",
       "notes": "",
-      "attrib": "+ 10\/15\/<span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ 1\/1.25\/<span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ 10\/15\/<span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ 2\/2.5\/<span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": 50,
       "cd": 90,
       "lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages.",
-      "components": [
-        "necronomicon_2",
-        "recipe_necronomicon"
-      ],
+      "components": ["necronomicon_2", "recipe_necronomicon"],
       "created": true
     },
     "ultimate_scepter": {
@@ -1598,12 +1527,7 @@
       "mc": false,
       "cd": false,
       "lore": "The scepter of a wizard with demigod-like powers.",
-      "components": [
-        "point_booster",
-        "staff_of_wizardry",
-        "ogre_axe",
-        "blade_of_alacrity"
-      ],
+      "components": ["point_booster", "staff_of_wizardry", "ogre_axe", "blade_of_alacrity"],
       "created": true
     },
     "refresher": {
@@ -1614,14 +1538,11 @@
       "cost": 5100,
       "desc": "<h1>Active: Reset Cooldowns<\/h1>Resets the cooldowns of all your items and abilities.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">11<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">13<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": 375,
       "cd": 195,
       "lore": "A powerful artifact created for wizards.",
-      "components": [
-        "pers",
-        "pers"
-      ],
+      "components": ["pers", "pers"],
       "created": true
     },
     "assault": {
@@ -1630,17 +1551,13 @@
       "dname": "Assault Cuirass",
       "qual": "epic",
       "cost": 5250,
-      "desc": "<h1>Passive: Assault Aura<\/h1> Grants 25 attack speed and 5 armor to nearby allied units and structures, and decreases nearby enemy unit and structure armor by 5.<br><br>Radius: 900",
+      "desc": "<h1>Passive: Assault Aura<\/h1> Grants 25 attack speed and 5 armor to nearby allied units and structures, and decreases nearby enemy unit and structure armor by 5.<br><br>Radius: 1200",
       "notes": "Multiple instances of Assault Aura do not stack.",
       "attrib": "+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.",
-      "components": [
-        "platemail",
-        "hyperstone",
-        "chainmail"
-      ],
+      "components": ["platemail", "hyperstone", "chainmail"],
       "created": true
     },
     "heart": {
@@ -1649,17 +1566,13 @@
       "dname": "Heart of Tarrasque",
       "qual": "epic",
       "cost": 5200,
-      "desc": "<h1>Passive: Health Regeneration<\/h1>Restores 7% of max health per second. <br><br>If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes.",
+      "desc": "<h1>Passive: Health Regeneration<\/h1>Restores 5% of max health per second. <br><br>If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">45<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">500<\/span> <span class=\"attribValText\">Health<\/span>",
+      "attrib": "+ <span class=\"attribVal\">45<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">400<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+Health Regen Amplification <span class=\"attribVal\">50%<\/span>",
       "mc": false,
       "cd": 7,
       "lore": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude.",
-      "components": [
-        "reaver",
-        "vitality_booster",
-        "vitality_booster"
-      ],
+      "components": ["ring_of_tarrasque", "vitality_booster", "reaver"],
       "created": true
     },
     "black_king_bar": {
@@ -1667,17 +1580,14 @@
       "img": "black_king_bar_lg.png?3",
       "dname": "Black King Bar",
       "qual": "epic",
-      "cost": 3975,
+      "cost": 4050,
       "desc": "<h1>Active: Avatar<\/h1> Grants Spell Immunity and 100% Magic Damage Resistance.  Duration decreases with each use. <br><br>Duration: 10 <br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span>",
       "notes": "Purchasing another Black King Bar will not reset its immunity duration.<br \/>Using Black King Bar may remove some positive buffs.",
       "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">24<\/span> <span class=\"attribValText\">Damage<\/span>",
       "mc": false,
       "cd": 70,
       "lore": "A powerful staff imbued with the strength of giants.",
-      "components": [
-        "ogre_axe",
-        "mithril_hammer"
-      ],
+      "components": ["ogre_axe", "mithril_hammer"],
       "created": true
     },
     "aegis": {
@@ -1701,16 +1611,13 @@
       "dname": "Shiva's Guard",
       "qual": "epic",
       "cost": 4750,
-      "desc": "<h1>Active: Arctic Blast<\/h1> Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by 40% for 4 seconds.<br><br>Radius: 900<br \/>\r\n<h1>Passive: Freezing Aura<\/h1> Reduces the attack speed of all enemies by 45. <br><br>Radius: 900",
+      "desc": "<h1>Active: Arctic Blast<\/h1> Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by 40% for 4 seconds.<br><br>Radius: 900<br \/>\r\n<h1>Passive: Freezing Aura<\/h1> Reduces the attack speed of all enemies by 45. <br><br>Radius: 1200",
       "notes": "The wave extends at a speed of 350 to a max size of 900.<br \/>The Arctic Blast follows its caster.<br \/>Multiple instances of Freezing Aura do not stack.",
       "attrib": "+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">15<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": 100,
       "cd": 30,
       "lore": "Said to have belonged to a goddess, today it retains much of its former power.",
-      "components": [
-        "platemail",
-        "mystic_staff"
-      ],
+      "components": ["platemail", "mystic_staff"],
       "created": true
     },
     "bloodstone": {
@@ -1719,16 +1626,13 @@
       "dname": "Bloodstone",
       "qual": "epic",
       "cost": 4900,
-      "desc": "<h1>Active: Pocket Deny<\/h1>Instantly causes you to die.<br><br>Must ground target to cast.  Cannot self cast.<br \/>\r\n<h1>Passive: Bloodpact<\/h1>Begins with 14 charges, and gains a charge each time an enemy hero dies within 1600 range. <br><br>Each charge grants 0.35 mana regeneration per second, and reduces respawn time by 3 seconds. <br><br>If the bearer dies, the Bloodstone loses a third of its charges.",
-      "notes": "Only the first Bloodstone will gain charges.",
-      "attrib": "+ <span class=\"attribVal\">475<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">425<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "desc": "<h1>Active: Bloodpact<\/h1> Converts 30% of your max mana to health regeneration over 2 seconds.<br \/>\r\n <h1>Passive: Mana Battery<\/h1>Each charge provides 0.3 HP and MP regen. Nearby kills provide 1 charges. Dying causes you to lose 3 charges. Starts with 14 charges.",
+      "notes": "",
+      "attrib": "+ <span class=\"attribVal\">475<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">425<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+Mana Regeneration <span class=\"attribVal\">200%<\/span>",
       "mc": false,
-      "cd": 300,
+      "cd": 250,
       "lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.",
-      "components": [
-        "pers",
-        "soul_booster"
-      ],
+      "components": ["pers", "soul_booster"],
       "created": true
     },
     "sphere": {
@@ -1739,14 +1643,11 @@
       "cost": 5050,
       "desc": "<h1>Passive: Spellblock<\/h1>Blocks most targeted spells once every 13 seconds.<br \/>\r\n<h1>Active: Transfer Spellblock<\/h1>Temporarily removes Spellblock from the item's owner and transfers it to an allied unit for 13 seconds.<br><br>Range: 700",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">13<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">5.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">13<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">6.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": 13,
       "lore": "This magical sphere once protected one of the most famous heroes in history.",
-      "components": [
-        "ultimate_orb",
-        "pers"
-      ],
+      "components": ["ultimate_orb", "pers"],
       "created": true
     },
     "lotus_orb": {
@@ -1757,15 +1658,11 @@
       "cost": 4000,
       "desc": "<h1>Active: Echo Shell<\/h1>Applies a shield to the target unit for 6 seconds which re-casts most targeted spells back to their caster.<br><br>The shielded unit will still take damage from the spell. <br><br>Range: 900<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span>",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">5.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">1.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Mana<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">6.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">4<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Mana<\/span>",
       "mc": 75,
       "cd": 15,
       "lore": "The jewel at its center still reflects a pale image of its creator.",
-      "components": [
-        "pers",
-        "platemail",
-        "energy_booster"
-      ],
+      "components": ["pers", "platemail", "energy_booster"],
       "created": true
     },
     "meteor_hammer": {
@@ -1774,18 +1671,13 @@
       "dname": "Meteor Hammer",
       "qual": "epic",
       "cost": 2625,
-      "desc": "<h1>Active: Meteor Hammer<\/h1> CHANNELED - After a successful channel, summons a meteor that strikes a 300 AoE, stunning enemies for 2 seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for 6 seconds.<BR><BR>Building Impact Damage: 75 <BR>Building Over Time Damage: 50 <BR><BR>Non-Building Impact Damage: 150 <BR>Non-Building Over Time Damage: 90 <BR><BR>Channel Duration: 2.5 seconds.<BR>Landing Time: 0.5 seconds.",
+      "desc": "<h1>Active: Meteor Hammer<\/h1> CHANNELED - After a successful channel, summons a meteor that strikes a 315 AoE, stunning enemies for 2 seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for 6 seconds.<BR><BR>Building Impact Damage: 75 <BR>Building Over Time Damage: 50 <BR><BR>Non-Building Impact Damage: 150 <BR>Non-Building Over Time Damage: 90 <BR><BR>Channel Duration: 2.5 seconds.<BR>Landing Time: 0.5 seconds.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">4<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": 125,
       "cd": 28,
       "lore": "An enchanted hammer forged of metals discovered in the ruins of a village destroyed by a great star storm.",
-      "components": [
-        "ogre_axe",
-        "staff_of_wizardry",
-        "ring_of_regen",
-        "sobi_mask"
-      ],
+      "components": ["ogre_axe", "staff_of_wizardry", "ring_of_regen", "sobi_mask"],
       "created": true
     },
     "nullifier": {
@@ -1794,16 +1686,13 @@
       "dname": "Nullifier",
       "qual": "epic",
       "cost": 4700,
-      "desc": "<h1>Active: Nullify<\/h1> Dispels the target and mutes them for 5 seconds. Anytime the muted target is attacked, it will be slowed by 100% for 0.4 seconds.<br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span>",
+      "desc": "<h1>Active: Nullify<\/h1> Dispels the target and mutes them for 6 seconds. Anytime the muted target is attacked, it will be slowed by 100% for 0.4 seconds.<br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span>",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">65<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">65<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": 75,
       "cd": 13,
       "lore": "A dangerous weapon pilfered from an inverse dimension.",
-      "components": [
-        "relic",
-        "helm_of_iron_will"
-      ],
+      "components": ["relic", "helm_of_iron_will"],
       "created": true
     },
     "aeon_disk": {
@@ -1811,17 +1700,14 @@
       "img": "aeon_disk_lg.png?3",
       "dname": "Aeon Disk",
       "qual": "epic",
-      "cost": 3350,
-      "desc": "<h1>Passive: Combo Breaker<\/h1> When you take damage and your health falls below 70%, a strong dispel is applied and you gain a 2.5 second buff that causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage.",
+      "cost": 3100,
+      "desc": "<h1>Passive: Combo Breaker<\/h1> When you take damage and your health falls below 70%, a strong dispel is applied and you gain a 2.5 second buff that provides +75% Status Resistance and causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+Status Resistance <span class=\"attribVal\">25%<\/span>",
+      "attrib": "+ <span class=\"attribVal\">300<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">300<\/span> <span class=\"attribValText\">Mana<\/span>",
       "mc": false,
       "cd": 115,
       "lore": "A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so many believe.",
-      "components": [
-        "vitality_booster",
-        "energy_booster"
-      ],
+      "components": ["vitality_booster", "energy_booster"],
       "created": true
     },
     "kaya": {
@@ -1829,17 +1715,14 @@
       "img": "kaya_lg.png?3",
       "dname": "Kaya",
       "qual": "epic",
-      "cost": 1950,
+      "cost": 2050,
       "desc": "",
       "notes": "Multiple instances of this item do not stack.",
-      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+Spell Amplification <span class=\"attribVal\">10%<\/span><br \/>\n+Manacost and Manaloss Reduction <span class=\"attribVal\">10%<\/span>",
+      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+Manacost and Manaloss Reduction <span class=\"attribVal\">12%<\/span><br \/>\n+Spell Amplification <span class=\"attribVal\">8%<\/span>",
       "mc": false,
       "cd": false,
       "lore": "The staff of a renowned sorceress, lost for countless millennia.",
-      "components": [
-        "staff_of_wizardry",
-        "robe"
-      ],
+      "components": ["staff_of_wizardry", "robe"],
       "created": true
     },
     "trident": {
@@ -1847,7 +1730,7 @@
       "img": "trident_lg.png?3",
       "dname": "DOTA_Tooltip_Ability_item_trident",
       "qual": false,
-      "cost": null,
+      "cost": 0,
       "desc": "",
       "notes": "",
       "attrib": "",
@@ -1862,7 +1745,7 @@
       "img": "combo_breaker_lg.png?3",
       "dname": "DOTA_Tooltip_Ability_item_combo_breaker",
       "qual": false,
-      "cost": null,
+      "cost": 0,
       "desc": "",
       "notes": "",
       "attrib": "",
@@ -1893,17 +1776,13 @@
       "dname": "Spirit Vessel",
       "qual": "rare",
       "cost": 2975,
-      "desc": "<h1>Active: Soul Release<\/h1> When used against enemies, it reduces health by 4.5% of current health per second, and reduces HP regeneration and healing by 70%. Deals 20 damage per second. <br><br>When used on allies, it increases health by 1% of current health per second, and increases HP regeneration and healing by 20%. Provides 35 health regeneration per second. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.<br><br>Cast Range: 950 ",
+      "desc": "<h1>Active: Soul Release<\/h1> When used against enemies, it reduces health by 5% of current health per second, and reduces HP regeneration and healing by 70%. Deals 25 damage per second. <br><br>When used on allies, it provides 30 health regeneration per second. <br><br>Lasts 8 seconds.  <br><br>Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.<br><br>Cast Range: 950 ",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">1<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">Armor<\/span>",
+      "attrib": "+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": false,
       "cd": 7,
       "lore": "Forged by a god to entrap the soul of another.",
-      "components": [
-        "urn_of_shadows",
-        "vitality_booster",
-        "wind_lace"
-      ],
+      "components": ["urn_of_shadows", "vitality_booster", "wind_lace"],
       "created": true
     },
     "vanguard": {
@@ -1914,15 +1793,11 @@
       "cost": 2150,
       "desc": "<h1>Passive: Damage Block<\/h1> Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged.",
       "notes": "Multiple sources of damage block do not stack.",
-      "attrib": "+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">5.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A powerful shield that defends its wielder from even the most vicious of attacks.",
-      "components": [
-        "ring_of_health",
-        "vitality_booster",
-        "stout_shield"
-      ],
+      "components": ["ring_of_health", "vitality_booster", "stout_shield"],
       "created": true
     },
     "crimson_guard": {
@@ -1930,17 +1805,14 @@
       "img": "crimson_guard_lg.png?3",
       "dname": "Crimson Guard",
       "qual": "epic",
-      "cost": 3550,
-      "desc": "<h1>Active: Guard<\/h1> For 12 seconds, grant nearby allied heroes and buildings +2 armor, and a 100% chance to block 60 damage from each incoming attack.<br><br>Units may only be affected by Guard once every 46 seconds.<br><br>Radius: 900<br \/>\r\n<h1>Passive: Damage Block<\/h1> Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged.",
+      "cost": 3700,
+      "desc": "<h1>Active: Guard<\/h1> For 12 seconds, grant nearby allied heroes and buildings +2 armor, and a 100% chance to block 60 damage from each incoming attack.<br><br>Units may only be affected by Guard once every 46 seconds.<br><br>Radius: 1200<br \/>\r\n<h1>Passive: Damage Block<\/h1> Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged.",
       "notes": "Multiple sources of damage block do not stack.",
-      "attrib": "+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span>",
+      "attrib": "+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": false,
       "cd": 46,
       "lore": "A cuirass originally built to protect against the dreaded Year Beast.",
-      "components": [
-        "vanguard",
-        "buckler"
-      ],
+      "components": ["vanguard", "buckler"],
       "created": true
     },
     "blade_mail": {
@@ -1951,15 +1823,11 @@
       "cost": 2200,
       "desc": "<h1>Active: Damage Return<\/h1>For 4.5 seconds, duplicates any damage taken back to the unit that dealt the damage.",
       "notes": "Damage Return is calculated before any kind of reduction.<br \/>Damage Return doesn't reflect damage from other forms of Blade Mail.<br \/>Returned damage type is the same as it was received.<br \/>Can pierce Spell Immunity if the original damage type does.",
-      "attrib": "+ <span class=\"attribVal\">22<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span>",
+      "attrib": "+ <span class=\"attribVal\">22<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span>",
       "mc": 25,
-      "cd": 20,
+      "cd": 25,
       "lore": "A razor-sharp coat of mail, it is the choice of selfless martyrs in combat.",
-      "components": [
-        "broadsword",
-        "chainmail",
-        "robe"
-      ],
+      "components": ["broadsword", "chainmail", "robe"],
       "created": true
     },
     "soul_booster": {
@@ -1974,11 +1842,7 @@
       "mc": false,
       "cd": false,
       "lore": "Regain lost courage.",
-      "components": [
-        "vitality_booster",
-        "energy_booster",
-        "point_booster"
-      ],
+      "components": ["vitality_booster", "energy_booster", "point_booster"],
       "created": true
     },
     "hood_of_defiance": {
@@ -1989,15 +1853,11 @@
       "cost": 1700,
       "desc": "<h1>Active: Barrier<\/h1> Creates a spell shield that absorbs up to 325 magical damage.  Lasts 12 seconds.",
       "notes": "Stacks multiplicatively with other sources of spell resistance.",
-      "attrib": "+ <span class=\"attribVal\">6.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">25%<\/span> <span class=\"attribValText\">Magic Resistance<\/span>",
+      "attrib": "+ <span class=\"attribVal\">8<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">25%<\/span> <span class=\"attribValText\">Magic Resistance<\/span>",
       "mc": 75,
       "cd": 60,
       "lore": "A furred, magic resistant headpiece that is feared by wizards.",
-      "components": [
-        "ring_of_health",
-        "cloak",
-        "ring_of_regen"
-      ],
+      "components": ["ring_of_health", "cloak", "ring_of_regen"],
       "created": true
     },
     "rapier": {
@@ -2012,10 +1872,7 @@
       "mc": false,
       "cd": false,
       "lore": "So powerful, it cannot have a single owner.",
-      "components": [
-        "relic",
-        "demon_edge"
-      ],
+      "components": ["relic", "demon_edge"],
       "created": true
     },
     "monkey_king_bar": {
@@ -2030,11 +1887,7 @@
       "mc": false,
       "cd": false,
       "lore": "A powerful staff used by a master warrior.",
-      "components": [
-        "demon_edge",
-        "javelin",
-        "quarterstaff"
-      ],
+      "components": ["demon_edge", "javelin", "quarterstaff"],
       "created": true
     },
     "radiance": {
@@ -2049,9 +1902,7 @@
       "mc": false,
       "cd": false,
       "lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.",
-      "components": [
-        "relic"
-      ],
+      "components": ["relic"],
       "created": true
     },
     "butterfly": {
@@ -2060,17 +1911,13 @@
       "dname": "Butterfly",
       "qual": "epic",
       "cost": 5475,
-      "desc": "<h1>Active: Flutter<\/h1> Grants 35% additional movement speed for 2 seconds.",
+      "desc": "",
       "notes": "Stacks diminishingly with other sources of Evasion.",
       "attrib": "+ <span class=\"attribVal\">35<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">35%<\/span> <span class=\"attribValText\">Evasion<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
       "mc": false,
-      "cd": 25,
+      "cd": false,
       "lore": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
-      "components": [
-        "eagle",
-        "talisman_of_evasion",
-        "quarterstaff"
-      ],
+      "components": ["eagle", "talisman_of_evasion", "quarterstaff"],
       "created": true
     },
     "greater_crit": {
@@ -2085,10 +1932,7 @@
       "mc": false,
       "cd": false,
       "lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
-      "components": [
-        "lesser_crit",
-        "demon_edge"
-      ],
+      "components": ["lesser_crit", "demon_edge"],
       "created": true
     },
     "basher": {
@@ -2096,17 +1940,14 @@
       "img": "basher_lg.png?3",
       "dname": "Skull Basher",
       "qual": "epic",
-      "cost": 3050,
+      "cost": 2950,
       "desc": "<h1>Passive: Bash<\/h1> Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 100 bonus magical damage.  Bash chance for ranged heroes is 10%.",
-      "notes": "Does not stack with other sources of Bash, however it will stack with Mini-Bash.<br \/>The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.",
+      "notes": "Does not stack with other sources of Bash, however it will stack with Mini-Bash.<br \/>The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, and Slardar.",
       "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span>",
       "mc": false,
       "cd": 2,
       "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
-      "components": [
-        "mithril_hammer",
-        "belt_of_strength"
-      ],
+      "components": ["mithril_hammer", "belt_of_strength"],
       "created": true
     },
     "bfury": {
@@ -2115,17 +1956,13 @@
       "dname": "Battle Fury",
       "qual": "epic",
       "cost": 4400,
-      "desc": "<h1>Active: Chop Tree\/Ward<\/h1> Destroy a target tree or ward.<br><br>Tree Cast Range: 350<br>Ward Cast Range: 450 <br \/>\r\n<h1>Passive: Quell<\/h1> Increases attack damage against non-hero units by 60% for melee heroes, and 25% for ranged. <br \/>\r\n<h1>Passive: Cleave<\/h1> Deals 40% of attack damage as physical damage in a cone up to 625 around the target. (Melee Only)",
+      "desc": "<h1>Active: Chop Tree\/Ward<\/h1> Destroy a target tree or ward.<br><br>Tree Cast Range: 350<br>Ward Cast Range: 450 <br \/>\r\n<h1>Passive: Quell<\/h1> Increases attack damage against non-hero units by 24 for melee heroes, and 7 for ranged. <br \/>\r\n<h1>Passive: Cleave<\/h1> Deals 60% of attack damage as physical damage in a cone up to 650 around the target. (Melee Only)",
       "notes": "Cleave damage is reduced by armor type but not by armor value.<br \/>Cleave damage goes through spell immunity.<br \/>If multiple sources of Cleave are present, each Cleave's damage is applied separately.<br \/>Chop can be used to destroy Techies' Remote Mines.",
-      "attrib": "+ <span class=\"attribVal\">45<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">2.25<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">45<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">7.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">3.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": 4,
       "lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
-      "components": [
-        "demon_edge",
-        "pers",
-        "quelling_blade"
-      ],
+      "components": ["demon_edge", "pers", "quelling_blade"],
       "created": true
     },
     "manta": {
@@ -2133,17 +1970,14 @@
       "img": "manta_lg.png?3",
       "dname": "Manta Style",
       "qual": "epic",
-      "cost": 4800,
+      "cost": 4700,
       "desc": "<h1>Active: Mirror Image<\/h1>Creates 2 images of your hero that last 20 seconds. <br><br>Melee images deal 33% damage and take 350% damage, while Ranged images deal 28% and take 400% damage. <br><br>Cooldown increased by 15 seconds on ranged heroes.<br><br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span>",
       "notes": "Has a 0.1 second cast time during which you are invulnerable.<br \/>Many effects are removed upon using Manta.<br \/>Yasha based movement speed bonuses from multiple items do not stack.",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">26<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">8%<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">26<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
       "mc": 125,
       "cd": 45,
       "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
-      "components": [
-        "yasha",
-        "ultimate_orb"
-      ],
+      "components": ["yasha", "ultimate_orb"],
       "created": true
     },
     "lesser_crit": {
@@ -2154,14 +1988,11 @@
       "cost": 2130,
       "desc": "<h1>Passive: Critical Strike<\/h1>Grants each attack a 20% chance to deal 175% damage.",
       "notes": "Critical Strike does not work against buildings.",
-      "attrib": "+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Damage<\/span>",
+      "attrib": "+ <span class=\"attribVal\">38<\/span> <span class=\"attribValText\">Damage<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
-      "components": [
-        "broadsword",
-        "blades_of_attack"
-      ],
+      "components": ["broadsword", "blades_of_attack"],
       "created": true
     },
     "dragon_lance": {
@@ -2176,11 +2007,7 @@
       "mc": false,
       "cd": false,
       "lore": "The forward charge of the wyvern host grants no quarter.",
-      "components": [
-        "ogre_axe",
-        "boots_of_elves",
-        "boots_of_elves"
-      ],
+      "components": ["ogre_axe", "boots_of_elves", "boots_of_elves"],
       "created": true
     },
     "armlet": {
@@ -2191,15 +2018,11 @@
       "cost": 2380,
       "desc": "<h1>Toggle: Unholy Strength<\/h1>When active, Unholy Strength grants +31 damage, +25 strength and +4 armor, but drains 54 health per second.<br><br> You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
       "notes": "The strength change will affect both maximum and current HP, but you cannot die from the change.<br \/>The strength change occurs over 0.6 seconds.<br \/>Activating or deactivating Unholy Strength does not interrupt channeling.",
-      "attrib": "+ <span class=\"attribVal\">9<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">4<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">9<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": 0,
       "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
-      "components": [
-        "helm_of_iron_will",
-        "gloves",
-        "blades_of_attack"
-      ],
+      "components": ["helm_of_iron_will", "gloves", "blades_of_attack"],
       "created": true
     },
     "invis_sword": {
@@ -2214,10 +2037,7 @@
       "mc": 75,
       "cd": 28,
       "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
-      "components": [
-        "shadow_amulet",
-        "claymore"
-      ],
+      "components": ["shadow_amulet", "claymore"],
       "created": true
     },
     "silver_edge": {
@@ -2232,10 +2052,7 @@
       "mc": 75,
       "cd": 22,
       "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
-      "components": [
-        "invis_sword",
-        "ultimate_orb"
-      ],
+      "components": ["invis_sword", "ultimate_orb"],
       "created": true
     },
     "sange_and_yasha": {
@@ -2243,17 +2060,44 @@
       "img": "sange_and_yasha_lg.png?3",
       "dname": "Sange and Yasha",
       "qual": "artifact",
-      "cost": 4300,
-      "desc": "<h1>Passive: Maim<\/h1>Each attack has a 40% chance to reduce enemy hero movement speed by 26% and attack speed by 26 when used by a melee hero. Reduces enemy hero movement by 13% and attack speed by 13 when used by a ranged hero. Effect lasts 5 seconds.",
+      "cost": 4100,
+      "desc": "",
       "notes": "Yasha-based movement speed bonuses from multiple items do not stack.",
-      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">16%<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+Status Resistance <span class=\"attribVal\">16%<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Damage<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
-      "components": [
-        "yasha",
-        "sange"
-      ],
+      "components": ["yasha", "sange"],
+      "created": true
+    },
+    "kaya_and_sange": {
+      "id": 273,
+      "img": "kaya_and_sange_lg.png?3",
+      "dname": "Kaya and Sange",
+      "qual": "artifact",
+      "cost": 4100,
+      "desc": "",
+      "notes": "",
+      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+Status Resistance <span class=\"attribVal\">16%<\/span><br \/>\n+Manacost and Manaloss Reduction <span class=\"attribVal\">16%<\/span><br \/>\n+Spell Amplification <span class=\"attribVal\">12%<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Damage<\/span>",
+      "mc": false,
+      "cd": false,
+      "lore": "",
+      "components": ["sange", "kaya"],
+      "created": true
+    },
+    "yasha_and_kaya": {
+      "id": 277,
+      "img": "yasha_and_kaya_lg.png?3",
+      "dname": "Yasha and Kaya",
+      "qual": "artifact",
+      "cost": 4100,
+      "desc": "",
+      "notes": "",
+      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+Manacost and Manaloss Reduction <span class=\"attribVal\">16%<\/span><br \/>\n+ <span class=\"attribVal\">30<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+Spell Amplification <span class=\"attribVal\">12%<\/span>",
+      "mc": false,
+      "cd": false,
+      "lore": "",
+      "components": ["kaya", "yasha"],
       "created": true
     },
     "satanic": {
@@ -2261,18 +2105,14 @@
       "img": "satanic_lg.png?3",
       "dname": "Satanic",
       "qual": "artifact",
-      "cost": 5500,
+      "cost": 5300,
       "desc": "<h1>Active: Unholy Rage<\/h1>Increases Lifesteal percentage to 200% for 5 seconds. <br \/>\r\n<h1>Passive: Lifesteal<\/h1>Heals the attacker for 25% of attack damage dealt.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">50<\/span> <span class=\"attribValText\">Damage<\/span>",
+      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+Status Resistance <span class=\"attribVal\">30%<\/span>",
       "mc": false,
       "cd": 35,
       "lore": "Immense power at the cost of your soul.",
-      "components": [
-        "lifesteal",
-        "claymore",
-        "reaver"
-      ],
+      "components": ["lifesteal", "claymore", "reaver"],
       "created": true
     },
     "mjollnir": {
@@ -2287,10 +2127,7 @@
       "mc": 50,
       "cd": 35,
       "lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
-      "components": [
-        "maelstrom",
-        "hyperstone"
-      ],
+      "components": ["maelstrom", "hyperstone"],
       "created": true
     },
     "skadi": {
@@ -2305,11 +2142,7 @@
       "mc": false,
       "cd": false,
       "lore": "Extremely rare artifact, guarded by the azure dragons.",
-      "components": [
-        "ultimate_orb",
-        "ultimate_orb",
-        "point_booster"
-      ],
+      "components": ["ultimate_orb", "ultimate_orb", "point_booster"],
       "created": true
     },
     "sange": {
@@ -2317,17 +2150,14 @@
       "img": "sange_lg.png?3",
       "dname": "Sange",
       "qual": "artifact",
-      "cost": 2150,
-      "desc": "<h1>Passive: Maim<\/h1>Each attack has a 40% chance to reduce enemy hero movement speed by 26% and attack speed by 26 when used by a melee hero. Reduces enemy hero movement by 13% and attack speed by 13 when used by a ranged hero. Effect lasts 5 seconds.",
+      "cost": 2050,
+      "desc": "",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Strength<\/span>",
+      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+Status Resistance <span class=\"attribVal\">12%<\/span><br \/>\n+ <span class=\"attribVal\">8<\/span> <span class=\"attribValText\">Damage<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
-      "components": [
-        "ogre_axe",
-        "belt_of_strength"
-      ],
+      "components": ["ogre_axe", "belt_of_strength"],
       "created": true
     },
     "helm_of_the_dominator": {
@@ -2335,18 +2165,14 @@
       "img": "helm_of_the_dominator_lg.png?3",
       "dname": "Helm of the Dominator",
       "qual": "artifact",
-      "cost": 2000,
-      "desc": "<h1>Active: Dominate<\/h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500.<br><br>Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to 200 gold.<br><br>Range: 700<br \/>\r\n<h1>Passive: Dominator Aura<\/h1> Increases nearby allies' attack speed by 20 and health regen by 7.<br><br>Radius: 900",
+      "cost": 1875,
+      "desc": "<h1>Active: Dominate<\/h1>Takes control of one neutral, non-ancient target unit and sets its movement speed to 425 and max health to a minimum of 1500.<br><br>Dominated units with a max health of greater than 1500 retain their original max health.  Dominated unit's bounty is set to 200 gold.<br><br>Range: 700<br \/>\r\n<h1>Passive: Dominator Aura<\/h1> Increases nearby allies' attack speed by 20 and health regen by 8.5.<br><br>Radius: 1200",
       "notes": "Cannot dominate more than one unit at a time.  If a new unit is dominated, the old one will die.<br \/>Can also Dominate enemy lane creeps and summoned units.<br \/>Selling Helm of the Dominator will cause dominated units to die.",
       "attrib": "+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">All Attributes<\/span>",
       "mc": false,
       "cd": 60,
       "lore": "The powerful headpiece of a dead necromancer.",
-      "components": [
-        "gloves",
-        "headdress",
-        "ring_of_health"
-      ],
+      "components": ["gloves", "headdress", "ring_of_health"],
       "created": true
     },
     "maelstrom": {
@@ -2361,10 +2187,7 @@
       "mc": false,
       "cd": false,
       "lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.",
-      "components": [
-        "mithril_hammer",
-        "javelin"
-      ],
+      "components": ["mithril_hammer", "javelin"],
       "created": true
     },
     "desolator": {
@@ -2373,17 +2196,13 @@
       "dname": "Desolator",
       "qual": "artifact",
       "cost": 3500,
-      "desc": "<h1>Passive: Corruption<\/h1> Your attacks reduce the target's armor by 6 for 15 seconds.",
+      "desc": "<h1>Passive: Corruption<\/h1> Your attacks reduce the target's armor by 7 for 15 seconds.",
       "notes": "Armor reduction works on buildings.",
       "attrib": "+ <span class=\"attribVal\">50<\/span> <span class=\"attribValText\">Damage<\/span>",
       "mc": false,
       "cd": false,
       "lore": "A wicked weapon, used in torturing political criminals.",
-      "components": [
-        "mithril_hammer",
-        "mithril_hammer",
-        "blight_stone"
-      ],
+      "components": ["mithril_hammer", "mithril_hammer", "blight_stone"],
       "created": true
     },
     "yasha": {
@@ -2391,17 +2210,14 @@
       "img": "yasha_lg.png?3",
       "dname": "Yasha",
       "qual": "artifact",
-      "cost": 2150,
+      "cost": 2050,
       "desc": "",
       "notes": "Yasha-based movement speed bonuses from multiple items do not stack.",
-      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">8%<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Attack Speed<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
       "mc": false,
       "cd": false,
       "lore": "Yasha is regarded as the swiftest weapon ever created.",
-      "components": [
-        "blade_of_alacrity",
-        "boots_of_elves"
-      ],
+      "components": ["blade_of_alacrity", "boots_of_elves"],
       "created": true
     },
     "mask_of_madness": {
@@ -2409,17 +2225,14 @@
       "img": "mask_of_madness_lg.png?3",
       "dname": "Mask of Madness",
       "qual": "artifact",
-      "cost": 1975,
-      "desc": "<h1>Active: Berserk<\/h1>Gives 110 attack speed and 12% movement speed, but reduces your armor by 8 and silences you.  Lasts 8 seconds.<br \/>\r\n<h1>Passive: Lifesteal<\/h1>Heals the attacker for 15% of attack damage dealt.",
+      "cost": 1775,
+      "desc": "<h1>Active: Berserk<\/h1>Gives 110 attack speed and 25 movement speed, but reduces your armor by 8 and silences you.  Lasts 8 seconds.<br \/>\r\n<h1>Passive: Lifesteal<\/h1>Heals the attacker for 20% of attack damage dealt.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
+      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Attack Speed<\/span>",
       "mc": 25,
       "cd": 22,
       "lore": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
-      "components": [
-        "lifesteal",
-        "quarterstaff"
-      ],
+      "components": ["lifesteal", "quarterstaff"],
       "created": true
     },
     "diffusal_blade": {
@@ -2434,11 +2247,7 @@
       "mc": false,
       "cd": 15,
       "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
-      "components": [
-        "blade_of_alacrity",
-        "blade_of_alacrity",
-        "robe"
-      ],
+      "components": ["blade_of_alacrity", "blade_of_alacrity", "robe"],
       "created": true
     },
     "ethereal_blade": {
@@ -2447,16 +2256,13 @@
       "dname": "Ethereal Blade",
       "qual": "epic",
       "cost": 4700,
-      "desc": "<h1>Active: Ether Blast<\/h1>Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and 40% more vulnerable to magic damage.  Lasts for 4 seconds on allies and 3 seconds on enemies.<br><br>  Enemy targets are also slowed by 80%, and take 2x your primary attribute + 75 as magical damage.<br><br>Range: 800",
+      "desc": "<h1>Active: Ether Blast<\/h1>Converts the target unit to ethereal form, rendering them immune to physical damage, but unable to attack and 40% more vulnerable to magic damage.  Lasts for 4 seconds on allies and 4 seconds on enemies.<br><br>  Enemy targets are also slowed by 80%, and take 2x your primary attribute + 75 as magical damage.<br><br>Range: 800",
       "notes": "Shares cooldown with Ghost Scepter.<br \/>Ethereal units take 40% bonus magic damage.<br \/>Lasts an extra second on Self or Allied cast.<br \/>Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.",
       "attrib": "+ <span class=\"attribVal\">40<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Intelligence<\/span>",
       "mc": 100,
       "cd": 20,
       "lore": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
-      "components": [
-        "eagle",
-        "ghost"
-      ],
+      "components": ["eagle", "ghost"],
       "created": true
     },
     "soul_ring": {
@@ -2467,15 +2273,11 @@
       "cost": 770,
       "desc": "<h1>Active: Sacrifice<\/h1> Consume 170 health to temporarily gain 150 mana.  Lasts 10 seconds.<br><br>If the mana gained cannot fit in your mana pool, it creates a buffer of mana that will be used before your mana pool.",
       "notes": "If this mana is not used before the duration ends, the extra mana is lost.",
-      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">2<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">2.5<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": 25,
       "lore": "A ring that feeds on the souls of those who wear it.",
-      "components": [
-        "ring_of_regen",
-        "gauntlets",
-        "gauntlets"
-      ],
+      "components": ["ring_of_regen", "gauntlets", "gauntlets"],
       "created": true
     },
     "arcane_boots": {
@@ -2484,16 +2286,13 @@
       "dname": "Arcane Boots",
       "qual": "rare",
       "cost": 1400,
-      "desc": "<h1>Active: Replenish Mana<\/h1>Restores 135 mana to all nearby allies.<br><br>Radius: 900<br \/>\r\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+      "desc": "<h1>Active: Replenish Mana<\/h1>Restores 160 mana to all nearby allies.<br><br>Radius: 1200<br \/>\r\nMovement speed bonuses from multiple pairs of boots do not stack.",
       "notes": "Does not work on Meepo clones.",
-      "attrib": "+ <span class=\"attribVal\">50<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Mana<\/span>",
+      "attrib": "+ <span class=\"attribVal\">15%<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Mana<\/span>",
       "mc": false,
       "cd": 55,
       "lore": "Magi equipped with these boots are valued in battle.",
-      "components": [
-        "boots",
-        "energy_booster"
-      ],
+      "components": ["boots", "energy_booster"],
       "created": true
     },
     "octarine_core": {
@@ -2508,10 +2307,7 @@
       "mc": false,
       "cd": false,
       "lore": "At the core of spellcraft are spectrums only the very gifted can sense.",
-      "components": [
-        "mystic_staff",
-        "soul_booster"
-      ],
+      "components": ["mystic_staff", "soul_booster"],
       "created": true
     },
     "orb_of_venom": {
@@ -2549,18 +2345,14 @@
       "img": "ancient_janggo_lg.png?3",
       "dname": "Drum of Endurance",
       "qual": "rare",
-      "cost": 1615,
-      "desc": "<h1>Active: Endurance<\/h1> Gives +35 attack speed and +13% movement speed to nearby allies for 6 seconds. <br><br>Radius: 900<br \/>\r\n<h1>Passive: Swiftness Aura<\/h1>Gives 20 movement speed to nearby allies. <br><br>Radius: 900",
+      "cost": 1625,
+      "desc": "<h1>Active: Endurance<\/h1> Gives +35 attack speed and +13% movement speed to nearby allies for 6 seconds. <br><br>Radius: 1200",
       "notes": "Re-purchasing the Drum of Endurance recipe will refresh its charges.<br \/>Multiple instances of Swiftness Aura do not stack.",
-      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">0.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Movement Speed<\/span>",
       "mc": false,
       "cd": 30,
       "lore": "A relic that enchants the bodies of those around it for swifter movement in times of crisis.",
-      "components": [
-        "sobi_mask",
-        "bracer",
-        "wind_lace"
-      ],
+      "components": ["sobi_mask", "crown", "wind_lace"],
       "created": true
     },
     "medallion_of_courage": {
@@ -2571,15 +2363,11 @@
       "cost": 1175,
       "desc": "<h1>Active: Valor<\/h1> If cast on an ally, grants them the 7 armor, and removing it from the caster. <br><br>If cast on an enemy, reduces 7 armor on both the enemy and the caster. <br><br>Cannot target magic immune enemies.<br><br>Range: 1000",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">0.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">0.75<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": 7,
       "lore": "The bearer has no fear of combat.",
-      "components": [
-        "chainmail",
-        "sobi_mask",
-        "blight_stone"
-      ],
+      "components": ["chainmail", "sobi_mask", "blight_stone"],
       "created": true
     },
     "solar_crest": {
@@ -2587,17 +2375,14 @@
       "img": "solar_crest_lg.png?3",
       "dname": "Solar Crest",
       "qual": "rare",
-      "cost": 2575,
-      "desc": "<h1>Active: Shine<\/h1>When cast on an ally, grants them 10 armor and 20% evasion. When cast on an enemy, removes 10 of their armor and grants your allies 40% Accuracy on the target. <br><br>Removes the armor and evasion from the caster when used. <br><br> Cannot target magic immune enemies.<br><br>Range: 1000",
+      "cost": 3875,
+      "desc": "<h1>Active: Shine<\/h1>When cast on an ally, grants them 12 armor, 80 attack speed, and 10% movement speed. When cast on an enemy, removes 12 armor, 80 attack speed, and 10% movement speed.<br><br>Removes the armor from the caster when used. <br><br> Cannot target magic immune enemies.<br><br>Range: 1000",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">1<\/span> <span class=\"attribValText\">Mana Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">15%<\/span> <span class=\"attribValText\">Evasion<\/span>",
+      "attrib": "+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">1.5<\/span> <span class=\"attribValText\">Mana Regeneration<\/span>",
       "mc": false,
       "cd": 7,
       "lore": "A talisman forged to honor the daytime sky.",
-      "components": [
-        "medallion_of_courage",
-        "talisman_of_evasion"
-      ],
+      "components": ["medallion_of_courage", "ultimate_orb", "wind_lace"],
       "created": true
     },
     "smoke_of_deceit": {
@@ -2635,18 +2420,14 @@
       "img": "veil_of_discord_lg.png?3",
       "dname": "Veil of Discord",
       "qual": "rare",
-      "cost": 2330,
+      "cost": 2050,
       "desc": "<h1>Active: Magic Weakness<\/h1> Cast a 600 radius blast that decreases enemy magic resistance by 25%.<br><br>Range: 1000<br>Duration: 16 seconds.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">14<\/span> <span class=\"attribValText\">Intelligence<\/span>",
+      "attrib": "+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Armor<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">15<\/span> <span class=\"attribValText\">Intelligence<\/span>",
       "mc": 50,
       "cd": 20,
       "lore": "The headwear of corrupt magi.",
-      "components": [
-        "helm_of_iron_will",
-        "null_talisman",
-        "null_talisman"
-      ],
+      "components": ["helm_of_iron_will", "crown"],
       "created": true
     },
     "guardian_greaves": {
@@ -2654,17 +2435,14 @@
       "img": "guardian_greaves_lg.png?3",
       "dname": "Guardian Greaves",
       "qual": "rare",
-      "cost": 5450,
-      "desc": "<h1>Active: Mend<\/h1>Restores 250 health and 160 mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: 900<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span><br \/>\r\n<h1>Passive: Guardian Aura<\/h1> Provides nearby allies with 3.5 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 12 health regeneration and 15 armor.<br \/>\r\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+      "cost": 5475,
+      "desc": "<h1>Active: Mend<\/h1>Restores 300 health and 200 mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: 1200<br>Dispel Type: <span class=\"GameplayValues GameplayVariable\">Basic Dispel<\/span><br \/>\r\n<h1>Passive: Guardian Aura<\/h1> Provides nearby allies with 4.5 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 16 health regeneration and 15 armor.<br \/>\r\nMovement speed bonuses from multiple pairs of boots do not stack.",
       "notes": "The aura boost only applies to heroes.",
-      "attrib": "+ <span class=\"attribVal\">55<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span>",
+      "attrib": "+ <span class=\"attribVal\">17%<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Mana<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">All Attributes<\/span><br \/>\n+ <span class=\"attribVal\">5<\/span> <span class=\"attribValText\">Armor<\/span>",
       "mc": false,
       "cd": 40,
       "lore": "One of many holy instruments constructed to honor the Omniscience.",
-      "components": [
-        "mekansm",
-        "arcane_boots"
-      ],
+      "components": ["mekansm", "arcane_boots"],
       "created": true
     },
     "rod_of_atos": {
@@ -2672,18 +2450,14 @@
       "img": "rod_of_atos_lg.png?3",
       "dname": "Rod of Atos",
       "qual": "rare",
-      "cost": 2930,
+      "cost": 2750,
       "desc": "<h1>Active: Cripple<\/h1>Roots the target for 2 seconds.<br><br>Range: 1150",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">15<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">6<\/span> <span class=\"attribValText\">Agility<\/span>",
+      "attrib": "+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Intelligence<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">12<\/span> <span class=\"attribValText\">Agility<\/span>",
       "mc": 50,
-      "cd": 16,
+      "cd": 18,
       "lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
-      "components": [
-        "staff_of_wizardry",
-        "bracer",
-        "bracer"
-      ],
+      "components": ["staff_of_wizardry", "crown", "crown"],
       "created": true
     },
     "recipe_iron_talon": {
@@ -2721,17 +2495,14 @@
       "img": "abyssal_blade_lg.png?3",
       "dname": "Abyssal Blade",
       "qual": "epic",
-      "cost": 6750,
+      "cost": 6650,
       "desc": "<h1>Active: Overwhelm<\/h1> Stuns a target enemy unit for 2 seconds. <br><br>Pierces Spell Immunity.<br><br>Range: 140<br \/>\r\n<h1>Passive: Bash<\/h1> Grants melee heroes a 25% chance on hit to stun the target for 1.5 seconds and deal 100 bonus magical damage.  Bash chance for ranged heroes is 10%.<br \/>\r\n<h1>Passive: Damage Block<\/h1> Grants a 50% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged.",
       "notes": "The stun is melee range.<br \/>Does not stack with other bashes.<br \/>The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.<br \/>Multiple sources of damage block do not stack.",
-      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span>",
+      "attrib": "+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">250<\/span> <span class=\"attribValText\">Health<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">HP Regeneration<\/span><br \/>\n+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Strength<\/span>",
       "mc": 75,
       "cd": 35,
       "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
-      "components": [
-        "basher",
-        "vanguard"
-      ],
+      "components": ["basher", "vanguard"],
       "created": true
     },
     "heavens_halberd": {
@@ -2739,17 +2510,14 @@
       "img": "heavens_halberd_lg.png?3",
       "dname": "Heaven's Halberd",
       "qual": "artifact",
-      "cost": 3550,
-      "desc": "<h1>Active: Disarm<\/h1>Prevents a target from attacking for 3 seconds on melee targets, and 5 seconds on ranged targets.<br><br>Range: 600 <br \/>\r\n<h1>Passive: Maim<\/h1>Each attack has a 40% chance to reduce enemy hero movement speed by 26% and attack speed by 26 if the user is melee. Reduces enemy hero movement by 13% and attack speed by 13 if the user is ranged. Effect lasts 5 seconds.",
+      "cost": 3450,
+      "desc": "<h1>Active: Disarm<\/h1>Prevents a target from attacking for 3 seconds on melee targets, and 5 seconds on ranged targets.<br><br>Range: 600",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">25%<\/span> <span class=\"attribValText\">Evasion<\/span><br \/>\n+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Strength<\/span>",
+      "attrib": "+ <span class=\"attribVal\">25%<\/span> <span class=\"attribValText\">Evasion<\/span><br \/>\n+ <span class=\"attribVal\">25<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">20<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+Status Resistance <span class=\"attribVal\">14%<\/span>",
       "mc": 100,
       "cd": 18,
       "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
-      "components": [
-        "sange",
-        "talisman_of_evasion"
-      ],
+      "components": ["sange", "talisman_of_evasion"],
       "created": true
     },
     "ring_of_aquila": {
@@ -2758,17 +2526,14 @@
       "dname": "Ring of Aquila",
       "qual": "rare",
       "cost": 965,
-      "desc": "<h1>Passive: Aquila Aura<\/h1>Grants 0.5 mana regeneration and 2 armor to nearby allies.<br><br>Radius: 900<br \/>\r\n<h1>Toggle: Aura<\/h1> Deactivate to stop affecting non-hero units.",
+      "desc": "<h1>Passive: Aquila Aura<\/h1>Grants 0.5 mana regeneration and 2 armor to nearby allies.<br><br>Radius: 1200<br \/>\r\n<h1>Toggle: Aura<\/h1> Deactivate to stop affecting non-hero units.",
       "notes": "Does not stack with armor auras from Ring of Basilius or Ring of Aquila.<br \/>Multiple instances of Aquila Aura do not stack.",
-      "attrib": "+ <span class=\"attribVal\">10<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">9<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Intelligence<\/span>",
+      "attrib": "+ <span class=\"attribVal\">7<\/span> <span class=\"attribValText\">Damage<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Strength<\/span><br \/>\n+ <span class=\"attribVal\">9<\/span> <span class=\"attribValText\">Agility<\/span><br \/>\n+ <span class=\"attribVal\">3<\/span> <span class=\"attribValText\">Intelligence<\/span>",
       "mc": false,
       "cd": false,
       "lore": "The ring of the fallen Warlord Aquila continues to support armies in battle.",
-      "components": [
-        "wraith_band",
-        "ring_of_basilius"
-      ],
-      "created": true
+      "components": null,
+      "created": false
     },
     "tranquil_boots": {
       "id": 214,
@@ -2776,17 +2541,13 @@
       "dname": "Tranquil Boots",
       "qual": "rare",
       "cost": 1050,
-      "desc": "<h1>Passive: Break<\/h1> Whenever you attack or are attacked, the bonus 13 HP regen is lost and the movement speed bonus is reduced to 65 for 13 seconds.<br \/>\r\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+      "desc": "<h1>Passive: Break<\/h1> Whenever you attack a hero or are attacked by any unit, the bonus 16 HP regen is lost and the movement speed bonus is reduced to 18% for 13 seconds.<br \/>\r\nMovement speed bonuses from multiple pairs of boots do not stack.",
       "notes": "",
-      "attrib": "+ <span class=\"attribVal\">90<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">13<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
+      "attrib": "+ <span class=\"attribVal\">26%<\/span> <span class=\"attribValText\">Movement Speed<\/span><br \/>\n+ <span class=\"attribVal\">16<\/span> <span class=\"attribValText\">HP Regeneration<\/span>",
       "mc": false,
       "cd": 13,
       "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
-      "components": [
-        "boots",
-        "wind_lace",
-        "ring_of_regen"
-      ],
+      "components": ["boots", "wind_lace", "ring_of_regen"],
       "created": true
     },
     "shadow_amulet": {
@@ -2816,10 +2577,7 @@
       "mc": 90,
       "cd": 14,
       "lore": "The stolen cape of a master illusionist.",
-      "components": [
-        "shadow_amulet",
-        "cloak"
-      ],
+      "components": ["shadow_amulet", "cloak"],
       "created": true
     },
     "river_painter": {
@@ -2947,7 +2705,7 @@
       "img": "super_blink_lg.png?3",
       "dname": "Super Blink Dagger",
       "qual": false,
-      "cost": null,
+      "cost": 0,
       "desc": "<h1>Active: Blink<\/h1> Teleport to a target point up to 1200 units away.",
       "notes": "",
       "attrib": "",
@@ -2962,7 +2720,7 @@
       "img": "pocket_tower_lg.png?3",
       "dname": "Pocket Tower",
       "qual": false,
-      "cost": null,
+      "cost": 0,
       "desc": "",
       "notes": "",
       "attrib": "",
